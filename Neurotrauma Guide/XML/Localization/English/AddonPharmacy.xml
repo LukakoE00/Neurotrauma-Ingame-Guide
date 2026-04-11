@@ -1,0 +1,42 @@
+<Infotexts language="English" nowhitespace="false">
+<!-- Pharmacy Addon -->
+
+<!-- Settings -->
+<ntg.settingname.modcolourpharmacy>Addon Settings: Pharmacy</ntg.settingname.modcolourpharmacy>
+<ntg.categoryname.pharmacy>Mod-of-Origin Colour for NT Pharmacy</ntg.categoryname.pharmacy>
+
+<!-- Calculator Page -->
+<!-- Base Text -->
+<ntg.title.pharmacy_pill_calculator>Pharmacy Pill Calculator</ntg.title.pharmacy_pill_calculator> 
+<ntg.pharmacy.description>\nThis page is capable if calculating possible results for your pills. 
+\nNote: Medical Skill while fabricating has a chance to impact the quality of the pill's effects. Low medical skill can decrease pill potency; if you want to look for the best-case scenario, simply set the medical skill to 100.
+\nAll Blood Packs have the same effect - you don't have to use 0-.
+\nEach result is per-pill: this means generally pills are more efficient than their normal ingredients on their own.</ntg.pharmacy.description>
+
+<!-- Headers -->
+<ntg.pharmacyheader.baseingredients>Base Ingredients</ntg.pharmacyheader.baseingredients>
+<ntg.pharmacyheader.activeingredients>Active Ingredients</ntg.pharmacyheader.activeingredients>
+<ntg.pharmacyheader.dyes>Pill Colours</ntg.pharmacyheader.dyes>
+
+<!-- Dropdown Content -->
+<ntg.pharmacydropdown.base>Base</ntg.pharmacydropdown.base>
+<ntg.pharmacydropdown.binder>Binder</ntg.pharmacydropdown.binder>
+<ntg.pharmacydropdown.filler>Filler</ntg.pharmacydropdown.filler>
+<ntg.pharmacydropdown.active>Active</ntg.pharmacydropdown.active>
+<ntg.pharmacydropdown.dye>Dye</ntg.pharmacydropdown.dye>
+
+<ntg.pharmacytooltip.medicalskill>Input the Medical Skill level</ntg.pharmacytooltip.medicalskill>
+
+<!-- Output textblocks -->
+<ntg.pharmacyheader.outputeffects>Main Effects</ntg.pharmacyheader.outputeffects>
+<ntg.pharmacyheader.outputsideeffects>Side Effects</ntg.pharmacyheader.outputsideeffects>
+<ntg.pharmacyheader.outputgeneralinfo>General Info</ntg.pharmacyheader.outputgeneralinfo>
+
+<!-- Misc. Text -->
+<ntg.pharmacy.capacitywarning>[WARNING] Too many active ingredients!</ntg.pharmacy.capacitywarning>
+<ntg.pharmacy.capacitytext>Capacity</ntg.pharmacy.capacitytext>
+<ntg.pharmacy.activestext>Actives</ntg.pharmacy.activestext>
+<ntg.pharmacy.yieldstext>Yield</ntg.pharmacy.yieldstext>
+<ntg.pharmacy.nonetext>None</ntg.pharmacy.nonetext>
+
+</Infotexts>
