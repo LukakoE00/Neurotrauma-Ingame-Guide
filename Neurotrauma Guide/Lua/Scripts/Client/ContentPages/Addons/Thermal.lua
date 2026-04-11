@@ -480,6 +480,14 @@
         description = NTGuide.Localize("ntg.description.esh"),
     }
 
+    NTGuide.ContentPages.Items.CSH = {
+        mod = "NT: Thermal",
+        id = "csh",
+        category = "items",
+        title = NTGuide.Localize("ntg.title.csh"), 
+        description = NTGuide.Localize("ntg.description.csh"),
+    }
+
 -- Thermal Settings
 local ModSettings = {
 	NTG_Settings_NTThermal = { 
