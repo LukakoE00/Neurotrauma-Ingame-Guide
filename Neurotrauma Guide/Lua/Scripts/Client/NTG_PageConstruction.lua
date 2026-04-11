@@ -191,6 +191,15 @@ function NTGuide.PopulatePage(NTGmenuList, pageID)
         return
     end
 
+    -- Same as before, but for the pill calculator instead. Doing this automatically would just be a headache
+    if page.pillcalculator then
+        NTGmenuList.Content:ClearChildren()
+        NTGuide.Menu.titleBlock.SetRichText(page.title)
+
+        NTGuide.BuildCalculatorPage(NTGmenuList)
+        return
+    end
+
     -- KILL!! the currently created page
     NTGmenuList.Content:ClearChildren()
     NTGuide.Menu.ActiveTextBlocks = {} -- Empty the text blocks (we will give new ones)

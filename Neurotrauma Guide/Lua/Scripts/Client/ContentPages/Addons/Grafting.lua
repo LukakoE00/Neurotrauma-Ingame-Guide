@@ -373,6 +373,7 @@ local ModSettings = {
 		style = "R,G,B",
 		boxsize = 0.05,
         isColour = true,
+        reset = false,
 	},
 }
 

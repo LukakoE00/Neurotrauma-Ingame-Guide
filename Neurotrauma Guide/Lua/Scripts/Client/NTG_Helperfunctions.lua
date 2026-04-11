@@ -230,6 +230,14 @@ function NTGuide.GetSetting(key)
     end
 end
 
+-- Set the value of one of the clientside settings bla bla
+function NTGuide.SetSetting(key, value)
+    local entry = NTGuideSettings.ConfigData[key]
+    if not entry then return end
+
+    entry.value = value
+end
+
 function NTGuide.SwitchToLastPage()
     -- Remove settings_page from history if it somehow got there
     while #NTGuide.Menu.PageHistory > 0 and NTGuide.Menu.PageHistory[#NTGuide.Menu.PageHistory] == "settings_page" do

@@ -100,6 +100,17 @@ local config = {
 				"%ModDir%/XML/Localization/%Language%/AddonAirways.xml"
 				}
 	},
+
+	{
+	-- Pharmacy
+	 	supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+	 	workshopId = "3247838390",
+	 	loadpriority = 0,
+	 	files = {
+				"%ModDir%/XML/Localization/%Language%/AddonPharmacy.xml"
+				}
+	},
 }
 
 return config

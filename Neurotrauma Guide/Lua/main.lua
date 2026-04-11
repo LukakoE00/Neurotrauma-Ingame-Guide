@@ -496,14 +496,19 @@ function EnableNTGuide()
             ["3326291860"] = "Lobotomy.lua",
             ["3648890424"] = "Thermal.lua",
             ["3271808177"] = "Airways.lua",
+            ["3247838390"] = "Pharmacy.lua",
         }
 
         for workshopId, scriptName in pairs(modsToLoad) do
             if NTGuide.IsModEnabled(workshopId) then
                 dofile(NTGuide.Path .. "/Lua/Scripts/Client/ContentPages/Addons/" .. scriptName) -- Content Pages for each addon
+                if workshopId == "3247838390" then
+                    dofile(NTGuide.Path .. "/Lua/Scripts/Client/NTG_PharmacyPillCalculator.lua") -- Pill Calculator
+                end
             end
         end
 
+        dofile(NTGuide.Path .. "/Lua/Scripts/Client/NTG_HotkeyUsage.lua") -- debug
         dofile(NTGuide.Path .. "/Lua/Scripts/Client/NTG_PageConstruction.lua") -- Construction code
         dofile(NTGuide.Path .. "/Lua/Scripts/Client/NTG_Chatlink.lua") -- Clientside code to interface with chat linking
     end

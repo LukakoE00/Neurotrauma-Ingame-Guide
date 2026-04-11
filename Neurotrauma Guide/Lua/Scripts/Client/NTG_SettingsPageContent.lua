@@ -11,8 +11,30 @@ NTGuideSettings = {Entries = {}}
 NTGuideSettings.ConfigData = {
 
 	-- General Settings
+	NTG_HotkeySettings = {
+		name = NTGuide.Localize("ntg.categoryname.hotkeysettings"),
+    	type = "category" ,
+	},
+
+	NTG_DoHotkeyUsage = {
+		name = NTGuide.Localize("ntg.settingname.dohotkeyusage"),
+		default = true,
+		type = "bool",
+		description = NTGuide.Localize("ntg.settingdescription.dohotkeyusage"),
+	},
+
+	NTG_SelectedHotkey = { 
+		type = "string",
+		name = NTGuide.Localize("ntg.settingname.selectedhotkey"),
+		default = "N",
+		boxsize = 0.05,
+		reset = false,
+	},
+
+
+	-- Customization Settings
     NTG_Customization = { 
-        NTGuide.Localize("ntg.categoryname.customization"),
+        name = NTGuide.Localize("ntg.categoryname.customization"),
         type = "category" ,
     },
 

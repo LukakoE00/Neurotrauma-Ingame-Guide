@@ -986,20 +986,21 @@ NTGuide.ContentPages = {
             applicationsuccess = {NTGuide.Localize("ntg.applicationsuccess.antibiotic_glue")},
             applicationfailed = {NTGuide.Localize("ntg.applicationfailed.antibiotic_glue")},  
         },
-        Antiseptic = {
-            id = "antiseptic", 
-            category = "items",
-            title = NTGuide.Localize("ntg.title.antiseptic"), 
-            description = NTGuide.Localize("ntg.description.antiseptic"), 
-            seealso = {NTGuide.Localize("ntg.seealso.antiseptic")},   
-        },
-        AntisepticSprayer = {
-            id = "antiseptic_sprayer", 
-            category = "items",
-            title = NTGuide.Localize("ntg.title.antiseptic_sprayer"), 
-            description = NTGuide.Localize("ntg.description.antiseptic_sprayer"), 
-            seealso = {NTGuide.Localize("ntg.seealso.antiseptic_sprayer")},  
-        },
+        -- Removed as of 11/04/26
+        -- Antiseptic = {
+        --     id = "antiseptic", 
+        --     category = "items",
+        --     title = NTGuide.Localize("ntg.title.antiseptic"), 
+        --     description = NTGuide.Localize("ntg.description.antiseptic"), 
+        --     seealso = {NTGuide.Localize("ntg.seealso.antiseptic")},   
+        -- },
+        -- AntisepticSprayer = {
+        --     id = "antiseptic_sprayer", 
+        --     category = "items",
+        --     title = NTGuide.Localize("ntg.title.antiseptic_sprayer"), 
+        --     description = NTGuide.Localize("ntg.description.antiseptic_sprayer"), 
+        --     seealso = {NTGuide.Localize("ntg.seealso.antiseptic_sprayer")},  
+        -- },
         ArmItem = {
             id = "arm_item", 
             category = "items",
@@ -1121,13 +1122,14 @@ NTGuide.ContentPages = {
             applicationfailed = {NTGuide.Localize("ntg.applicationfailed.empty_blood_pack")},
             seealso = {NTGuide.Localize("ntg.seealso.empty_blood_pack")},   
         },
-        EndovascularBalloon = {
-            id = "endovascular_balloon", 
-            category = "items",
-            title = NTGuide.Localize("ntg.title.endovascular_balloon"), 
-            description = NTGuide.Localize("ntg.description.endovascular_balloon"), 
-            seealso = {NTGuide.Localize("ntg.seealso.endovascular_balloon")},    
-        },
+        -- Removed as of 11/04/26
+        -- EndovascularBalloon = {
+        --     id = "endovascular_balloon", 
+        --     category = "items",
+        --     title = NTGuide.Localize("ntg.title.endovascular_balloon"), 
+        --     description = NTGuide.Localize("ntg.description.endovascular_balloon"), 
+        --     seealso = {NTGuide.Localize("ntg.seealso.endovascular_balloon")},    
+        -- },
         Fentanyl = {
             id = "fentanyl", 
             category = "items",
@@ -1250,13 +1252,14 @@ NTGuide.ContentPages = {
             description = NTGuide.Localize("ntg.description.manual_defibrillator"), 
             seealso = {NTGuide.Localize("ntg.seealso.manual_defibrillator")},  
         },
-        MedicalStent = {
-            id = "medical_stent", 
-            category = "items",
-            title = NTGuide.Localize("ntg.title.medical_stent"), 
-            description = NTGuide.Localize("ntg.description.medical_stent"), 
-            seealso = {NTGuide.Localize("ntg.seealso.medical_stent")},  
-        },
+        -- Removed as of 11/04/26
+        -- MedicalStent = {
+        --     id = "medical_stent", 
+        --     category = "items",
+        --     title = NTGuide.Localize("ntg.title.medical_stent"), 
+        --     description = NTGuide.Localize("ntg.description.medical_stent"), 
+        --     seealso = {NTGuide.Localize("ntg.seealso.medical_stent")},  
+        -- },
         Methamphetamine = {
             id = "methamphetamine", 
             category = "items",
@@ -1394,15 +1397,16 @@ NTGuide.ContentPages = {
             applicationsuccess = {NTGuide.Localize("ntg.applicationsuccess.skin_retractors")},
             applicationfailed = {NTGuide.Localize("ntg.applicationfailed.skin_retractors")},  
         },
-        SodiumNitroprusside = {
-            id = "sodium_nitroprusside", 
-            category = "items",
-            title = NTGuide.Localize("ntg.title.sodium_nitroprusside"), 
-            description = NTGuide.Localize("ntg.description.sodium_nitroprusside"), 
-            applicationsuccess = {NTGuide.Localize("ntg.applicationsuccess.sodium_nitroprusside")},
-            applicationfailed = {NTGuide.Localize("ntg.applicationfailed.sodium_nitroprusside")},
-            seealso = {NTGuide.Localize("ntg.seealso.sodium_nitroprusside")},  
-        },
+        -- Removed as of 11/04/26
+        -- SodiumNitroprusside = {
+        --     id = "sodium_nitroprusside", 
+        --     category = "items",
+        --     title = NTGuide.Localize("ntg.title.sodium_nitroprusside"), 
+        --     description = NTGuide.Localize("ntg.description.sodium_nitroprusside"), 
+        --     applicationsuccess = {NTGuide.Localize("ntg.applicationsuccess.sodium_nitroprusside")},
+        --     applicationfailed = {NTGuide.Localize("ntg.applicationfailed.sodium_nitroprusside")},
+        --     seealso = {NTGuide.Localize("ntg.seealso.sodium_nitroprusside")},  
+        -- },
         SpinalCordImplants = {
             id = "spinal_cord_implants", 
             category = "items",
@@ -1530,13 +1534,14 @@ NTGuide.ContentPages = {
             description = NTGuide.Localize("ntg.description.osteosynthesis_surgery"), 
             steps = {NTGuide.Localize("ntg.steps.osteosynthesis_surgery")},  
         },
-        AorticRuptureSurgery = {
-            id = "aortic_rupture_surgery", 
-            category = "procedures",
-            title = NTGuide.Localize("ntg.title.aortic_rupture_surgery"), 
-            description = NTGuide.Localize("ntg.description.aortic_rupture_surgery"), 
-            steps = {NTGuide.Localize("ntg.steps.aortic_rupture_surgery")},  
-        },
+        -- Removed as of 11/04/26
+        -- AorticRuptureSurgery = {
+        --     id = "aortic_rupture_surgery", 
+        --     category = "procedures",
+        --     title = NTGuide.Localize("ntg.title.aortic_rupture_surgery"), 
+        --     description = NTGuide.Localize("ntg.description.aortic_rupture_surgery"), 
+        --     steps = {NTGuide.Localize("ntg.steps.aortic_rupture_surgery")},  
+        -- },
         AmputationSurgery = {
             id = "amputation_surgery", 
             category = "procedures",
