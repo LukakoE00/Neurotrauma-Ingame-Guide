@@ -681,5 +681,9 @@
 
 <ntg.title.esh>E.S.H (External Suit Heater)</ntg.title.esh>
 <ntg.description.esh>Used to heat up a suit that lacks an internal heater. Will only heat up  a worn suit!</ntg.description.esh>
-
+    
+<ntg.title.csh>C.S.H (Compact Suit Heater)</ntg.title.csh>
+<ntg.description.csh>Used to heat up a suit that lacks an internal heater. Will only heat up a worn suit when in the inventory (requires a battery)!
+</ntg.description.csh>
+    
 </Infotexts>
