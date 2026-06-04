@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <ntg.settingname.modcolourpharmacy>NT药剂模组来源颜色</ntg.settingname.modcolourpharmacy>
+  <ntg.categoryname.pharmacy>附加设置：药剂</ntg.categoryname.pharmacy>
+  <ntg.title.pharmacy_pill_calculator>药剂计算器</ntg.title.pharmacy_pill_calculator>
+  <ntg.pharmacy.description>\n此页面可计算药丸的可能结果。注意：制作时的医疗技能会影响药丸效果的质量。低医疗技能会降低药效；如需查看最佳情况，只需将医疗技能设为100。所有血袋效果相同——不必使用O-。每个结果为每粒药丸的数据：这意味着药丸通常比单独使用其原料更高效。</ntg.pharmacy.description>
+  <ntg.pharmacyheader.baseingredients>基础原料</ntg.pharmacyheader.baseingredients>
+  <ntg.pharmacyheader.activeingredients>活性成分</ntg.pharmacyheader.activeingredients>
+  <ntg.pharmacyheader.dyes>药丸颜色</ntg.pharmacyheader.dyes>
+  <ntg.pharmacydropdown.base>基底</ntg.pharmacydropdown.base>
+  <ntg.pharmacydropdown.binder>粘合剂</ntg.pharmacydropdown.binder>
+  <ntg.pharmacydropdown.filler>填充剂</ntg.pharmacydropdown.filler>
+  <ntg.pharmacydropdown.active>活性</ntg.pharmacydropdown.active>
+  <ntg.pharmacydropdown.dye>染料</ntg.pharmacydropdown.dye>
+  <ntg.pharmacytooltip.medicalskill>输入医疗技能等级</ntg.pharmacytooltip.medicalskill>
+  <ntg.pharmacyheader.outputeffects>主要效果</ntg.pharmacyheader.outputeffects>
+  <ntg.pharmacyheader.outputsideeffects>副作用</ntg.pharmacyheader.outputsideeffects>
+  <ntg.pharmacyheader.outputgeneralinfo>常规信息</ntg.pharmacyheader.outputgeneralinfo>
+  <ntg.pharmacy.capacitywarning>[警告] 活性成分过多！</ntg.pharmacy.capacitywarning>
+  <ntg.pharmacy.capacitytext>容量</ntg.pharmacy.capacitytext>
+  <ntg.pharmacy.activestext>活性</ntg.pharmacy.activestext>
+  <ntg.pharmacy.yieldstext>产量</ntg.pharmacy.yieldstext>
+  <ntg.pharmacy.nonetext>无</ntg.pharmacy.nonetext>
+</Infotexts>

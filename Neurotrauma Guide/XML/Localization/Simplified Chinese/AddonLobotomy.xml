@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <ntg.categoryname.lobotomy>附加设置：脑叶切除术</ntg.categoryname.lobotomy>
+  <ntg.settingname.modcolourlobotomy>NT脑叶切除模组来源颜色</ntg.settingname.modcolourlobotomy>
+  <ntg.section.lobopositiveeffects>正面脑叶切除效果</ntg.section.lobopositiveeffects>
+  <ntg.section.lobonegativeeffects>中性/负面脑叶切除效果</ntg.section.lobonegativeeffects>
+  <ntg.title.orbitoclast>眶柄</ntg.title.orbitoclast>
+  <ntg.description.orbitoclast>医疗技能检定：60。用于进行经眶脑叶切除术的手术器械。通过眼眶插入，"娴熟地"旋转以将部分大脑捣成糊状。用于快速简便的脑叶切除方法，但其效果不尽如人意。可使用皮肤牵引器从头部移除。</ntg.description.orbitoclast>
+  <ntg.applicationsuccess.orbitoclast>将眶柄放置在眼眶中，准备用锤子敲击</ntg.applicationsuccess.orbitoclast>
+  <ntg.applicationfailed.orbitoclast>将眶柄放置在眼眶中，准备用锤子敲击 | [bleeding] 出血（1至20强度）| 眼部损伤（1至20强度）| 剧烈疼痛</ntg.applicationfailed.orbitoclast>
+  <ntg.seealso.orbitoclast>[surgical_hammer] 手术锤 | [transorbital_lobotomy] 经眶脑叶切除术</ntg.seealso.orbitoclast>
+  <ntg.title.surgical_hammer>手术锤</ntg.title.surgical_hammer>
+  <ntg.description.surgical_hammer>医疗技能检定：60。用于将眶柄推过眼眶的精致锤子，使其能够"娴熟地"旋转并将部分大脑捣成糊状。用于快速简便的脑叶切除方法，但其效果不尽如人意。需要先放置眶柄才能使用。</ntg.description.surgical_hammer>
+  <ntg.applicationsuccess.surgical_hammer>将眶柄敲入大脑，成功完成脑叶切除术</ntg.applicationsuccess.surgical_hammer>
+  <ntg.applicationfailed.surgical_hammer>将眶柄敲入大脑，但脑叶切除术失败 | [bleeding] 出血（1至10强度）| 眼部损伤（1至20强度）| 剧烈疼痛</ntg.applicationfailed.surgical_hammer>
+  <ntg.seealso.surgical_hammer>[orbitoclast] 眶柄 | [transorbital_lobotomy] 经眶脑叶切除术</ntg.seealso.surgical_hammer>
+  <ntg.title.nerve_generators>脑再生化合物（CRC）</ntg.title.nerve_generators>
+  <ntg.description.nerve_generators>医疗技能检定：50。用于再生死亡脑组织并恢复脑功能的化合物。可移除所有脑叶切除相关病症，无论好坏。此技能检定不会失败。</ntg.description.nerve_generators>
+  <ntg.applicationsuccess.nerve_generators>移除所有脑叶切除相关病症</ntg.applicationsuccess.nerve_generators>
+  <ntg.seealso.nerve_generators>[cerebral_regeneration_procedure] 脑再生手术</ntg.seealso.nerve_generators>
+  <ntg.title.transorbital_lobotomy>经眶脑叶切除术</ntg.title.transorbital_lobotomy>
+  <ntg.description.transorbital_lobotomy>一种依赖眶柄和手术锤来造成（希望是正面的）脑损伤的脑叶切除方法。由于此方法廉价且相对"简单"，获得负面效果的概率高于乙醇脑叶切除术。患者有15%概率获得正面效果。</ntg.description.transorbital_lobotomy>
+  <ntg.steps.transorbital_lobotomy>[orbitoclast] 1. 对头部使用眶柄 | [surgical_hammer] 2. 对头部使用手术锤 | [analgesia] 3. 给患者止痛药（可选）</ntg.steps.transorbital_lobotomy>
+  <ntg.seealso.transorbital_lobotomy>[ethanol_lobotomy] 乙醇脑叶切除术 | [cerebral_regeneration_procedure] 通过脑再生手术治愈脑叶切除 | [lobotomy_effects] 可能的脑叶切除效果列表（剧透警告）</ntg.seealso.transorbital_lobotomy>
+  <ntg.title.ethanol_lobotomy>乙醇脑叶切除术</ntg.title.ethanol_lobotomy>
+  <ntg.description.ethanol_lobotomy>一种使用乙醇来造成（希望是正面的）脑损伤的脑叶切除方法。此方法比另一种更困难且更昂贵，因此获得正面效果的概率更高。患者有20%概率获得正面效果。</ntg.description.ethanol_lobotomy>
+  <ntg.steps.ethanol_lobotomy>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [multipurpose_scalpel] 2a. 对头部使用多用途手术刀（手术切口模式）| [scalpel] 2b. 对头部使用手术刀 | [hemostat] 3. 使用止血钳 | [skin_retractors] 4. 使用皮肤牵引器 | [surgical_drill] 5. 使用骨钻 | 6. 使用乙醇 | [sutures] 7. 缝合 | 8. 给患者止痛药（可选）</ntg.steps.ethanol_lobotomy>
+  <ntg.seealso.ethanol_lobotomy>[transorbital_lobotomy] 经眶脑叶切除术 | [cerebral_regeneration_procedure] 通过脑再生手术治愈脑叶切除 | [lobotomy_effects] 可能的脑叶切除效果列表（剧透警告）</ntg.seealso.ethanol_lobotomy>
+  <ntg.title.cerebral_regeneration_procedure>脑再生手术</ntg.title.cerebral_regeneration_procedure>
+  <ntg.description.cerebral_regeneration_procedure>逆转活体患者脑叶切除效果的手术。‖color:245,71,71,255‖脑再生化合物在任何情况下都不应应用于正常健康的脑部。‖end‖</ntg.description.cerebral_regeneration_procedure>
+  <ntg.steps.cerebral_regeneration_procedure>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [multipurpose_scalpel] 2a. 对头部使用多用途手术刀（手术切口模式）| [scalpel] 2b. 对头部使用手术刀 | [hemostat] 3. 使用止血钳 | [skin_retractors] 4. 使用皮肤牵引器 | [surgical_drill] 5. 使用骨钻 | [nerve_generators] 6. 使用脑再生化合物（CRC）| [sutures] 7. 缝合</ntg.steps.cerebral_regeneration_procedure>
+  <ntg.seealso.cerebral_regeneration_procedure>[transorbital_lobotomy] 经眶脑叶切除术 | [ethanol_lobotomy] 乙醇脑叶切除术</ntg.seealso.cerebral_regeneration_procedure>
+  <ntg.title.lobotomy_effects>可能的脑叶切除效果</ntg.title.lobotomy_effects>
+  <ntg.description.lobotomy_effects>此页面包含所有可能的负面和正面效果。共有8种正面效果和26种负面效果。此页面内容由出色的Wormy编写。如果你不想被剧透，请勿继续阅读。</ntg.description.lobotomy_effects>
+  <ntg.lobopositiveeffects.lobotomy_effects>先天性镇痛：患者对剧痛免疫。| 脱敏：患者对创伤性休克免疫。| 天才：患者的技能效果翻倍（通过增益实现）。| 酒精耐受性增强：患者对获得"醉酒"病症有极高的抗性，但仍可从饮酒中获得增益（如精神病变抗性）。| 运动机能亢进：患者获得移动速度提升。| 脑再生增强：患者从神经创伤中快速恢复。| 心理强化：患者对精神病变免疫。| 眩晕抗性：患者对"眩晕"状态效果有极强的抗性，但仍可被冲击和攻击击倒。</ntg.lobopositiveeffects.lobotomy_effects>
+  <ntg.lobonegativeeffects.lobotomy_effects>脑-肺异常信号串扰：患者每隔几秒就会呼吸骤停。| 步态异常：患者移动速度降低，四肢僵硬——类似大量钝力创伤。| 幻听：患者周期性听到耳边低语和声音。| 重度幻听：患者周期性听到附近传来刺耳的人类尖叫。| 耳聋：患者的所有本地音效严重消音。| 纤维肌痛：患者每个肢体都经历间歇性剧痛。| 排气失禁：患者会以固定间隔发出可听到的放屁音效。| 阿片类抗性增强：患者对镇痛产生高抗性和快速恢复。可能防止阿片戒断/成瘾病症。| 活动过度：锁定患者为冲刺状态，移除行走能力。仍可原地停止和后退。| 活动减退：患者失去冲刺能力。| 智力障碍：患者的技能受到负面"加成"。| 躁狂：患者的行走周期被替换为"活力行走"。| 缄默症：患者无法通过命令界面下达指令。文本聊天和语音聊天可能仍然有效。| 发作性睡病：患者会随机间隔失去意识。| 持续性精神病：患者发展出永久性精神病。| 心理变态：患者"切换队伍"并被标记为敌对。| 运动技能减退：降低患者行走速度，动画变为脑震荡/醉酒状态。跑步速度不受影响，但动画也改变。| 运动神经连接切断：患者永久眩晕。| 体细胞神经逆转：患者的移动控制反转。| 耳鸣：患者持续听到高频鸣响。| 多发性抽动症：患者偶尔尖叫。| 管状视野：移除大部分视野（类似在潜水服内）并激活视线版本视野。| 眩晕：患者永久感到恶心。| 虚拟地震综合征：患者周围环境会震动（类似于精神病变造成的虚像冲击）。| 视力丧失：患者视线模糊。| 威廉姆斯综合征：患者的行走周期变为"欢乐行走"。</ntg.lobonegativeeffects.lobotomy_effects>
+  <ntg.seealso.lobotomy_effects>[transorbital_lobotomy] 经眶脑叶切除术 | [ethanol_lobotomy] 乙醇脑叶切除术 | [cerebral_regeneration_procedure] 脑再生手术</ntg.seealso.lobotomy_effects>
+</Infotexts>

@@ -174,7 +174,7 @@ function EnableTextFile(file, workshopId)
     local targetFile
 
     -- If this gets no ID to work with, we default to pkg; i.e. we're looking at NTIG
-    if workshopId == nil then
+    if workshopId == nil or workshopId == "" then
         targetPackage = pkg
     else
         -- For every package do:
@@ -197,8 +197,13 @@ function EnableTextFile(file, workshopId)
     -- We have a workshop mod and we're checking their files, but we cannot actually find what we're looking for. Not good!
     -- Most likely a typo in the file name if this happens
     if File.Exists(targetPackage.Dir .. "/" .. file) == false then
-        print("Could not find file " .. file .. " in " .. targetPackage.name)
-        return false -- Same as before
+        -- Fallback: try loading from the guide mod itself (pkg)
+        if pkg and File.Exists(pkg.Dir .. "/" .. file) then
+            targetPackage = pkg
+        else
+            print("Could not find file " .. file .. " in " .. targetPackage.name)
+            return false
+        end
     end
 
     -- If we've found the file, turn it into a TextFile so it can be used by the game!

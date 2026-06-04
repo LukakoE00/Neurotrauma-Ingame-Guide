@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <ntg.categoryname.surgeryplus>附加设置：外科增强</ntg.categoryname.surgeryplus>
+  <ntg.settingname.modcoloursurgeryplus>NT外科增强模组来源颜色</ntg.settingname.modcoloursurgeryplus>
+  <ntg.title.surgical_infection>手术感染</ntg.title.surgical_infection>
+  <ntg.description.surgical_infection>手术感染是一种基于手术环境无菌程度导致败血症的机制。以下因素会提高无菌度：- 患者穿着手术铺巾（+100基础无菌度）；- 附近角色穿着外科口罩和手术服（与患者距离影响效果）；- 手术技能（基于公式：10 + 手术技能/5 获得无菌度）；- 手术切口上有涂药（来自抗生素软膏/防腐剂）（+50无菌度）。以下因素会降低无菌度：- 患者没有手术铺巾（无菌度设为最低）；- 附近角色未穿外科口罩和手术服（与患者距离影响效果）。</ntg.description.surgical_infection>
+  <ntg.effects.surgical_infection>[sepsis] 败血症，如果在非无菌条件下进行手术（最低无菌度时每2秒10%概率）</ntg.effects.surgical_infection>
+  <ntg.seealso.surgical_infection>[surgery_incision] 手术切口 | [surgical_drapes] 手术铺巾 | [surgical_mask] 外科口罩 | [surgeon_clothes] 手术服 | [ointmented] 涂药（病症）</ntg.seealso.surgical_infection>
+  <ntg.title.surgical_drapes>手术铺巾</ntg.title.surgical_drapes>
+  <ntg.description.surgical_drapes>手术铺巾是一种服装物品，用于提高穿戴者的无菌度，从而降低手术感染风险。</ntg.description.surgical_drapes>
+  <ntg.effects.surgical_drapes>+100基础无菌度 | [traumatic_shock] 穿戴时创伤性休克获取减少50%</ntg.effects.surgical_drapes>
+  <ntg.seealso.surgical_drapes>[surgical_mask] 外科口罩 | [surgeon_clothes] 手术服 | [surgical_infection] 手术感染</ntg.seealso.surgical_drapes>
+  <ntg.title.surgical_mask>外科口罩</ntg.title.surgical_mask>
+  <ntg.description.surgical_mask>外科口罩是一种可穿戴物品，穿戴时提高无菌度，降低手术感染风险。</ntg.description.surgical_mask>
+  <ntg.effects.surgical_mask>[open_wounds] 穿戴时撕裂伤减少10% | [bleeding] 穿戴时出血减少20%</ntg.effects.surgical_mask>
+  <ntg.seealso.surgical_mask>[surgical_drapes] 手术铺巾 | [surgeon_clothes] 手术服 | [surgical_infection] 手术感染</ntg.seealso.surgical_mask>
+  <ntg.title.surgeon_clothes>手术服</ntg.title.surgeon_clothes>
+  <ntg.description.surgeon_clothes>手术服是一种可穿戴物品，穿戴时提高无菌度，降低手术感染风险。</ntg.description.surgeon_clothes>
+  <ntg.effects.surgeon_clothes>[internal_wounds] 穿戴时钝力创伤减少10% | [open_wounds] 穿戴时撕裂伤减少10% | [open_wounds] 穿戴时咬伤减少10%</ntg.effects.surgeon_clothes>
+  <ntg.seealso.surgeon_clothes>[surgical_drapes] 手术铺巾 | [surgical_mask] 外科口罩 | [surgical_infection] 手术感染</ntg.seealso.surgeon_clothes>
+  <ntg.title.mannitol_plus>甘露醇+</ntg.title.mannitol_plus>
+  <ntg.description.mannitol_plus>甘露醇+是一种天赋物品，需要天赋制作。外科医生职业可解锁此天赋。使用后，它将在10秒内治疗30%神经创伤；即使患者不稳定（血压不在可接受范围内），也会施加甘露醇病症而不造成器官损伤。</ntg.description.mannitol_plus>
+  <ntg.effects.mannitol_plus>[neurotrauma] 10秒内治疗30%神经创伤</ntg.effects.mannitol_plus>
+  <ntg.seealso.mannitol_plus>[mannitol] 甘露醇</ntg.seealso.mannitol_plus>
+  <ntg.section.positiveeffects>正面效果可能包括</ntg.section.positiveeffects>
+  <ntg.section.negativeeffects>负面效果可能包括</ntg.section.negativeeffects>
+  <ntg.title.experimental_treatment>实验性治疗</ntg.title.experimental_treatment>
+  <ntg.description.experimental_treatment>实验性治疗是一种天赋物品，需要天赋制作。外科医生职业可解锁此天赋。它会随机产生效果，包括正面和负面（但倾向于正面多于负面）。理论上，如果你足够幸运，可以从这个物品获得无限数量的效果；想象一下掷硬币，只有当出现反面时才停止。每次出现正面，你就会从这个物品获得额外效果。</ntg.description.experimental_treatment>
+  <ntg.positiveeffects.experimental_treatment>活力（随机，200%至400%强度）| 活动过度（随机，200%至400%强度）| 精神病变抗性（随机，200%至400%强度）| 画皮感染抗性（随机，200%至400%强度）| 麻痹抗性（随机，300%至600%强度）| [analgesia] 镇痛（随机，20%至100%强度）| [anesthesia] 麻醉（随机，1%至100%强度）| [ointmented] 涂药（随机，20%至100%强度）| [combat_stimulant] 战斗兴奋剂（随机，30%至100%强度）| 压力稳定（随机，30%至100%强度）| "完全治愈"，治疗20%至100%的内部/开放性伤口、原版器官损伤、神经创伤、失血并完全治愈败血症</ntg.positiveeffects.experimental_treatment>
+  <ntg.negativeeffects.experimental_treatment>[open_wounds] 开放性伤口（5%至20%）| [internal_wounds] 内伤（5%至20%）| [bleeding] 出血（30%至80%）| 眩晕（2至15秒）</ntg.negativeeffects.experimental_treatment>
+</Infotexts>
