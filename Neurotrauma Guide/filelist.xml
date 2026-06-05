@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Neurotrauma In-Game Guide" modversion="0.1" corepackage="False" gameversion="1.12.7.0">
+<contentpackage name="Neurotrauma In-Game Guide" modversion="1.0.24" corepackage="False" steamworkshopid="3689560523" gameversion="1.12.7.0">
   <UIStyle file="%ModDir%/style.xml" />
   <Text file="%ModDir%/XML/Localization/Config/English.xml" />
   <Text file="%ModDir%/XML/Localization/Config/Chinese.xml" />
