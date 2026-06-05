@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <!-- Neurotrauma 眼科附加页面 -->
+  <!-- 设置 -->
+  <ntg.categoryname.eyes>附加设置：眼科</ntg.categoryname.eyes>
+  <ntg.settingname.modcoloureyes>NT眼科模组来源颜色</ntg.settingname.modcoloureyes>
+  <!-- 损伤病症 -->
+  <!-- 人眼损伤 -->
+  <ntg.title.human_eye_damage>人眼损伤</ntg.title.human_eye_damage>
+  <ntg.description.human_eye_damage>人类眼睛受到的损伤。每个人都从人眼开始！</ntg.description.human_eye_damage>
+  <ntg.causes.human_eye_damage>
+    [hypoxemia] 低氧血症（当前强度×0.05/秒）|
+    [stroke] 中风（当前强度×0.1/秒）|
+    [sepsis] 败血症（当前强度×0.4/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.1/秒）|
+    处于加压水中且无防护（每次3%）|
+    物理损伤
+</ntg.causes.human_eye_damage>
+  <ntg.effects.human_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.human_eye_damage>
+  <ntg.treatments.human_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.human_eye_damage>
+  <ntg.seealso.human_eye_damage>
+    [human_eye] 人眼（物品）
+</ntg.seealso.human_eye_damage>
+  <!-- 强化眼损伤 -->
+  <ntg.title.enhanced_eye_damage>强化眼损伤</ntg.title.enhanced_eye_damage>
+  <ntg.description.enhanced_eye_damage>强化人类眼睛受到的损伤。</ntg.description.enhanced_eye_damage>
+  <ntg.causes.enhanced_eye_damage>
+    [hypoxemia] 低氧血症（当前强度×0.004/秒）|
+    [stroke] 中风（当前强度×0.08/秒）|
+    [sepsis] 败血症（当前强度×0.3/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.82/秒）|
+    处于加压水中且无防护（每次2.5%）|
+    物理损伤
+</ntg.causes.enhanced_eye_damage>
+  <ntg.effects.enhanced_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.enhanced_eye_damage>
+  <ntg.treatments.enhanced_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.enhanced_eye_damage>
+  <ntg.seealso.enhanced_eye_damage>
+    [enhanced_eye] 强化眼（物品）
+</ntg.seealso.enhanced_eye_damage>
+  <!-- 机械眼损伤 -->
+  <ntg.title.cyber_eye_damage>机械眼损伤</ntg.title.cyber_eye_damage>
+  <ntg.description.cyber_eye_damage>机械眼受到的损伤。机械眼对压力免疫，不受身体上的病症伤害；但这也意味着它们不会像生物眼那样再生。</ntg.description.cyber_eye_damage>
+  <ntg.causes.cyber_eye_damage>
+    物理损伤
+</ntg.causes.cyber_eye_damage>
+  <ntg.effects.cyber_eye_damage>
+    视力受损程度与损伤量成正比
+</ntg.effects.cyber_eye_damage>
+  <ntg.treatments.cyber_eye_damage>
+    [eye_removal_surgery] 眼部移除手术 |
+    [cyber_eye_repair_surgery] 机械眼修复手术
+</ntg.treatments.cyber_eye_damage>
+  <ntg.seealso.cyber_eye_damage>
+    [cyber_eye] 机械眼（物品）
+</ntg.seealso.cyber_eye_damage>
+  <!-- 塑料眼损伤 -->
+  <ntg.title.plastic_eye_damage>塑料眼损伤</ntg.title.plastic_eye_damage>
+  <ntg.description.plastic_eye_damage>机械眼的廉价劣质兄弟。
+
+塑料眼受到的损伤。对压力免疫，不受身体上的病症伤害；但这也意味着它们不会像生物眼那样再生。</ntg.description.plastic_eye_damage>
+  <ntg.causes.plastic_eye_damage>
+    物理损伤
+</ntg.causes.plastic_eye_damage>
+  <ntg.effects.plastic_eye_damage>
+    视力受损程度与损伤量成正比
+</ntg.effects.plastic_eye_damage>
+  <ntg.treatments.plastic_eye_damage>
+    [eye_removal_surgery] 眼部移除手术
+</ntg.treatments.plastic_eye_damage>
+  <ntg.seealso.plastic_eye_damage>
+    [plastic_eye] 塑料眼（物品）
+</ntg.seealso.plastic_eye_damage>
+  <!-- 画皮眼损伤 -->
+  <ntg.title.husk_eye_damage>画皮眼损伤</ntg.title.husk_eye_damage>
+  <ntg.description.husk_eye_damage>画皮眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。再生速度略快。</ntg.description.husk_eye_damage>
+  <ntg.causes.husk_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.husk_eye_damage>
+  <ntg.effects.husk_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.husk_eye_damage>
+  <ntg.treatments.husk_eye_damage>
+    被动再生（每次-0.2损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.husk_eye_damage>
+  <ntg.seealso.husk_eye_damage>
+    [husk_eye] 画皮眼（物品）
+</ntg.seealso.husk_eye_damage>
+  <!-- 爬行者眼损伤 -->
+  <ntg.title.crawler_eye_damage>爬行者眼损伤</ntg.title.crawler_eye_damage>
+  <ntg.description.crawler_eye_damage>爬行者眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。</ntg.description.crawler_eye_damage>
+  <ntg.causes.crawler_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.crawler_eye_damage>
+  <ntg.effects.crawler_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.crawler_eye_damage>
+  <ntg.treatments.crawler_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.crawler_eye_damage>
+  <ntg.seealso.crawler_eye_damage>
+    [crawler_eye] 爬行者眼（物品）
+</ntg.seealso.crawler_eye_damage>
+  <!-- 泥偶迅猛龙眼损伤 -->
+  <ntg.title.mudraptor_eye_damage>泥偶迅猛龙眼损伤</ntg.title.mudraptor_eye_damage>
+  <ntg.description.mudraptor_eye_damage>泥偶迅猛龙眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。</ntg.description.mudraptor_eye_damage>
+  <ntg.causes.mudraptor_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.mudraptor_eye_damage>
+  <ntg.effects.mudraptor_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.mudraptor_eye_damage>
+  <ntg.treatments.mudraptor_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.mudraptor_eye_damage>
+  <ntg.seealso.mudraptor_eye_damage>
+    [mudraptor_eye] 泥偶迅猛龙眼（物品）
+</ntg.seealso.mudraptor_eye_damage>
+  <!-- 锤头煞眼损伤 -->
+  <ntg.title.hammerhead_eye_damage>锤头煞眼损伤</ntg.title.hammerhead_eye_damage>
+  <ntg.description.hammerhead_eye_damage>锤头煞眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。</ntg.description.hammerhead_eye_damage>
+  <ntg.causes.hammerhead_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.hammerhead_eye_damage>
+  <ntg.effects.hammerhead_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.hammerhead_eye_damage>
+  <ntg.treatments.hammerhead_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.hammerhead_eye_damage>
+  <ntg.seealso.hammerhead_eye_damage>
+    [hammerhead_eye] 锤头煞眼（物品）
+</ntg.seealso.hammerhead_eye_damage>
+  <!-- 独目哨兵眼损伤 -->
+  <ntg.title.watcher_eye_damage>独目哨兵眼损伤</ntg.title.watcher_eye_damage>
+  <ntg.description.watcher_eye_damage>独目哨兵眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。</ntg.description.watcher_eye_damage>
+  <ntg.causes.watcher_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.watcher_eye_damage>
+  <ntg.effects.watcher_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.watcher_eye_damage>
+  <ntg.treatments.watcher_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.watcher_eye_damage>
+  <ntg.seealso.watcher_eye_damage>
+    [watcher_eye] 独目哨兵眼（物品）
+</ntg.seealso.watcher_eye_damage>
+  <!-- 捕钩兽眼损伤 -->
+  <ntg.title.latcher_eye_damage>捕钩兽眼损伤</ntg.title.latcher_eye_damage>
+  <ntg.description.latcher_eye_damage>捕钩兽眼受到的损伤。虽然对压力和缺氧免疫，但仍会受损。</ntg.description.latcher_eye_damage>
+  <ntg.causes.latcher_eye_damage>
+    [stroke] 中风（当前强度×0.03/秒）|
+    [sepsis] 败血症（当前强度×0.03/秒）|
+    [retinopathy] 视网膜病变（当前强度×0.25/秒）|
+    物理损伤
+</ntg.causes.latcher_eye_damage>
+  <ntg.effects.latcher_eye_damage>
+    [cataract] 可能引发白内障（眼部损伤超过60%）|
+    [dead_eyes] 死亡双目（双眼承受过多损伤）|
+    [dead_eye] 死亡单眼（单眼承受过多损伤）
+</ntg.effects.latcher_eye_damage>
+  <ntg.treatments.latcher_eye_damage>
+    被动再生（每次-0.1损伤）|
+    [eye_removal_surgery] 眼部移除手术 |
+    [laser_eye_surgery] 激光眼部手术 |
+    [eye_drop_application] 眼药水使用
+</ntg.treatments.latcher_eye_damage>
+  <ntg.seealso.latcher_eye_damage>
+    [latcher_eye] 捕钩兽眼（物品）
+</ntg.seealso.latcher_eye_damage>
+  <!-- 机制病症 -->
+  <!-- 死亡双目 -->
+  <ntg.title.dead_eyes>死亡双目</ntg.title.dead_eyes>
+  <ntg.description.dead_eyes>双眼受到过多眼部损伤的结果。此时眼睛无法再挽救，也不会再生。</ntg.description.dead_eyes>
+  <ntg.causes.dead_eyes>
+    眼部损伤，无论眼睛类型（机械眼除外）
+</ntg.causes.dead_eyes>
+  <ntg.effects.dead_eyes>
+    完全失明
+</ntg.effects.dead_eyes>
+  <ntg.treatments.dead_eyes>
+    [eye_removal_surgery] 眼部移除手术
+</ntg.treatments.dead_eyes>
+  <!-- 死亡单眼 -->
+  <ntg.title.dead_eye>死亡单眼</ntg.title.dead_eye>
+  <ntg.description.dead_eye>单眼受到过多眼部损伤的结果。此时眼睛无法再挽救，也不会再生。</ntg.description.dead_eye>
+  <ntg.causes.dead_eye>
+    眼部损伤，无论眼睛类型（合成眼除外）
+</ntg.causes.dead_eye>
+  <ntg.effects.dead_eye>
+    部分失明 |
+    [retinopathy] 可能引起另一只眼发生视网膜病变
+</ntg.effects.dead_eye>
+  <ntg.treatments.dead_eye>
+    [eye_removal_surgery] 眼部移除手术
+</ntg.treatments.dead_eye>
+  <!-- 视网膜病变 -->
+  <ntg.title.retinopathy>视网膜病变</ntg.title.retinopathy>
+  <ntg.description.retinopathy>自身免疫性视网膜病变，或视网膜损伤，可能由单眼死亡且免疫力高于10%引起。另一只眼（如果是生物眼！）会因身体过度反应而迅速受损。
+
+在强度超过5%之前，健康扫描仪上不可见；但在此之前会出现症状。
+
+可在配置中禁用此可能性。</ntg.description.retinopathy>
+  <ntg.causes.retinopathy>
+    [dead_eye] 拥有死亡单眼
+</ntg.causes.retinopathy>
+  <ntg.effects.retinopathy>
+    大量眼部损伤，无论眼睛类型（非生物眼除外！）
+</ntg.effects.retinopathy>
+  <ntg.treatments.retinopathy>
+    [eye_removal_surgery] 眼部移除手术，移除死亡眼 |
+    [azathioprine] 硫唑嘌呤（或类似药物），降低免疫力
+</ntg.treatments.retinopathy>
+  <ntg.seealso.retinopathy>
+    [immunity] 免疫力
+</ntg.seealso.retinopathy>
+  <!-- 白内障 -->
+  <ntg.title.cataract>白内障</ntg.title.cataract>
+  <ntg.description.cataract>白内障，即眼睛晶状体混浊，是高度眼部损伤的结果，但尚不足以完全杀死眼睛。仅发生在生物眼中。
+
+在强度超过15%之前，健康扫描仪上不可见；但在此之前会出现症状。</ntg.description.cataract>
+  <ntg.causes.cataract>
+    眼部损伤，无论眼睛类型（合成眼除外）
+</ntg.causes.cataract>
+  <ntg.effects.cataract>
+    [blurred_vision] 视力模糊
+</ntg.effects.cataract>
+  <ntg.treatments.cataract>
+    [cataract_surgery] 白内障手术
+</ntg.treatments.cataract>
+  <!-- 视觉不适 -->
+  <ntg.title.vision_sickness>视觉不适</ntg.title.vision_sickness>
+  <ntg.description.vision_sickness>视觉不适应会在植入新眼后出现，因为身体（和你的大脑！）需要适应它们。</ntg.description.vision_sickness>
+  <ntg.causes.vision_sickness>
+    [eye_transplant_surgery] 眼部移植手术
+</ntg.causes.vision_sickness>
+  <ntg.effects.vision_sickness>
+    [blurred_vision] 视力模糊 |
+    [headache] 头痛 |
+    [confusion] 意识混乱
+</ntg.effects.vision_sickness>
+  <ntg.treatments.vision_sickness>
+    时间
+</ntg.treatments.vision_sickness>
+  <!-- 不匹配 -->
+  <ntg.title.mismatch>不匹配</ntg.title.mismatch>
+  <ntg.description.mismatch>如果植入两种不同类型的眼睛，会发生不匹配；大脑难以协调，导致其他任务也会受到影响。</ntg.description.mismatch>
+  <ntg.causes.mismatch>
+    拥有一组不同类型的眼睛（例如同时有人眼和机械眼）
+</ntg.causes.mismatch>
+  <ntg.effects.mismatch>
+    [headache] 头痛 |
+    技能降低
+</ntg.effects.mismatch>
+  <ntg.treatments.mismatch>
+    [corrective_glasses] 矫正眼镜可抵消症状
+</ntg.treatments.mismatch>
+  <!-- 手术病症 -->
+  <!-- 双眼移除 -->
+  <ntg.title.removed_eyes>双眼移除</ntg.title.removed_eyes>
+  <ntg.description.removed_eyes>手术移除眼睛，或合成眼被破坏的结果。</ntg.description.removed_eyes>
+  <ntg.causes.removed_eyes>
+    [eye_removal_surgery] 眼部移除手术 |
+    合成眼损伤过高
+</ntg.causes.removed_eyes>
+  <ntg.effects.removed_eyes>
+    完全失明
+</ntg.effects.removed_eyes>
+  <ntg.treatments.removed_eyes>
+    [eye_transplant_surgery] 眼部移植手术
+</ntg.treatments.removed_eyes>
+  <!-- 单眼移除 -->
+  <ntg.title.removed_eye>单眼移除</ntg.title.removed_eye>
+  <ntg.description.removed_eye>手术移除单眼，或合成眼被破坏的结果。</ntg.description.removed_eye>
+  <ntg.causes.removed_eye>
+    [eye_removal_surgery] 眼部移除手术 |
+    合成眼损伤过高
+</ntg.causes.removed_eye>
+  <ntg.effects.removed_eye>
+    部分失明
+</ntg.effects.removed_eye>
+  <ntg.treatments.removed_eye>
+    [eye_transplant_surgery] 眼部移植手术
+</ntg.treatments.removed_eye>
+  <!-- 撑开眼睑 -->
+  <ntg.title.held_eyelids>撑开眼睑</ntg.title.held_eyelids>
+  <ntg.description.held_eyelids>所有眼科手术的第二步——撑开眼睑以便操作眼睛。</ntg.description.held_eyelids>
+  <ntg.causes.held_eyelids>
+    [skin_retractors] 在头部使用皮肤牵开器（医疗技能需求：25，失败将导致0%~7%出血和0%~3%眼部损伤）
+</ntg.causes.held_eyelids>
+  <ntg.effects.held_eyelids>
+    [skin_retractors] 重新使用皮肤牵开器
+</ntg.effects.held_eyelids>
+  <ntg.seealso.held_eyelids>
+    [bleeding] 出血
+</ntg.seealso.held_eyelids>
+  <!-- 眼球突出 -->
+  <ntg.title.popped_eyes>眼球突出</ntg.title.popped_eyes>
+  <ntg.description.popped_eyes>眼部移除手术或晶状体应用手术的第三步。将眼球挤出以方便操作，但代价是患者视力暂时丧失。</ntg.description.popped_eyes>
+  <ntg.causes.popped_eyes>
+    [tweezers] 在皮肤牵开后于头部使用镊子（医疗技能需求：30，失败将导致0%~10%出血和0%~5%眼部损伤）
+</ntg.causes.popped_eyes>
+  <ntg.effects.popped_eyes>
+    视力模糊和技能降低，随病症强度增加 |
+    [traumatic_shock] 远离手术台时发生创伤性休克
+</ntg.effects.popped_eyes>
+  <ntg.seealso.popped_eyes>
+    [held_eyelids] 撑开眼睑 |
+    [surgery_table] 手术台 |
+    [eye_removal_surgery] 眼部移除手术 |
+    [lens_application_surgery] 晶状体应用手术 |
+    [bleeding] 出血
+</ntg.seealso.popped_eyes>
+  <!-- 眼连接器 -->
+  <ntg.title.eye_connector>眼连接器</ntg.title.eye_connector>
+  <ntg.description.eye_connector>眼部移植手术的第三步。将专用眼连接器安装到眼窝中，为新眼做准备。</ntg.description.eye_connector>
+  <ntg.causes.eye_connector>
+    [eye_connector_item] 在皮肤牵开后于头部使用眼连接器
+</ntg.causes.eye_connector>
+  <ntg.seealso.eye_connector>
+    [eye_transplant_surgery] 眼部移植手术
+</ntg.seealso.eye_connector>
+  <!-- 角膜切口 -->
+  <ntg.title.cornea_incision>角膜切口</ntg.title.cornea_incision>
+  <ntg.description.cornea_incision>白内障手术的第三步；可自行愈合。在角膜上做切口，以便更换生物眼内的晶状体。</ntg.description.cornea_incision>
+  <ntg.causes.cornea_incision>
+    [scalpel] 在皮肤牵开后于头部使用手术刀 |
+    [multipurpose_scalpel] 在皮肤牵开后于头部使用多用途手术刀（手术切口模式）（医疗技能需求：45，失败将导致0%~25%出血和0%~15%眼部损伤）
+</ntg.causes.cornea_incision>
+  <ntg.effects.cornea_incision>
+    视力模糊和技能降低，随病症强度增加 |
+    [traumatic_shock] 未镇静时发生创伤性休克
+</ntg.effects.cornea_incision>
+  <ntg.seealso.cornea_incision>
+    [cataract_surgery] 白内障手术 |
+    [organic_eye_lens] 生物眼晶状体 |
+    [analgesia] 镇痛
+</ntg.seealso.cornea_incision>
+  <!-- 乳化 -->
+  <ntg.title.emulsification>乳化</ntg.title.emulsification>
+  <ntg.description.emulsification>白内障手术的第四步。不会自行愈合，需要植入新晶状体。将原混浊晶状体打碎并吸出，以便更换新晶状体。</ntg.description.emulsification>
+  <ntg.causes.emulsification>
+    [needle] 在角膜切口后于头部使用针头（医疗技能需求：50，失败将导致0%~7%眼部损伤）
+</ntg.causes.emulsification>
+  <ntg.effects.emulsification>
+    视力模糊和技能降低，随病症强度增加 |
+    [traumatic_shock] 远离手术台时发生创伤性休克
+</ntg.effects.emulsification>
+  <ntg.seealso.emulsification>
+    [cataract_surgery] 白内障手术 |
+    [cornea_incision] 角膜切口 |
+    [surgery_table] 手术台
+</ntg.seealso.emulsification>
+  <!-- 眼药水 -->
+  <ntg.title.eye_drops>眼药水</ntg.title.eye_drops>
+  <ntg.description.eye_drops>使用专用眼药水的结果，增强自然恢复能力。</ntg.description.eye_drops>
+  <ntg.causes.eye_drops>
+    [eye_drop_application] 使用眼药水
+</ntg.causes.eye_drops>
+  <ntg.effects.eye_drops>
+    病症持续期间，自然眼恢复速度提升4倍（仅限生物眼！）
+</ntg.effects.eye_drops>
+  <!-- 激光手术 -->
+  <ntg.title.laser_surgery>激光手术</ntg.title.laser_surgery>
+  <ntg.description.laser_surgery>熟练使用激光手术工具的结果，极大增强眼睛的自然恢复能力。</ntg.description.laser_surgery>
+  <ntg.causes.laser_surgery>
+    [laser_eye_surgery] 激光眼部手术
+</ntg.causes.laser_surgery>
+  <ntg.effects.laser_surgery>
+    病症持续期间，自然眼恢复速度提升16倍（仅限生物眼！）
+</ntg.effects.laser_surgery>
+  <!-- 眼科手术 -->
+  <!-- 眼部移除手术 -->
+  <ntg.title.eye_removal_surgery>眼部移除手术</ntg.title.eye_removal_surgery>
+  <ntg.description.eye_removal_surgery>医疗技能需求：45。
+
+移除一只或两只眼睛的手术——活的、死的或合成眼——以便更换、防止进一步损伤或放入眼部再生罐。如果眼睛仍存活，将放入手术执行者的背包中；若背包已满，则会掉落在地上！
+
+应在手术台附近进行。</ntg.description.eye_removal_surgery>
+  <ntg.steps.eye_removal_surgery>
+    [analgesia] 1a. 使用镇痛药 |
+    [anesthesia] 1b. 使用麻醉药 |
+    [skin_retractors] 2. 使用皮肤牵开器，造成撑开眼睑 |
+    [tweezers] 3. 使用镊子，造成眼球突出 |
+    [multipurpose_scalpel] 4a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 4b. 使用手术刀
+</ntg.steps.eye_removal_surgery>
+  <ntg.seealso.eye_removal_surgery>
+    [dead_eye] 死亡单眼 |
+    [dead_eyes] 死亡双目 |
+    [eye_transplant_surgery] 眼部移植手术 |
+    [popped_eyes] 眼球突出 |
+    [held_eyelids] 撑开眼睑
+</ntg.seealso.eye_removal_surgery>
+  <!-- 眼部移植手术 -->
+  <ntg.title.eye_transplant_surgery>眼部移植手术</ntg.title.eye_transplant_surgery>
+  <ntg.description.eye_transplant_surgery>医疗技能需求：45。
+
+为患者移植新眼的手术。仅当眼窝中没有眼睛（活的、死的或合成眼）时才有效。先移除再移植！
+</ntg.description.eye_transplant_surgery>
+  <ntg.steps.eye_transplant_surgery>
+    [analgesia] 1a. 使用镇痛药 |
+    [anesthesia] 1b. 使用麻醉药 |
+    [skin_retractors] 2. 使用皮肤牵开器，造成撑开眼睑 |
+    [eye_connector_item] 3. 使用眼连接器 |
+    4. 植入你选择的眼睛
+</ntg.steps.eye_transplant_surgery>
+  <ntg.seealso.eye_transplant_surgery>
+    [held_eyelids] 撑开眼睑 |
+    [eye_removal_surgery] 眼部移除手术
+</ntg.seealso.eye_transplant_surgery>
+  <!-- 白内障手术 -->
+  <ntg.title.cataract_surgery>白内障手术</ntg.title.cataract_surgery>
+  <ntg.description.cataract_surgery>医疗技能需求：50。
+
+移除白内障的手术；确保你准备好生物眼晶状体！</ntg.description.cataract_surgery>
+  <ntg.steps.cataract_surgery>
+    [analgesia] 1a. 使用镇痛药 |
+    [anesthesia] 1b. 使用麻醉药 |
+    [skin_retractors] 2. 使用皮肤牵开器，造成撑开眼睑 |
+    [multipurpose_scalpel] 3a. 使用多用途手术刀（手术切口模式），造成角膜切口 |
+    [scalpel] 3b. 使用手术刀，造成角膜切口 |
+    [needle] 4. 使用针头，造成乳化 |
+    [organic_eye_lens] 5. 使用生物眼晶状体植入新晶状体 |
+    [sutures] 6. 缝合完成
+</ntg.steps.cataract_surgery>
+  <ntg.seealso.cataract_surgery>
+    [emulsification] 乳化 |
+    [cornea_incision] 角膜切口
+</ntg.seealso.cataract_surgery>
+  <!-- 晶状体应用手术 -->
+  <ntg.title.lens_application_surgery>晶状体应用手术</ntg.title.lens_application_surgery>
+  <ntg.description.lens_application_surgery>医疗技能需求：45。
+
+新手眼科医生的手术。此手术取出生物眼晶状体并植入患者眼中。可在白内障手术的第四步（乳化）后进行，使患者无需更换整个眼睛即可再次视物；或单纯用于增强视力。
+</ntg.description.lens_application_surgery>
+  <ntg.steps.lens_application_surgery>
+    [analgesia] 1a. 使用镇痛药 |
+    [anesthesia] 1b. 使用麻醉药 |
+    [skin_retractors] 2. 使用皮肤牵开器，造成撑开眼睑 |
+    [tweezers] 3. 使用镊子，造成眼球突出 |
+    [organic_eye_lens] 4. 使用生物眼晶状体 |
+    [sutures] 5. 缝合完成
+</ntg.steps.lens_application_surgery>
+  <ntg.seealso.lens_application_surgery>
+    [organic_eye_lens] 生物眼晶状体 |
+    [popped_eyes] 眼球突出
+</ntg.seealso.lens_application_surgery>
+  <!-- 激光眼部手术 -->
+  <ntg.title.laser_eye_surgery>激光眼部手术</ntg.title.laser_eye_surgery>
+  <ntg.description.laser_eye_surgery>医疗技能需求：45。
+
+使用专用激光工具增强眼睛自然恢复的手术。此手术不伤害患者。1-3秒应用时间。在8秒内提供16倍眼恢复速度。</ntg.description.laser_eye_surgery>
+  <ntg.seealso.laser_eye_surgery>
+    [laser_surgery] 激光手术
+</ntg.seealso.laser_eye_surgery>
+  <!-- 眼药水使用 -->
+  <ntg.title.eye_drop_application>眼药水使用</ntg.title.eye_drop_application>
+  <ntg.description.eye_drop_application>医疗技能需求：20。
+
+使用专用眼药水来启动眼睛自然恢复的方法。此方法不伤害患者。在15秒内提供4倍眼恢复速度；可多次使用，效果叠加。</ntg.description.eye_drop_application>
+  <ntg.seealso.eye_drop_application>
+    [eye_drops] 眼药水
+</ntg.seealso.eye_drop_application>
+  <!-- 机械眼修复手术 -->
+  <ntg.title.cyber_eye_repair_surgery>机械眼修复手术</ntg.title.cyber_eye_repair_surgery>
+  <ntg.description.cyber_eye_repair_surgery>医疗技能需求：45。
+
+通过重复校准过程修复机械眼损伤的过程。机械眼不会自行再生，但此过程应能解决问题。</ntg.description.cyber_eye_repair_surgery>
+  <ntg.steps.cyber_eye_repair_surgery>
+    [analgesia] 1a. 使用镇痛药 |
+    [anesthesia] 1b. 使用麻醉药 |
+    [skin_retractors] 2. 使用皮肤牵开器，造成撑开眼睑 |
+    [multipurpose_scalpel] 3. 使用多用途手术刀（自适应器官提取模式）|
+    [screwdriver] 4. 使用螺丝刀 |
+    [sutures] 5. 缝合完成
+</ntg.steps.cyber_eye_repair_surgery>
+  <ntg.seealso.cyber_eye_repair_surgery>
+    [screwdriver] 螺丝刀 |
+    [eye_removal_surgery] 眼部移除手术
+</ntg.seealso.cyber_eye_repair_surgery>
+  <!-- 眼部再生罐 -->
+  <ntg.title.eye_regeneration_jar>眼部再生罐</ntg.title.eye_regeneration_jar>
+  <ntg.description.eye_regeneration_jar>一个装有特殊液体的罐子，可帮助再生生物眼。对合成眼无效。可放置在地上，容纳两只眼睛。</ntg.description.eye_regeneration_jar>
+  <ntg.effects.eye_regeneration_jar>
+    随时间缓慢治愈储存在内的眼睛
+</ntg.effects.eye_regeneration_jar>
+  <!-- 眼药水 -->
+  <ntg.title.corrective_glasses>矫正眼镜</ntg.title.corrective_glasses>
+  <ntg.description.corrective_glasses>矫正眼镜的作用如其所名——通过帮助大脑聚焦，即使在不同眼睛类型的情况下，也能消除匹配问题。简单、有效且非侵入性。
+\n但矫正眼镜的真正神奇之处在于可同时使用一副以上；例如同时佩戴夜视镜和矫正眼镜，可同时获得两种效果。
+</ntg.description.corrective_glasses>
+  <ntg.effects.corrective_glasses>
+    [mismatch] 消除不匹配效果
+</ntg.effects.corrective_glasses>
+  <!-- 夜视镜 -->
+  <ntg.title.night_vision_goggles>夜视镜</ntg.title.night_vision_goggles>
+  <ntg.description.night_vision_goggles>一副电池驱动的护目镜，可增强在黑暗中的视力。</ntg.description.night_vision_goggles>
+  <ntg.effects.night_vision_goggles>
+    允许在黑暗中视物
+</ntg.effects.night_vision_goggles>
+</Infotexts>

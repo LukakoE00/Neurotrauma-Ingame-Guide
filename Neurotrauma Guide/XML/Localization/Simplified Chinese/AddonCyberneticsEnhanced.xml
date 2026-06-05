@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <!-- 义肢增强附加页面 -->
+  <!-- 格式请参考主XML文件 -->
+  <!-- 设置 -->
+  <ntg.categoryname.cybernetics>附加设置：义肢增强</ntg.categoryname.cybernetics>
+  <ntg.settingname.modcolourcybernetics>NT义肢增强模组来源颜色</ntg.settingname.modcolourcybernetics>
+  <!-- 机械义肢手臂 -->
+  <ntg.title.cybernetic_arm>机械义肢手臂</ntg.title.cybernetic_arm>
+  <ntg.description.cybernetic_arm>一种可安装到手术截肢后手臂接口上的机械义肢。当义肢损坏低于20%时，可用撬棍拆除。
+\n机械臂的优势：
+- 提升近战攻击速度和游泳速度；
+- 能承受持续枪火而不发生故障；
+- 擅长承受生物攻击而不发生故障或损坏；
+- 适合承受那些本会导致致命出血的攻击；
+- 维护良好时，被攻击强行截肢的概率大幅降低；
+- 不会骨折或脱臼。务必在安装机械义肢前处理好脱臼或骨折，否则在拆除义肢前这些损伤将永久存在。
+\n机械臂的劣势：
+- 与水不相容。不会触电，但如果不穿潜水服会逐渐损坏。
+    -! 昂贵的防水机械臂升级道具可防止此问题，其余特性相同。
+- 损坏后需要维护；
+- 维护成本高，尤其是潜艇缺乏充足的钢材和FPGA电路时；
+- 制作/购买成本高昂；
+- 材料损耗达到临界时会猛烈脱落。
+\n如何给患者安装机械义肢：
+首先，对选定肢体进行截肢手术；完成后对截肢部位使用机械义肢。机械技能需求为70。
+\n安装过程中可能发生以下情况：
+</ntg.description.cybernetic_arm>
+  <ntg.applicationsuccess.cybernetic_arm>
+    [internal_wounds] 在选定肢体上安装机械义肢，并治愈先前尝试造成的内部损伤
+</ntg.applicationsuccess.cybernetic_arm>
+  <ntg.applicationfailed.cybernetic_arm>
+    [internal_wounds] 选定肢体 +20% 内部损伤。不消耗机械义肢。
+</ntg.applicationfailed.cybernetic_arm>
+  <ntg.seealso.cybernetic_arm>
+    [amputation_surgery] 截肢手术 |
+    [crowbar] 撬棍
+</ntg.seealso.cybernetic_arm>
+  <!-- 机械义肢腿 -->
+  <ntg.title.cybernetic_leg>机械义肢腿</ntg.title.cybernetic_leg>
+  <ntg.description.cybernetic_leg>一种可安装到手术截肢后腿部接口上的机械义肢。当义肢损坏低于20%时，可用撬棍拆除。
+\n机械腿的优势：
+- 提升奔跑速度；
+- 能承受持续枪火而不发生故障；
+- 擅长承受生物攻击而不发生故障或损坏；
+- 适合承受那些本会导致致命出血的攻击；
+- 维护良好时，被攻击强行截肢的概率大幅降低；
+- 不会骨折或脱臼。务必在安装机械义肢前处理好脱臼或骨折，否则在拆除义肢前这些损伤将永久存在。
+\n机械腿的劣势：
+- 与水不相容。不会触电，但如果不穿潜水服会逐渐损坏。
+    -! 昂贵的防水机械臂升级道具可防止此问题，其余特性相同。
+- 损坏后需要维护；
+- 维护成本高，尤其是潜艇缺乏充足的钢材和FPGA电路时；
+- 制作/购买成本高昂；
+- 材料损耗达到临界时会猛烈脱落。
+\n如何给患者安装机械义肢：
+首先，对选定肢体进行截肢手术；完成后对截肢部位使用机械义肢。机械技能需求为70。
+\n安装过程中可能发生以下情况：
+</ntg.description.cybernetic_leg>
+  <ntg.applicationsuccess.cybernetic_leg>
+    [internal_wounds] 在选定肢体上安装机械义肢，并治愈先前尝试造成的内部损伤
+</ntg.applicationsuccess.cybernetic_leg>
+  <ntg.applicationfailed.cybernetic_leg>
+    [internal_wounds] 选定肢体 +20% 内部损伤。不消耗机械义肢。
+</ntg.applicationfailed.cybernetic_leg>
+  <ntg.seealso.cybernetic_leg>
+    [amputation_surgery] 截肢手术 |
+    [crowbar] 撬棍
+</ntg.seealso.cybernetic_leg>
+  <!-- 电子元件损坏 -->
+  <ntg.title.damaged_electronics>电子元件损坏</ntg.title.damaged_electronics>
+  <ntg.description.damaged_electronics>使用机械义肢的主要弊端——电子元件遇水会损坏。
+
+当机械义肢受到伤害时，每种伤害类型都有概率导致各种不同类型的义肢专属损伤，而非正常伤害类型。
+
+电子元件损坏的获得量随肢体材料损耗量增加而增加，在100%材料损耗时最高可达3倍。</ntg.description.damaged_electronics>
+  <ntg.causes.damaged_electronics>
+    在水中未穿潜水服 |
+    [burns] 75%概率烧伤造成其200%伤害作为电子元件损坏 |
+    [open_wounds] 85%概率枪伤造成其75%伤害作为电子元件损坏 |
+    [open_wounds] 50%概率咬伤造成其25%伤害作为电子元件损坏 |
+    [open_wounds] 50%概率深层组织损伤造成其50%伤害作为电子元件损坏 |
+    [internal_wounds] 50%概率钝力创伤造成其100%伤害作为电子元件损坏 |
+    [internal_damage] 75%概率内部损伤造成其100%伤害作为电子元件损坏 |
+    [foreign_bodies] 75%概率异物造成其75%伤害作为电子元件损坏
+</ntg.causes.damaged_electronics>
+  <ntg.effects.damaged_electronics>
+    肢体偶尔暂时停止工作，频率随电子元件损坏量增加而增加 |
+    电子元件损坏达99%或以上时肢体完全无法使用
+</ntg.effects.damaged_electronics>
+  <ntg.treatments.damaged_electronics>
+    [fpga_circuit] 应用FPGA电路
+</ntg.treatments.damaged_electronics>
+  <ntg.seealso.damaged_electronics>
+    [material_loss] 材料损耗 |
+    [loose_screws] 螺丝松动 |
+    [bent_metal] 金属弯曲
+</ntg.seealso.damaged_electronics>
+  <!-- 金属弯曲 -->
+  <ntg.title.bent_metal>金属弯曲</ntg.title.bent_metal>
+  <ntg.description.bent_metal>当机械义肢受到损伤时，每种伤害类型都有几率造成各种类型和数量的义肢专属损伤，而非普通损伤类型。</ntg.description.bent_metal>
+  <ntg.causes.bent_metal>
+    [burns] 85%概率烧伤造成其25%伤害作为金属弯曲 |
+    [open_wounds] 50%概率撕裂伤造成其25%伤害作为金属弯曲 |
+    [open_wounds] 50%概率咬伤造成其50%伤害作为金属弯曲 |
+    [open_wounds] 85%概率深层组织损伤造成其100%伤害作为金属弯曲 |
+    [internal_wounds] 75%概率钝力创伤造成其200%伤害作为金属弯曲
+</ntg.causes.bent_metal>
+  <ntg.effects.bent_metal>
+    减慢移动速度（若安装在机械腿上），随金属弯曲强度增加 |
+    金属弯曲达99%或以上时肢体完全无法使用
+</ntg.effects.bent_metal>
+  <ntg.treatments.bent_metal>
+    [welding_tool] 使用焊接工具（需焊接燃料）
+</ntg.treatments.bent_metal>
+  <ntg.seealso.bent_metal>
+    [material_loss] 材料损耗 |
+    [loose_screws] 螺丝松动 |
+    [damaged_electronics] 电子元件损坏
+</ntg.seealso.bent_metal>
+  <!-- 螺丝松动 -->
+  <ntg.title.loose_screws>螺丝松动</ntg.title.loose_screws>
+  <ntg.description.loose_screws>当机械义肢受到损伤时，每种伤害类型都有几率造成各种类型和数量的义肢专属损伤，而非普通损伤类型。</ntg.description.loose_screws>
+  <ntg.causes.loose_screws>
+    移动时螺丝松动（30%或以上）|
+    [open_wounds] 75%概率撕裂伤造成其25%伤害作为螺丝松动 |
+    [open_wounds] 50%概率咬伤造成其50%伤害作为螺丝松动 |
+    [open_wounds] 80%概率深层组织损伤造成其100%伤害作为螺丝松动 |
+    [internal_wounds] 50%概率钝力创伤造成其50%伤害作为螺丝松动 |
+    [internal_damage] 75%概率内部损伤造成其100%伤害作为螺丝松动 |
+    [foreign_bodies] 75%概率异物造成其75%伤害作为螺丝松动
+</ntg.causes.loose_screws>
+  <ntg.effects.loose_screws>
+    [material_loss] 可能引起材料损耗，若螺丝松动超过30%还可能进一步松动
+</ntg.effects.loose_screws>
+  <ntg.treatments.loose_screws>
+    [screwdriver] 使用螺丝刀
+</ntg.treatments.loose_screws>
+  <ntg.seealso.loose_screws>
+    [material_loss] 材料损耗 |
+    [bent_metal] 金属弯曲 |
+    [damaged_electronics] 电子元件损坏
+</ntg.seealso.loose_screws>
+  <!-- 材料损耗 -->
+  <ntg.title.material_loss>材料损耗</ntg.title.material_loss>
+  <ntg.description.material_loss>当机械义肢受到损伤时，每种伤害类型都有几率造成各种类型和数量的义肢专属损伤，而非普通损伤类型。
+\n材料损耗的获得量与当前的螺丝松动量成正比，在100%螺丝松动时达到最高3倍。
+</ntg.description.material_loss>
+  <ntg.causes.material_loss>
+    移动时螺丝松动（30%或以上）|
+    [open_wounds] 75%概率撕裂伤造成其25%伤害作为材料损耗 |
+    [open_wounds] 80%概率枪伤造成其80%伤害作为材料损耗 |
+    [open_wounds] 75%概率咬伤造成其60%伤害作为材料损耗 |
+    [open_wounds] 100%概率深层组织损伤造成其100%伤害作为材料损耗 |
+    [foreign_bodies] 80%概率异物造成其50%伤害作为螺丝松动
+</ntg.causes.material_loss>
+  <ntg.effects.material_loss>
+    [traumatic_amputation] 失去机械义肢并发生创伤性截肢（在99%或以上）
+</ntg.effects.material_loss>
+  <ntg.treatments.material_loss>
+    [steel_bar] 使用钢条
+</ntg.treatments.material_loss>
+  <ntg.seealso.material_loss>
+    [loose_screws] 螺丝松动 |
+    [bent_metal] 金属弯曲 |
+    [damaged_electronics] 电子元件损坏
+</ntg.seealso.material_loss>
+  <!-- FPGA电路 -->
+  <ntg.title.fpga_circuit>FPGA电路</ntg.title.fpga_circuit>
+  <ntg.description.fpga_circuit>电气技能需求：40。
+\n用于修复机械义肢上的电子元件损坏。多个FPGA电路可以合并以恢复状态。
+</ntg.description.fpga_circuit>
+  <ntg.applicationsuccess.fpga_circuit>
+    [damaged_electronics] -50% 电子元件损坏
+</ntg.applicationsuccess.fpga_circuit>
+  <ntg.applicationfailed.fpga_circuit>
+    [damaged_electronics] -20% 电子元件损坏
+</ntg.applicationfailed.fpga_circuit>
+  <!-- 焊接工具 -->
+  <ntg.title.welding_tool>焊接工具</ntg.title.welding_tool>
+  <ntg.description.welding_tool>机械技能需求：50。
+\n用于修复机械义肢上的金属弯曲。
+</ntg.description.welding_tool>
+  <ntg.applicationsuccess.welding_tool>
+    [bent_metal] -20% 金属弯曲
+</ntg.applicationsuccess.welding_tool>
+  <ntg.applicationfailed.welding_tool>
+    [bent_metal] -5% 金属弯曲
+</ntg.applicationfailed.welding_tool>
+  <!-- 螺丝刀 -->
+  <ntg.title.screwdriver>螺丝刀</ntg.title.screwdriver>
+  <ntg.description.screwdriver>机械技能需求：40。
+\n用于修复机械义肢上的螺丝松动，以及在开/关手术中修复机械器官。
+</ntg.description.screwdriver>
+  <ntg.applicationsuccess.screwdriver>
+    [loose_screws] -20% 螺丝松动
+</ntg.applicationsuccess.screwdriver>
+  <ntg.applicationfailed.screwdriver>
+    [loose_screws] -5% 螺丝松动
+</ntg.applicationfailed.screwdriver>
+  <ntg.seealso.screwdriver>
+    [open_close_surgery] 开/关手术
+</ntg.seealso.screwdriver>
+  <!-- 钢条 -->
+  <ntg.title.steel_bar>钢条</ntg.title.steel_bar>
+  <ntg.description.steel_bar>机械技能需求：40。
+\n用于修复机械义肢上的材料损耗。
+</ntg.description.steel_bar>
+  <ntg.applicationsuccess.steel_bar>
+    [material_loss] -50% 材料损耗
+</ntg.applicationsuccess.steel_bar>
+  <ntg.applicationfailed.steel_bar>
+    [material_loss] -20% 材料损耗
+</ntg.applicationfailed.steel_bar>
+  <!-- 撬棍 -->
+  <ntg.title.crowbar>撬棍</ntg.title.crowbar>
+  <ntg.description.crowbar>用于拆除机械义肢。仅当义肢损坏低于20%时有效，因此可能需要先修复。
+
+返还机械义肢。
+</ntg.description.crowbar>
+  <!-- 机械脑植入体 -->
+  <ntg.title.cyberbrain_implant>机械脑植入体</ntg.title.cyberbrain_implant>
+  <ntg.description.cyberbrain_implant>一种机械脑部增强装置。拥抱钢铁的确定性！
+
+可选择价格更实惠的赛博增强脑植入体，或效果翻倍的高端正电子脑植入体。
+
+机械脑植入体的优势：
+- 所有技能+5（正电子版+10）；
+- 永久性轻微镇痛效果，手术更轻松；
+- 提高神经创伤恢复速度；
+    -! 甘露醇效果翻倍
+    -! 病因处理后自然恢复速度翻倍
+- 对神经创伤有轻微抵抗力
+
+机械脑植入体的劣势：
+- 会周期性发作赛博精神病（普通精神病），可通过降低免疫力避免；例如使用非常实惠的免疫抑制吸入器；
+- 易受EMP影响
+
+如何给患者安装：
+首先，像常规手术一样打开头部、牵开皮肤，但不要移除大脑。将植入体放在上面并结束手术。电气技能需求60，医疗技能需求80。
+
+如何从患者体内取出：
+重新打开头部，使用多用途手术刀（自适应器官提取模式）一次；使用第二次会移除大脑。
+
+安装过程中可能发生以下情况：
+</ntg.description.cyberbrain_implant>
+  <ntg.applicationsuccess.cyberbrain_implant>
+    [neurotrauma] 安装植入体，治愈部分神经创伤和原版器官损伤
+</ntg.applicationsuccess.cyberbrain_implant>
+  <ntg.applicationfailed.cyberbrain_implant>
+    [neurotrauma] 同成功，但造成20%神经创伤（机械失败）|
+    [internal_bleeding] 同成功，但造成内出血（医疗失败）
+</ntg.applicationfailed.cyberbrain_implant>
+  <ntg.seealso.cyberbrain_implant>
+    [vanilla_organ_damage] 原版器官损伤 |
+    [mannitol] 甘露醇 |
+    [screwdriver] 螺丝刀 |
+    [open_close_surgery] 开/关手术
+</ntg.seealso.cyberbrain_implant>
+  <!-- 机械肺 -->
+  <ntg.title.cyberlung>机械肺</ntg.title.cyberlung>
+  <ntg.description.cyberlung>一种机械肺替换装置。拥抱钢铁的确定性！
+
+可选择价格更实惠的赛博增强肺（半肉半硅，由取出的肺制作），或效果翻倍的全合成机械肺。手术期间可用螺丝刀修复。
+
+机械肺的优势：
+- 局部压力防护：每30秒提供短暂防护，实际翻倍在不穿潜水服时承受压力的非致命时间；
+- 提升近战攻击速度和移动速度；
+- 提升对肺损伤和气胸的抵抗力
+
+机械肺的劣势：
+- 会周期性发作赛博精神病（普通精神病），可通过降低免疫力避免；
+- 易受EMP影响
+
+如何给患者安装：
+首先，像常规手术一样打开躯干、牵开皮肤，移除当前肺部。然后放入机械肺并结束手术。机械技能需求60，医疗技能需求70。
+
+如何从患者体内取出：
+重新打开躯干，使用多用途手术刀（自适应器官提取模式）两次，移除器官。务必替换！
+
+安装过程中可能发生以下情况：
+</ntg.description.cyberlung>
+  <ntg.applicationsuccess.cyberlung>
+    [lung_damage] 安装机械器官，治愈部分肺损伤和原版器官损伤
+</ntg.applicationsuccess.cyberlung>
+  <ntg.applicationfailed.cyberlung>
+    [lung_damage] 同成功，但造成20%肺损伤（机械失败）|
+    [internal_bleeding] 同成功，但造成内出血（医疗失败）
+</ntg.applicationfailed.cyberlung>
+  <ntg.seealso.cyberlung>
+    [vanilla_organ_damage] 原版器官损伤 |
+    [pneumothorax] 气胸 |
+    [screwdriver] 螺丝刀 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.seealso.cyberlung>
+  <!-- 机械心 -->
+  <ntg.title.cyberheart>机械心</ntg.title.cyberheart>
+  <ntg.description.cyberheart>一种机械心脏替换装置。拥抱钢铁的确定性！
+
+可选择价格更实惠的赛博增强心（半肉半硅，由取出的心脏制作），或效果翻倍的全合成机械心。手术期间可用螺丝刀修复。
+
+机械心的优势：
+- 最大生命值+20%；
+- 提升近战攻击速度和移动速度；
+- 血压恢复正常速度翻倍；
+- 提升对心脏损伤的抵抗力
+
+机械心的劣势：
+- 会周期性发作赛博精神病（普通精神病），可通过降低免疫力避免；
+- 易受EMP影响
+
+如何给患者安装：
+首先，像常规手术一样打开躯干、牵开皮肤，移除当前心脏。然后放入机械心并结束手术。机械技能需求60，医疗技能需求70。
+
+如何从患者体内取出：
+重新打开躯干，使用多用途手术刀（自适应器官提取模式）两次，移除器官。务必替换！
+
+安装过程中可能发生以下情况：
+</ntg.description.cyberheart>
+  <ntg.applicationsuccess.cyberheart>
+    [heart_damage] 安装机械器官，治愈部分心脏损伤和原版器官损伤
+</ntg.applicationsuccess.cyberheart>
+  <ntg.applicationfailed.cyberheart>
+    [heart_damage] 同成功，但造成20%心脏损伤（机械失败）|
+    [internal_bleeding] 同成功，但造成内出血（医疗失败）
+</ntg.applicationfailed.cyberheart>
+  <ntg.seealso.cyberheart>
+    [vanilla_organ_damage] 原版器官损伤 |
+    [screwdriver] 螺丝刀 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.seealso.cyberheart>
+  <!-- 机械肾 -->
+  <ntg.title.cyberkidney>机械肾</ntg.title.cyberkidney>
+  <ntg.description.cyberkidney>一种机械肾脏替换装置。拥抱钢铁的确定性！
+
+可选择价格更实惠的赛博增强肾（半肉半硅，由取出的肾脏制作），或效果翻倍的全合成机械肾。手术期间可用螺丝刀修复。
+
+机械肾的优势：
+- 只需要一个；
+- 提升对失血和出血的抵抗力；
+- 血型转换为C+，可接受所有血型；
+- 提升对肾脏损伤的抵抗力
+
+机械肾的劣势：
+- 会周期性发作赛博精神病（普通精神病），可通过降低免疫力避免；
+- C+血不能输给非C+血的人；
+- 易受EMP影响
+
+如何给患者安装：
+首先，像常规手术一样打开躯干、牵开皮肤，移除当前肾脏。然后放入机械肾并结束手术——只需要一个！机械技能需求60，医疗技能需求70。
+
+如何从患者体内取出：
+重新打开躯干，使用多用途手术刀（自适应器官提取模式）两次，移除器官。务必替换！
+
+安装过程中可能发生以下情况：
+</ntg.description.cyberkidney>
+  <ntg.applicationsuccess.cyberkidney>
+    [kidney_damage] 安装机械器官，治愈部分肾脏损伤和原版器官损伤
+</ntg.applicationsuccess.cyberkidney>
+  <ntg.applicationfailed.cyberkidney>
+    [kidney_damage] 同成功，但造成20%肾脏损伤（机械失败）|
+    [internal_bleeding] 同成功，但造成内出血（医疗失败）
+</ntg.applicationfailed.cyberkidney>
+  <ntg.seealso.cyberkidney>
+    [vanilla_organ_damage] 原版器官损伤 |
+    [bleeding] 出血 |
+    [blood_loss] 失血 |
+    [screwdriver] 螺丝刀 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.seealso.cyberkidney>
+  <!-- 机械肝 -->
+  <ntg.title.cyberliver>机械肝</ntg.title.cyberliver>
+  <ntg.description.cyberliver>一种机械肝脏替换装置。拥抱钢铁的确定性！
+
+可选择价格更实惠的赛博增强肝（半肉半硅，由取出的肝脏制作），或效果翻倍的全合成机械肝。手术期间可用螺丝刀修复。
+
+机械肝的优势：
+- 提升对毒药、毒素和恶心的抵抗力；
+- 提升对肝脏损伤的抵抗力
+
+机械肝的劣势：
+- 会周期性发作赛博精神病（普通精神病），可通过降低免疫力避免；
+- 易受EMP影响
+
+如何给患者安装：
+首先，像常规手术一样打开躯干、牵开皮肤，移除当前肝脏。然后放入机械肝并结束手术——只需要一个！机械技能需求60，医疗技能需求70。
+
+如何从患者体内取出：
+重新打开躯干，使用多用途手术刀（自适应器官提取模式）两次，移除器官。务必替换！
+
+安装过程中可能发生以下情况：
+</ntg.description.cyberliver>
+  <ntg.applicationsuccess.cyberliver>
+    [liver_damage] 安装机械器官，治愈部分肝脏损伤和原版器官损伤
+</ntg.applicationsuccess.cyberliver>
+  <ntg.applicationfailed.cyberliver>
+    [liver_damage] 同成功，但造成20%肝脏损伤（机械失败）|
+    [internal_bleeding] 同成功，但造成内出血（医疗失败）
+</ntg.applicationfailed.cyberliver>
+  <ntg.seealso.cyberliver>
+    [vanilla_organ_damage] 原版器官损伤 |
+    [nausea] 恶心 |
+    [screwdriver] 螺丝刀 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.seealso.cyberliver>
+</Infotexts>

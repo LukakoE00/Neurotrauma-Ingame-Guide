@@ -1,0 +1,3131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <!-- /*- 通用内容 -*/ -->
+  <!-- 通用界面按钮 -->
+  <ntg.button.back>返回上一页</ntg.button.back>
+  <ntg.button.mainpage>返回主页</ntg.button.mainpage>
+  <ntg.button.tooltip.togglesettings>切换设置页面</ntg.button.tooltip.togglesettings>
+  <ntg.button.tooltip.closeguide>关闭指南</ntg.button.tooltip.closeguide>
+  <!-- 设置 -->
+  <ntg.categoryname.hotkeysettings>快捷键设置</ntg.categoryname.hotkeysettings>
+  <ntg.settingname.dohotkeyusage>启用快捷键</ntg.settingname.dohotkeyusage>
+  <ntg.settingdescription.dohotkeyusage>是否启用快捷键？</ntg.settingdescription.dohotkeyusage>
+  <ntg.settingname.selectedhotkey>快捷键</ntg.settingname.selectedhotkey>
+  <ntg.settinghotkey.changesuccess>快捷键已更改为：</ntg.settinghotkey.changesuccess>
+  <ntg.settinghotkey.changefailed>无效按键！已重置为默认值。</ntg.settinghotkey.changefailed>
+  <ntg.categoryname.customization>指南自定义</ntg.categoryname.customization>
+  <ntg.settingname.docolouredmodorigin>彩色来源模组标识</ntg.settingname.docolouredmodorigin>
+  <ntg.settingdescription.docolouredmodorigin>来源模组标识是否根据模组使用独特颜色？</ntg.settingdescription.docolouredmodorigin>
+  <ntg.settingname.domodorigin>来源模组标识</ntg.settingname.domodorigin>
+  <ntg.settingdescription.domodorigin>是否显示来源模组？</ntg.settingdescription.domodorigin>
+  <!-- 快捷键用法 -->
+  <ntg.hotkey.pageopenfailed>按下快捷键时未选中任何病症！</ntg.hotkey.pageopenfailed>
+  <!-- 独立页面按钮 -->
+  <ntg.index.back>返回分类</ntg.index.back>
+  <ntg.index.backmain>返回主页</ntg.index.backmain>
+  <!-- 搜索页面分类 -->
+  <ntg.category.afflictions>病症</ntg.category.afflictions>
+  <ntg.category.items>物品</ntg.category.items>
+  <ntg.category.mechanics>机制</ntg.category.mechanics>
+  <ntg.category.procedures>手术流程</ntg.category.procedures>
+  <ntg.category.information>信息</ntg.category.information>
+  <!-- 搜索页面错误 -->
+  <ntg.pagefounderror>未找到页面！</ntg.pagefounderror>
+  <!-- 通用子标题 -->
+  <ntg.section.description>基本信息</ntg.section.description>
+  <ntg.section.causes>成因</ntg.section.causes>
+  <ntg.section.effects>效果</ntg.section.effects>
+  <ntg.section.prevention>预防</ntg.section.prevention>
+  <ntg.section.sideeffects>可能的副作用</ntg.section.sideeffects>
+  <ntg.section.applicationsuccess>成功使用</ntg.section.applicationsuccess>
+  <ntg.section.applicationfailed>使用失败</ntg.section.applicationfailed>
+  <ntg.section.reduction>减轻因素</ntg.section.reduction>
+  <ntg.section.firstaid>急救</ntg.section.firstaid>
+  <ntg.section.treatments>治疗方法</ntg.section.treatments>
+  <ntg.section.steps>步骤</ntg.section.steps>
+  <ntg.section.seealso>参见</ntg.section.seealso>
+  <ntg.section.gotoindex>导航</ntg.section.gotoindex>
+  <ntg.section.navigation>导航</ntg.section.navigation>
+  <ntg.section.categories>分类</ntg.section.categories>
+  <ntg.section.pages>页面</ntg.section.pages>
+  <!-- 病症特定子标题：戒断 -->
+  <ntg.section.effects_withdrawal_ex1>酒精、化学物质和阿片类药物戒断效果</ntg.section.effects_withdrawal_ex1>
+  <ntg.section.effects_withdrawal_ex2>酒精戒断的额外效果</ntg.section.effects_withdrawal_ex2>
+  <!-- 病症特定子标题：创伤性截肢 -->
+  <ntg.section.effects_traumatic_amputation_ex1>效果：所有创伤性截肢</ntg.section.effects_traumatic_amputation_ex1>
+  <ntg.section.effects_traumatic_amputation_ex2>效果：创伤性手臂截肢</ntg.section.effects_traumatic_amputation_ex2>
+  <ntg.section.effects_traumatic_amputation_ex3>效果：创伤性腿部截肢</ntg.section.effects_traumatic_amputation_ex3>
+  <ntg.section.effects_traumatic_amputation_ex4>效果：创伤性头部截肢</ntg.section.effects_traumatic_amputation_ex4>
+  <!-- 病症特定子标题：手术截肢 -->
+  <ntg.section.effects_surgical_amputation_ex1>效果：手术手臂截肢</ntg.section.effects_surgical_amputation_ex1>
+  <ntg.section.effects_surgical_amputation_ex2>效果：手术腿部截肢</ntg.section.effects_surgical_amputation_ex2>
+  <ntg.section.effects_surgical_amputation_ex3>效果：手术头部截肢</ntg.section.effects_surgical_amputation_ex3>
+  <!-- 病症特定子标题：骨折 -->
+  <ntg.section.effects_fractures_ex1>效果：腿部骨折</ntg.section.effects_fractures_ex1>
+  <ntg.section.effects_fractures_ex2>效果：手臂骨折</ntg.section.effects_fractures_ex2>
+  <ntg.section.effects_fractures_ex3>效果：颅骨骨折</ntg.section.effects_fractures_ex3>
+  <ntg.section.effects_fractures_ex4>效果：颈部骨折</ntg.section.effects_fractures_ex4>
+  <ntg.section.effects_fractures_ex5>效果：肋骨骨折</ntg.section.effects_fractures_ex5>
+  <!-- 病症特定子标题：脱臼 -->
+  <ntg.section.effects_dislocations_ex1>效果：腿部脱臼</ntg.section.effects_dislocations_ex1>
+  <ntg.section.effects_dislocations_ex2>效果：手臂脱臼</ntg.section.effects_dislocations_ex2>
+  <!-- 病症特定子标题：开放性伤口 -->
+  <!-- 撕裂伤 -->
+  <ntg.section.description_openwounds_ex1>撕裂伤</ntg.section.description_openwounds_ex1>
+  <ntg.section.causes_openwounds_ex1>成因：撕裂伤</ntg.section.causes_openwounds_ex1>
+  <ntg.section.effects_openwounds_ex1>效果：撕裂伤</ntg.section.effects_openwounds_ex1>
+  <ntg.section.treatments_openwounds_ex1>治疗：撕裂伤</ntg.section.treatments_openwounds_ex1>
+  <!-- 深层组织损伤 -->
+  <ntg.section.description_openwounds_ex2>深层组织损伤</ntg.section.description_openwounds_ex2>
+  <ntg.section.causes_openwounds_ex2>成因：深层组织损伤</ntg.section.causes_openwounds_ex2>
+  <ntg.section.effects_openwounds_ex2>效果：深层组织损伤</ntg.section.effects_openwounds_ex2>
+  <ntg.section.treatments_openwounds_ex2>治疗：深层组织损伤</ntg.section.treatments_openwounds_ex2>
+  <!-- 枪伤 -->
+  <ntg.section.description_openwounds_ex3>枪伤</ntg.section.description_openwounds_ex3>
+  <ntg.section.causes_openwounds_ex3>成因：枪伤</ntg.section.causes_openwounds_ex3>
+  <ntg.section.effects_openwounds_ex3>效果：枪伤</ntg.section.effects_openwounds_ex3>
+  <ntg.section.treatments_openwounds_ex3>治疗：枪伤</ntg.section.treatments_openwounds_ex3>
+  <!-- 咬伤 -->
+  <ntg.section.description_openwounds_ex4>咬伤</ntg.section.description_openwounds_ex4>
+  <ntg.section.causes_openwounds_ex4>成因：咬伤</ntg.section.causes_openwounds_ex4>
+  <ntg.section.effects_openwounds_ex4>效果：咬伤</ntg.section.effects_openwounds_ex4>
+  <ntg.section.treatments_openwounds_ex4>治疗：咬伤</ntg.section.treatments_openwounds_ex4>
+  <!-- 病症特定子标题：内伤 -->
+  <!-- 钝力损伤 -->
+  <ntg.section.description_internalwounds_ex1>钝力损伤</ntg.section.description_internalwounds_ex1>
+  <ntg.section.causes_internalwounds_ex1>成因：钝力损伤</ntg.section.causes_internalwounds_ex1>
+  <ntg.section.effects_internalwounds_ex1>效果：钝力损伤</ntg.section.effects_internalwounds_ex1>
+  <ntg.section.treatments_internalwounds_ex1>治疗：钝力损伤</ntg.section.treatments_internalwounds_ex1>
+  <!-- 内部损伤 -->
+  <ntg.section.description_internalwounds_ex2>内部损伤</ntg.section.description_internalwounds_ex2>
+  <ntg.section.causes_internalwounds_ex2>成因：内部损伤</ntg.section.causes_internalwounds_ex2>
+  <ntg.section.effects_internalwounds_ex2>效果：内部损伤</ntg.section.effects_internalwounds_ex2>
+  <ntg.section.treatments_internalwounds_ex2>治疗：内部损伤</ntg.section.treatments_internalwounds_ex2>
+  <!-- 病症特定子标题：免疫力 -->
+  <ntg.section.reducedby_immunity>减轻因素</ntg.section.reducedby_immunity>
+  <!-- 病症特定子标题：创伤性休克 -->
+  <ntg.section.prevention_traumaticshock>预防</ntg.section.prevention_traumaticshock>
+  <!-- 物品特定子标题：多功能手术刀 -->
+  <ntg.section.description_multipurposescalpel_ex1>模式：手术切口</ntg.section.description_multipurposescalpel_ex1>
+  <ntg.section.description_multipurposescalpel_ex2>模式：绷带、石膏、医疗事故</ntg.section.description_multipurposescalpel_ex2>
+  <ntg.section.description_multipurposescalpel_ex3>模式：自适应器官摘取</ntg.section.description_multipurposescalpel_ex3>
+  <!-- 物品特定子标题：毒素过滤器 -->
+  <ntg.section.treatments_toxinfilter_ex1>窒死毒剂中毒</ntg.section.treatments_toxinfilter_ex1>
+  <ntg.section.treatments_toxinfilter_ex2>氰化物中毒</ntg.section.treatments_toxinfilter_ex2>
+  <ntg.section.treatments_toxinfilter_ex3>升天毒剂中毒</ntg.section.treatments_toxinfilter_ex3>
+  <ntg.section.treatments_toxinfilter_ex4>谵妄毒剂中毒</ntg.section.treatments_toxinfilter_ex4>
+  <!-- 主页 -->
+  <ntg.section.features>指南功能</ntg.section.features>
+  <ntg.section.availableaddons>以下模组的指南页面</ntg.section.availableaddons>
+  <ntg.title.main_page>主页</ntg.title.main_page>
+  <ntg.description.main_page>神经创伤指南主页。
+\n感谢安装我的模组！希望它能帮到你。我会持续扩展它，直到所有主要NT插件都被整合进去；虽然内置了语言本地化，但我不说主流语言，因此无法确认翻译质量。
+\n如果你想帮助翻译，模组描述中有一个GitHub页面链接；你只需翻译已有的本地化文件即可提交PR。</ntg.description.main_page>
+  <ntg.gotoindex.main_page>
+  [category_index] 按分类浏览页面
+</ntg.gotoindex.main_page>
+  <ntg.features.main_page>
+  页面链接：你可以点击浏览所有相关页面。想知道某个症状的原因？点一下就行！ |
+  健康扫描仪/血液分析仪集成：神经创伤修改了扫描病人后显示的病症，点击即可打开相应页面。 |
+  搜索功能：内置搜索功能让查找变得轻松！ |
+  索引：只想浏览页面？点击上方按钮，按分类查看所有页面。
+</ntg.features.main_page>
+  <ntg.availableaddons.main_page>
+  ‖color:35,38,115,255‖神经创伤‖color:end‖ by Guns |
+  ‖color:84,84,97,255‖NT 义肢增强‖color:end‖ by Nebual |
+  ‖color:97,24,33,255‖NT 外科增强‖color:end‖ by Guns |
+  ‖color:215,160,0,255‖NT 眼科‖color:end‖ by POSTACI, BETA and bludcart |
+  ‖color:76,112,42,255‖NT 感染‖color:end‖ by guy |
+  ‖color:165,22,166,255‖NT 移植‖color:end‖ by Aegis_Myles |
+  ‖color:0,175,175,255‖NT 脑叶切除‖color:end‖ by Postaci |
+  ‖color:3,99,138,255‖NT 体温‖color:end‖ by BigEvilGreenBean |
+  ‖color:20,60,0,255‖NT 气道扩展‖color:end‖ by moncka.ddima
+</ntg.availableaddons.main_page>
+  <!-- 设置页面名称 -->
+  <ntg.title.settings_page>指南设置</ntg.title.settings_page>
+  <!-- 自动索引页面：分类 -->
+  <ntg.title.category_index>分类</ntg.title.category_index>
+  <ntg.description.category_index>选择一个分类浏览。</ntg.description.category_index>
+  <!-- 自动索引页面：分类内项目 -->
+  <ntg.description.category_page>此分类下的页面。</ntg.description.category_page>
+  <!-- /*- 症状页面 -*/ -->
+  <!-- 吐血 -->
+  <ntg.title.vomiting_blood>吐血</ntg.title.vomiting_blood>
+  <ntg.description.vomiting_blood>吐血是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.vomiting_blood>
+  <ntg.causes.vomiting_blood>
+  [internal_bleeding] 内出血（50%或以上） |
+  [liver_damage] 肝损伤（100%） |
+  [anesthesia] 麻醉
+</ntg.causes.vomiting_blood>
+  <ntg.treatments.vomiting_blood>
+  治疗成因。
+</ntg.treatments.vomiting_blood>
+  <!-- 皮肤苍白 -->
+  <ntg.title.pale_skin>皮肤苍白</ntg.title.pale_skin>
+  <ntg.description.pale_skin>皮肤苍白是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.pale_skin>
+  <ntg.causes.pale_skin>
+  [hypotension] 低血压（50%或以下） |
+  [blood_loss] 失血（40%或以上）
+</ntg.causes.pale_skin>
+  <ntg.treatments.pale_skin>
+  治疗成因。
+</ntg.treatments.pale_skin>
+  <!-- 呼吸困难 -->
+  <ntg.title.shortness_of_breath>呼吸困难</ntg.title.shortness_of_breath>
+  <ntg.description.shortness_of_breath>呼吸困难是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.shortness_of_breath>
+  <ntg.causes.shortness_of_breath>
+  [heart_attack] 心脏病发作 |
+  [lung_damage] 肺损伤（45%或以上） |
+  [pneumothorax] 气胸（40%或以上） |
+  [cardiac_tamponade] 心脏压塞（10%或以上） |
+  [hemotransfusion_shock] 输血性休克（0-70%） |
+  [hypoxemia] 低氧血症（20%或以上） |
+  [heart_damage] 心脏损伤（80%或以上）
+</ntg.causes.shortness_of_breath>
+  <ntg.treatments.shortness_of_breath>
+  治疗成因。
+</ntg.treatments.shortness_of_breath>
+  <!-- 咳嗽 -->
+  <ntg.title.cough>咳嗽</ntg.title.cough>
+  <ntg.description.cough>咳嗽是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.cough>
+  <ntg.causes.cough>
+  [lung_damage] 肺损伤（50%或以上） |
+  [heart_damage] 心脏损伤（50%或以上） |
+  [cardiac_tamponade] 心脏压塞（20%或以上）
+</ntg.causes.cough>
+  <ntg.treatments.cough>
+  治疗成因。
+</ntg.treatments.cough>
+  <!-- 恶心 -->
+  <ntg.title.nausea>恶心</ntg.title.nausea>
+  <ntg.description.nausea>恶心是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.nausea>
+  <ntg.causes.nausea>
+  [hemotransfusion_shock] 输血性休克（0-90%） |
+  [withdrawal] 戒断反应（40%或以上） |
+  [radiation_sickness] 辐射病（80%或以上） |
+  [kidney_damage] 肾损伤（60%或以上） |
+  [concussion] 脑震荡 |
+  靠近未密封的器官
+</ntg.causes.nausea>
+  <ntg.effects.nausea>
+  使角色减速10%
+</ntg.effects.nausea>
+  <ntg.treatments.nausea>
+  治疗成因。
+</ntg.treatments.nausea>
+  <!-- 心率加快 -->
+  <ntg.title.increased_heartrate>心率加快</ntg.title.increased_heartrate>
+  <ntg.description.increased_heartrate>心率加快是一种症状，这意味着它不致命且不会引起其他病症；除非它在缓慢增加，这意味着你正在经历纤维性颤动。</ntg.description.increased_heartrate>
+  <ntg.causes.increased_heartrate>
+  [acidosis] 酸中毒（20%或以上） |
+  [sepsis] 败血症（20%或以上） |
+  [blood_loss] 失血（40%或以上） |
+  [pneumothorax] 气胸（30%或以上） |
+  [withdrawal] 戒断反应（酒精戒断，75%或以上） |
+  [mechanic_fibrillation] 纤维性颤动 |
+  [adrenaline] 肾上腺素
+</ntg.causes.increased_heartrate>
+  <ntg.treatments.increased_heartrate>
+  治疗成因。
+</ntg.treatments.increased_heartrate>
+  <!-- 神志不清 -->
+  <ntg.title.confusion>神志不清</ntg.title.confusion>
+  <ntg.description.confusion>神志不清是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.confusion>
+  <ntg.causes.confusion>
+  [acidosis] 酸中毒（15%或以上） |
+  [sepsis] 败血症（40%或以上） |
+  [hypotension] 低血压（30%或以下） |
+  [hypoxemia] 低氧血症（50%或以上） |
+  [withdrawal] 戒断反应（酒精戒断，80%或以上） |
+  [concussion] 脑震荡 |
+  [anesthesia] 麻醉
+</ntg.causes.confusion>
+  <ntg.treatments.confusion>
+  治疗成因。
+</ntg.treatments.confusion>
+  <!-- 头晕 -->
+  <ntg.title.lightheadedness>头晕</ntg.title.lightheadedness>
+  <ntg.description.lightheadedness>头晕是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.lightheadedness>
+  <ntg.causes.lightheadedness>
+  [hypotension] 低血压（60%或以下）
+</ntg.causes.lightheadedness>
+  <ntg.treatments.lightheadedness>
+  治疗成因。
+</ntg.treatments.lightheadedness>
+  <!-- 视线模糊 -->
+  <ntg.title.blurred_vision>视线模糊</ntg.title.blurred_vision>
+  <ntg.description.blurred_vision>视线模糊是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.blurred_vision>
+  <ntg.causes.blurred_vision>
+  [hypotension] 低血压（55%或以下） |
+  [concussion] 脑震荡 |
+  [anesthesia] 麻醉
+</ntg.causes.blurred_vision>
+  <ntg.effects.blurred_vision>
+  使角色的视线变得模糊
+</ntg.effects.blurred_vision>
+  <ntg.treatments.blurred_vision>
+  治疗成因。
+</ntg.treatments.blurred_vision>
+  <!-- 腿部肿胀 -->
+  <ntg.title.leg_swelling>腿部肿胀</ntg.title.leg_swelling>
+  <ntg.description.leg_swelling>腿部肿胀是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.leg_swelling>
+  <ntg.causes.leg_swelling>
+  [liver_damage] 肝损伤（40%或以上） |
+  [kidney_damage] 肾损伤（60%或以上） |
+  [heart_damage] 心脏损伤（80%或以上）
+</ntg.causes.leg_swelling>
+  <ntg.treatments.leg_swelling>
+  治疗成因。
+</ntg.treatments.leg_swelling>
+  <!-- 哮喘 -->
+  <ntg.title.wheezing>哮喘</ntg.title.wheezing>
+  <ntg.description.wheezing>哮喘是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.wheezing>
+  <ntg.causes.wheezing>
+  [hemotransfusion_shock] 输血性休克（0-90%）
+</ntg.causes.wheezing>
+  <ntg.treatments.wheezing>
+  治疗成因。
+</ntg.treatments.wheezing>
+  <!-- 虚弱 -->
+  <ntg.title.weakness>虚弱</ntg.title.weakness>
+  <ntg.description.weakness>虚弱是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.weakness>
+  <ntg.causes.weakness>
+  [cardiac_tamponade] 心脏压塞（30%或以上） |
+  [blood_loss] 失血（60%或以上） |
+  [acidosis] 酸中毒（35%或以上）
+</ntg.causes.weakness>
+  <ntg.effects.weakness>
+  降低角色近战伤害80%
+</ntg.effects.weakness>
+  <ntg.treatments.weakness>
+  治疗成因。
+</ntg.treatments.weakness>
+  <!-- 发烧 -->
+  <ntg.title.fever>发烧</ntg.title.fever>
+  <ntg.description.fever>发烧是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.fever>
+  <ntg.causes.fever>
+  [sepsis] 败血症（5%或以上） |
+  [withdrawal] 戒断反应（酒精戒断，90%或以上） |
+  [anesthesia] 麻醉
+</ntg.causes.fever>
+  <ntg.treatments.fever>
+  治疗成因。
+</ntg.treatments.fever>
+  <!-- 出汗 -->
+  <ntg.title.sweating>出汗</ntg.title.sweating>
+  <ntg.description.sweating>出汗是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.sweating>
+  <ntg.causes.sweating>
+  [heart_attack] 心脏病发作 |
+  [withdrawal] 戒断反应（任何类型，30%或以上）
+</ntg.causes.sweating>
+  <ntg.treatments.sweating>
+  治疗成因。
+</ntg.treatments.sweating>
+  <!-- 腹部肿胀 -->
+  <ntg.title.bloating>腹部肿胀</ntg.title.bloating>
+  <ntg.description.bloating>腹部肿胀是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.bloating>
+  <ntg.causes.bloating>
+  [liver_damage] 肝损伤（50%或以上）
+</ntg.causes.bloating>
+  <ntg.treatments.bloating>
+  治疗成因。
+</ntg.treatments.bloating>
+  <!-- 炎症 -->
+  <ntg.title.inflammation>炎症</ntg.title.inflammation>
+  <ntg.description.inflammation>炎症是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.inflammation>
+  <ntg.causes.inflammation>
+  [infected_wounds] 伤口感染（10%或以上） |
+  [foreign_bodies] 异物（15%或以上）
+</ntg.causes.inflammation>
+  <ntg.treatments.inflammation>
+  治疗成因。
+</ntg.treatments.inflammation>
+  <!-- 黄疸 -->
+  <ntg.title.jaundice>黄疸</ntg.title.jaundice>
+  <ntg.description.jaundice>黄疸是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.jaundice>
+  <ntg.causes.jaundice>
+  [liver_damage] 肝损伤（80%或以上）
+</ntg.causes.jaundice>
+  <ntg.treatments.jaundice>
+  治疗成因。
+</ntg.treatments.jaundice>
+  <!-- 腹部不适 -->
+  <ntg.title.abdominal_discomfort>腹部不适</ntg.title.abdominal_discomfort>
+  <ntg.description.abdominal_discomfort>腹部不适是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.abdominal_discomfort>
+  <ntg.causes.abdominal_discomfort>
+  [liver_damage] 肝损伤（65%或以上）
+</ntg.causes.abdominal_discomfort>
+  <ntg.treatments.abdominal_discomfort>
+  治疗成因。
+</ntg.treatments.abdominal_discomfort>
+  <!-- 头痛 -->
+  <ntg.title.headache>头痛</ntg.title.headache>
+  <ntg.description.headache>头痛是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.headache>
+  <ntg.causes.headache>
+  [blood_loss] 失血（50%或以上） |
+  [acidosis] 酸中毒（20%或以上） |
+  [hypoxemia] 低氧血症（40%或以上） |
+  [hypotension] 低血压（60%或以下） |
+  [stroke] 中风 |
+  [withdrawal] 戒断反应（酒精戒断，50%或以上） |
+  [fractures] 骨折（颅骨骨折） |
+  [concussion] 脑震荡
+</ntg.causes.headache>
+  <ntg.effects.headache>
+  角色屏幕将出现'模糊'覆盖层
+</ntg.effects.headache>
+  <ntg.treatments.headache>
+  治疗成因 |
+  [analgesia] 镇痛（止痛药） |
+  [anesthesia] 麻醉（止痛药）
+</ntg.treatments.headache>
+  <!-- 药物成瘾 -->
+  <ntg.title.craving>药物成瘾</ntg.title.craving>
+  <ntg.description.craving>药物成瘾是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.craving>
+  <ntg.causes.craving>
+  [withdrawal] 戒断反应（任何变体，20%或以上）
+</ntg.causes.craving>
+  <ntg.treatments.craving>
+  治疗成因
+</ntg.treatments.craving>
+  <!-- 心悸 -->
+  <ntg.title.palpitations>心悸</ntg.title.palpitations>
+  <ntg.description.palpitations>心悸是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.palpitations>
+  <ntg.causes.palpitations>
+  [alkalosis] 碱中毒（20%或以上）
+</ntg.causes.palpitations>
+  <ntg.treatments.palpitations>
+  治疗成因
+</ntg.treatments.palpitations>
+  <!-- 痉挛 -->
+  <ntg.title.spasms>痉挛</ntg.title.spasms>
+  <ntg.description.spasms>痉挛是一种症状，这意味着它不致命且不会引起其他病症。痉挛会导致患者抽搐和扑腾，使人更难抓住他们。
+痉挛通过在肢体上产生微小的隐形爆炸来实现，这些爆炸不会造成伤害，只会产生击退效果。</ntg.description.spasms>
+  <ntg.causes.spasms>
+  [seizure] 癫痫
+</ntg.causes.spasms>
+  <ntg.effects.spasms>
+  角色会不时摔倒并抽搐
+</ntg.effects.spasms>
+  <ntg.treatments.spasms>
+  治疗成因
+</ntg.treatments.spasms>
+  <!-- 腹痛 -->
+  <ntg.title.abdominal_pain>腹痛</ntg.title.abdominal_pain>
+  <ntg.description.abdominal_pain>腹痛是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.abdominal_pain>
+  <ntg.causes.abdominal_pain>
+  [hemotransfusion_shock] 输血性休克（0-80%） |
+  [aortic_rupture] 主动脉破裂
+</ntg.causes.abdominal_pain>
+  <ntg.effects.abdominal_pain>
+  角色每3到6秒会有一半速度持续1秒
+</ntg.effects.abdominal_pain>
+  <ntg.treatments.abdominal_pain>
+  治疗成因 |
+  [analgesia] 镇痛（止痛药） |
+  [anesthesia] 麻醉（止痛药）
+</ntg.treatments.abdominal_pain>
+  <ntg.treatments.abdominal_pain>
+  治疗成因
+</ntg.treatments.abdominal_pain>
+  <!-- 胸痛 -->
+  <ntg.title.chest_pain>胸痛</ntg.title.chest_pain>
+  <ntg.description.chest_pain>胸痛是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.chest_pain>
+  <ntg.causes.chest_pain>
+  [hemotransfusion_shock] 输血性休克（0-60%） |
+  [fractures] 骨折（肋骨骨折） |
+  [aortic_rupture] 主动脉破裂
+</ntg.causes.chest_pain>
+  <ntg.effects.chest_pain>
+  角色每3到6秒会有一半速度持续1秒
+</ntg.effects.chest_pain>
+  <ntg.treatments.chest_pain>
+  治疗成因 |
+  [analgesia] 镇痛（止痛药） |
+  [anesthesia] 麻醉（止痛药）
+</ntg.treatments.chest_pain>
+  <!-- 剧痛 -->
+  <ntg.title.intense_pain>剧痛</ntg.title.intense_pain>
+  <ntg.description.intense_pain>剧痛是一种症状，这意味着它不致命且不会引起其他病症。</ntg.description.intense_pain>
+  <ntg.causes.intense_pain>
+  [dislocations] 脱臼 |
+  [fractures] 骨折 |
+  [traumatic_amputation] 创伤性截肢
+</ntg.causes.intense_pain>
+  <ntg.effects.intense_pain>
+  角色每3到6秒会有一半速度持续1秒
+</ntg.effects.intense_pain>
+  <ntg.treatments.intense_pain>
+  治疗成因 |
+  用绷带固定脱臼，或用石膏固定骨折 |
+  [analgesia] 镇痛（止痛药） |
+  [anesthesia] 麻醉（止痛药）
+</ntg.treatments.intense_pain>
+  <!-- 呕吐 -->
+  <ntg.title.vomiting>呕吐</ntg.title.vomiting>
+  <ntg.description.vomiting>呕吐通常无害，有时甚至有益，因为它会导致碱中毒。呕吐还会使角色减速20%。</ntg.description.vomiting>
+  <ntg.causes.vomiting>
+  [hemotransfusion_shock] 输血性休克（0-40%） |
+  [withdrawal] 戒断反应（酒精戒断，60%或以上） |
+  [drunk] 醉酒（100%） |
+  [kidney_damage] 肾损伤（60%或以上） |
+  [raptor_bane_extract] 迅猛龙杀手精华
+</ntg.causes.vomiting>
+  <ntg.effects.vomiting>
+  角色减速20% |
+  [alkalosis] 碱中毒
+</ntg.effects.vomiting>
+  <ntg.treatments.vomiting>
+  治疗成因
+</ntg.treatments.vomiting>
+  <!-- /*- 病症页面 -*/ -->
+  <!-- 头部/大脑 -->
+  <!-- 神经创伤 -->
+  <ntg.title.neurotrauma>神经创伤</ntg.title.neurotrauma>
+  <ntg.description.neurotrauma>神经创伤是少数能直接对生命值造成伤害的病症之一。神经创伤极其危险，可能迅速累积，达到200%时会立即杀死玩家。
+\n假设配置未更改且没有东西在损伤大脑，大脑将以每秒0.1%的速度愈合。此外，颅骨骨折会阻止神经创伤的自然恢复。
+\n神经创伤的增加或减少速率取决于所有成因的病症强度之和。</ntg.description.neurotrauma>
+  <ntg.causes.neurotrauma>
+  [stroke] 中风 |
+  [liver_damage] 肝损伤（80%或以上，超过自然恢复速度的点） |
+  [kidney_damage] 肾损伤（100%或以上，超过自然恢复速度的点） |
+  [sepsis] 败血症（25%或以上，超过自然恢复速度的点） |
+  [hypoxemia] 低氧血症（10%或以上，超过自然恢复速度的点） |
+  [tourniquet] 在头部使用止血带 |
+  [methamphetamine] 兴奋粉剂（冰毒） |
+  [hyperzine]  hyperzine（加速粉剂） |
+  [traumatic_shock] 创伤性休克（每秒等于强度除以100，10%或以上即超过自然恢复速度） |
+  [cyanide_poisoning] 氰化物中毒（70%或以上） |
+  [gunshot_wound] 头部枪伤后有一定几率产生
+</ntg.causes.neurotrauma>
+  <ntg.effects.neurotrauma>
+  直接对生命造成伤害 |
+  达到200%时立即死亡 |
+  [respiratory_arrest] 停止呼吸（100%或以上） |
+  [unconsciousness] 失去意识（100%或以上）
+</ntg.effects.neurotrauma>
+  <ntg.treatments.neurotrauma>
+  治疗成因 |
+  [mannitol] 甘露醇
+</ntg.treatments.neurotrauma>
+  <!-- 中风 -->
+  <ntg.title.stroke>中风</ntg.title.stroke>
+  <ntg.description.stroke>中风必须尽快治疗，以减少对大脑的损伤。链激酶不得用于中风患者，因为它会稀释血液、阻止凝血，进一步损伤大脑。</ntg.description.stroke>
+  <ntg.causes.stroke>
+  [hypertension] 高血压（150%或以上）
+</ntg.causes.stroke>
+  <ntg.effects.stroke>
+  [neurotrauma] 神经创伤 |
+  [seizure] 癫痫 |
+  [coma] 昏迷 |
+  [headache] 头痛
+</ntg.effects.stroke>
+  <ntg.treatments.stroke>
+  [open_close_surgery] 开/关手术
+</ntg.treatments.stroke>
+  <!-- 戒断反应 -->
+  <ntg.title.withdrawal>戒断反应</ntg.title.withdrawal>
+  <ntg.description.withdrawal>当角色有成瘾症状但近期未摄入成瘾物质时，会经历戒断反应。</ntg.description.withdrawal>
+  <ntg.causes.withdrawal>
+  化学物质/酒精/阿片类药物成瘾
+</ntg.causes.withdrawal>
+  <ntg.effects.generalwithdrawal>
+  [craving] 药物成瘾（20%或以上） |
+  [sweating] 出汗（30%或以上） |
+  移动速度降低10%（20%或以上） |
+  移动速度降低30%（40%或以上） |
+  移动速度降低50%（80%或以上） |
+  [nausea] 恶心（40%或以上）
+</ntg.effects.generalwithdrawal>
+  <ntg.effects.alcoholwithdrawal>
+  [fever] 发烧（90%或以上） |
+  [vomiting] 呕吐（60%或以上） |
+  [headache] 头痛（50%或以上） |
+  [confusion] 神志不清（80%或以上） |
+  [increased_heartrate] 心率加快（75%或以上） |
+  [seizure] 癫痫（50%或以上） |
+  [hypertension] 高血压
+</ntg.effects.alcoholwithdrawal>
+  <ntg.treatments.withdrawal>
+  [haloperidol] 氟哌啶醇（仅限酒精戒断） |
+  [naloxone] 纳洛酮（仅限阿片类药物戒断） |
+  [ambubag] 使用装满油漆的人工呼吸器（仅限化学物质戒断） |
+  给患者补充成瘾物质 |
+  卧床休息
+</ntg.treatments.withdrawal>
+  <!-- 阿片类药物过量 -->
+  <ntg.title.opiate_overdose>阿片类药物过量</ntg.title.opiate_overdose>
+  <ntg.description.opiate_overdose>阿片类药物过量罕见，仅由滥用阿片类药物引起。然而，一旦超过50%阈值就非常致命，需要紧急处理。</ntg.description.opiate_overdose>
+  <ntg.causes.opiate_overdose>
+  摄入过量的以下阿片类药物： |
+  [opium] 鸦片 |
+  [morphine] 吗啡 |
+  [fentanyl] 芬太尼 |
+  [analgesic_tank] 镇痛罐
+</ntg.causes.opiate_overdose>
+  <ntg.effects.opiate_overdose>
+  [respiratory_arrest] 停止呼吸（60%或以上） |
+  [hypoventilation] 换气不足（30%或以上） |
+  [seizure] 癫痫 |
+  [unconsciousness] 失去意识（60%或以上） |
+  移动速度降低50%（50%或以上）
+</ntg.effects.opiate_overdose>
+  <ntg.treatments.opiate_overdose>
+  [naloxone] 纳洛酮
+</ntg.treatments.opiate_overdose>
+  <!-- 癫痫 -->
+  <ntg.title.seizure>癫痫</ntg.title.seizure>
+  <ntg.description.seizure>癫痫发作时会使角色倒地不起。</ntg.description.seizure>
+  <ntg.causes.seizure>
+  [stroke] 中风 |
+  [acidosis] 酸中毒 |
+  [alkalosis] 碱中毒 |
+  [withdrawal] 戒断反应（酒精戒断，50%或以上） |
+  [opiate_overdose] 阿片类药物过量（50%或以上） |
+  [anesthesia] 麻醉
+</ntg.causes.seizure>
+  <ntg.effects.seizure>
+  [unconsciousness] 失去意识 |
+  [spasms] 痉挛
+</ntg.effects.seizure>
+  <ntg.treatments.seizure>
+  治疗成因
+</ntg.treatments.seizure>
+  <!-- 失去意识 -->
+  <ntg.title.unconsciousness>失去意识</ntg.title.unconsciousness>
+  <ntg.description.unconsciousness>失去意识通常意味着发生了严重问题，患者需要尽快治疗。
+\n失去意识会隐藏精神症状，同时可以作为手术台进行手术，这意味着只要患者失去意识，你可以在没有手术台或镇痛/麻醉的情况下安全地进行手术。</ntg.description.unconsciousness>
+  <ntg.causes.unconsciousness>
+  生命值低于0 |
+  [hypoxemia] 低氧血症（80%或以上） |
+  [neurotrauma] 神经创伤（100%或以上） |
+  [coma] 昏迷（15%或以上） |
+  [aortic_rupture] 主动脉破裂 |
+  [seizure] 癫痫 |
+  [anesthesia] 麻醉 |
+  [opiate_overdose] 阿片类药物过量（60%或以上） |
+  [stasis_bag] 处于冷藏袋中
+</ntg.causes.unconsciousness>
+  <ntg.effects.unconsciousness>
+  无法移动或说话 |
+  [oxygen_low] 氧气不足（如果由生命值低于0引起） |
+  允许在角色身上使用手术工具 |
+  [traumatic shock] 阻止手术引起的创伤性休克
+</ntg.effects.unconsciousness>
+  <ntg.treatments.unconsciousness>
+  治疗成因
+</ntg.treatments.unconsciousness>
+  <!-- 昏迷 -->
+  <ntg.title.coma>昏迷</ntg.title.coma>
+  <ntg.description.coma>昏迷通常发生在窒息之后，适当的医疗通常不会致命。建议在严重情况下给患者装上自动心肺复苏器。</ntg.description.coma>
+  <ntg.causes.coma>
+  [stroke] 中风 |
+  [cardiac_arrest] 心脏骤停 |
+  [acidosis] 高浓度酸中毒（60%或以上） |
+  [morbusine_poisoning] 窒死毒剂中毒（20%或以上） |
+  [naloxone] 纳洛酮技能检定失败
+</ntg.causes.coma>
+  <ntg.effects.coma>
+  [cardiac_arrest] 心脏骤停（40%或以上） |
+  [unconsciousness] 失去意识（15%或以上）
+</ntg.effects.coma>
+  <ntg.treatments.coma>
+  治疗成因并等待
+</ntg.treatments.coma>
+  <!-- 脊髓损伤 -->
+  <ntg.title.spinal_cord_injury>脊髓损伤</ntg.title.spinal_cord_injury>
+  <ntg.description.spinal_cord_injury>脊髓损伤会使你无法移动或说话，可能间接导致死亡。脊髓损伤必须在治疗颈部骨折后处理，否则它会复发。</ntg.description.spinal_cord_injury>
+  <ntg.causes.spinal_cord_injury>
+  [fractures] 骨折（颈部骨折）
+</ntg.causes.spinal_cord_injury>
+  <ntg.effects.spinal_cord_injury>
+  无法移动或说话 |
+  [analgesia] 镇痛
+</ntg.effects.spinal_cord_injury>
+  <ntg.treatments.spinal_cord_injury>
+  在骨合成手术中、缝合前使用脊髓植入物 |
+  [spinal_cord_implants] 脊髓植入物 |
+  [osteosynthesis_surgery] 骨合成手术
+</ntg.treatments.spinal_cord_injury>
+  <!-- 脑震荡 -->
+  <ntg.title.concussion>脑震荡</ntg.title.concussion>
+  <ntg.description.concussion>脑震荡由对头部的严重攻击引起。它会周期性地引起恶心、视线模糊、头痛和神志不清。
+虽然烦人，但脑震荡并不致命。作为一种损伤（病症类型），任何直接治疗损伤的物品都可以治疗它。</ntg.description.concussion>
+  <ntg.causes.concussion>
+  [internal_wounds] 内伤 |
+  [open_wounds] 深层组织损伤和咬伤（开放性伤口）
+</ntg.causes.concussion>
+  <ntg.effects.concussion>
+  [nausea] 恶心 |
+  [blurred_vision] 视线模糊 |
+  [headache] 头痛 |
+  [confusion] 神志不清
+</ntg.effects.concussion>
+  <ntg.prevention.concussion>
+  佩戴头盔
+</ntg.prevention.concussion>
+  <ntg.treatments.concussion>
+  卧床休息 |
+  石榴提取物
+</ntg.treatments.concussion>
+  <!-- 醉酒 -->
+  <ntg.title.drunk>醉酒</ntg.title.drunk>
+  <ntg.description.drunk>饮酒会使角色醉酒，引起多种（大多是负面的）效果，在强度高时尤其明显。</ntg.description.drunk>
+  <ntg.causes.drunk>
+  乙醇 |
+  朗姆酒 |
+  啤酒瓶
+</ntg.causes.drunk>
+  <ntg.effects.drunk>
+  移动速度降低（20%或以上） |
+  屏幕扭曲（20%或以上） |
+  [analgesia] 镇痛（20%或以上，不超过5%） |
+  酒精成瘾（20%或以上） |
+  [liver_damage] 肝损伤（40%或以上）
+</ntg.effects.drunk>
+  <ntg.treatments.drunk>
+  卧床休息
+</ntg.treatments.drunk>
+  <!-- 肺 -->
+  <!-- 呼吸骤停 -->
+  <ntg.title.respiratory_arrest>呼吸骤停</ntg.title.respiratory_arrest>
+  <ntg.description.respiratory_arrest>呼吸骤停会迅速累积缺氧并使受害者窒息，必须迅速处理。
+靠近手术台/病床或佩戴自动心肺复苏仪(AutoPulse)可防止呼吸骤停的负面效果。
+</ntg.description.respiratory_arrest>
+  <ntg.causes.respiratory_arrest>
+    [lung_damage] 肺损伤（达到100%）|
+    [traumatic_shock] 创伤性休克（30%或以上）|
+    [neurotrauma] 神经创伤（100%或以上）|
+    [hypoxemia] 低氧血症（70%或以上）|
+    [opiate_overdose] 阿片类药物过量（60%或以上）|
+    [stasis_bag] 冷藏袋 |
+    [morbusine_poisoning] 窒死毒剂中毒（50%或以上）
+</ntg.causes.respiratory_arrest>
+  <ntg.effects.respiratory_arrest>
+    [oxygen_low] 缺氧 |
+    [acidosis] 酸中毒
+</ntg.effects.respiratory_arrest>
+  <ntg.treatments.respiratory_arrest>
+    治疗病因 |
+    [ambubag] 使用装有氧气罐的人工呼吸器 |
+    保持清醒
+</ntg.treatments.respiratory_arrest>
+  <ntg.firstaid.respiratory_arrest>
+    [surgery_table] 靠近手术台 |
+    [autopulse] 使用自动心肺复苏仪
+</ntg.firstaid.respiratory_arrest>
+  <!-- 肺损伤 -->
+  <ntg.title.lung_damage>肺损伤</ntg.title.lung_damage>
+  <ntg.description.lung_damage>肺损伤只要低于100%就不会致命。肺部以每秒0.01%的速度自行愈合——假设配置未更改、没有东西在伤害它们且损伤低于100%。</ntg.description.lung_damage>
+  <ntg.causes.lung_damage>
+    [abx] 广谱抗生素 |
+    [liquid_oxygenite] 液态氧素 |
+    [ambubag] 使用装有焊接燃料/燃烧燃料或油漆的人工呼吸器 |
+    吸烟 |
+    [hemotransfusion_shock] 输血性休克（0至70%之间）|
+    [radiation_sickness] 辐射病（28%或以上）|
+    [sepsis] 败血症（3%或以上）|
+    [hypoxemia] 低氧血症（4%或以上）|
+    [open_wounds] 钝力创伤（开放性伤口）|
+    [internal_wounds] 枪伤（内伤）
+</ntg.causes.lung_damage>
+  <ntg.effects.lung_damage>
+    [cough] 咳嗽（50%或以上）|
+    [shortness_of_breath] 呼吸困难（45%或以上）|
+    [respiratory_arrest] 呼吸骤停（达到100%）
+</ntg.effects.lung_damage>
+  <ntg.treatments.lung_damage>
+    时间 |
+    [thiamine] 硫胺素 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.treatments.lung_damage>
+  <!-- 气胸 -->
+  <ntg.title.pneumothorax>气胸</ntg.title.pneumothorax>
+  <ntg.description.pneumothorax>气胸会阻止低氧血症的强度下降。虽然单独而言不致命，但若与导致低氧血症的病症同时出现，则极易致死。
+使用通气针可暂时消除气胸的负面效果。</ntg.description.pneumothorax>
+  <ntg.causes.pneumothorax>
+    [fractures] 肋骨骨折（未包扎时）|
+    创伤（枪伤、爆炸、撕裂伤、咬伤、钝力创伤）|
+    [needle] 使用通气针
+</ntg.causes.pneumothorax>
+  <ntg.effects.pneumothorax>
+    [shortness_of_breath] 呼吸困难（40%或以上）|
+    [hyperventilation] 换气过度（15%或以上）|
+    [increased_heartrate] 心率加快（30%或以上）|
+    [hypoxemia] 阻止低氧血症的强度下降
+</ntg.effects.pneumothorax>
+  <ntg.treatments.pneumothorax>
+    [drainage] 在开/关手术中使用引流器（皮肤牵引器之后）
+</ntg.treatments.pneumothorax>
+  <ntg.firstaid.pneumothorax>
+    [needle] 使用通气针
+</ntg.firstaid.pneumothorax>
+  <!-- 换气过度 -->
+  <ntg.title.hyperventilation>换气过度</ntg.title.hyperventilation>
+  <ntg.description.hyperventilation>换气过度通常无害，一般可以忽略。换气过度和换气不足会相互抵消。</ntg.description.hyperventilation>
+  <ntg.causes.hyperventilation>
+    [hypotension] 低血压（80%或以下）|
+    [hypoxemia] 低氧血症（10%或以上）|
+    [pneumothorax] 气胸（15%或以上）|
+    [sepsis] 败血症（15%或以上）|
+    [adrenaline] 肾上腺素
+</ntg.causes.hyperventilation>
+  <ntg.effects.hyperventilation>
+    [alkalosis] 碱中毒
+</ntg.effects.hyperventilation>
+  <ntg.treatments.hyperventilation>
+    治疗病因 |
+    [hypoventilation] 诱导换气不足
+</ntg.treatments.hyperventilation>
+  <!-- 换气不足 -->
+  <ntg.title.hypoventilation>换气不足</ntg.title.hypoventilation>
+  <ntg.description.hypoventilation>换气不足通常无害，一般可以忽略。换气不足和换气过度会相互抵消。</ntg.description.hypoventilation>
+  <ntg.causes.hypoventilation>
+    [analgesia] 镇痛（20%或以上）|
+    [anesthesia] 麻醉（40%或以上）|
+    [opiate_overdose] 阿片类药物过量（30%或以上）
+</ntg.causes.hypoventilation>
+  <ntg.effects.hypoventilation>
+    [acidosis] 酸中毒
+</ntg.effects.hypoventilation>
+  <ntg.treatments.hypoventilation>
+    治疗病因 |
+    [hyperventilation] 诱导换气过度
+</ntg.treatments.hypoventilation>
+  <!-- 缺氧 -->
+  <ntg.title.oxygen_low>缺氧</ntg.title.oxygen_low>
+  <ntg.description.oxygen_low>缺氧指肺部氧气不足；低氧血症指血液中氧气不足。缺氧导致低氧血症，而低氧血症是导致神经创伤的最常见途径。</ntg.description.oxygen_low>
+  <ntg.causes.oxygen_low>
+    [respiratory_arrest] 呼吸骤停 |
+    [unconsciousness] 失去意识（由生命值引起）|
+    身处水中或没有氧气源的房间 |
+    石榴提取物 |
+    [body_bag] 在尸袋中 |
+    [morbusine_poisoning] 窒死毒剂中毒（50%或以上）
+</ntg.causes.oxygen_low>
+  <ntg.effects.oxygen_low>
+    [hypoxemia] 低氧血症
+</ntg.effects.oxygen_low>
+  <ntg.treatments.oxygen_low>
+    [surgery_table] 靠近手术台或病床 |
+    CPR 心肺复苏 |
+    [autopulse] 使用自动心肺复苏仪 |
+    呼吸含氧空气 |
+    [ambubag] 使用装有氧气/氧素罐的人工呼吸器
+</ntg.treatments.oxygen_low>
+  <!-- 心脏 -->
+  <!-- 心脏骤停 -->
+  <ntg.title.cardiac_arrest>心脏骤停</ntg.title.cardiac_arrest>
+  <ntg.description.cardiac_arrest>心脏骤停会导致血压大幅下降，必须迅速处理。心脏骤停不会自行愈合，因此必须直接治疗。</ntg.description.cardiac_arrest>
+  <ntg.causes.cardiac_arrest>
+    [heart_damage] 心脏损伤（达到100%）|
+    [traumatic_shock] 创伤性休克（40%或以上）|
+    [coma] 昏迷（40%或以上）|
+    [hypoxemia] 低氧血症（80%或以上）|
+    [irregular_heartbeat] 心律不齐（20%或以上）|
+    [mechanic_fibrillation] 纤颤 |
+    [manual_defibrillator] 手动除颤器 |
+    [stasis_bag] 在冷藏袋中 |
+    [morbusine_poisoning] 窒死毒剂中毒（50%或以上）
+</ntg.causes.cardiac_arrest>
+  <ntg.effects.cardiac_arrest>
+    [coma] 昏迷 |
+    [acidosis] 酸中毒 |
+    [hypotension] 低血压（最低血压）|
+    [hypoxemia] 低氧血症
+</ntg.effects.cardiac_arrest>
+  <ntg.treatments.cardiac_arrest>
+    治疗病因 |
+    CPR 心肺复苏 |
+    [autopulse] 自动心肺复苏仪 |
+    [adrenaline] 肾上腺素 |
+    [manual_defibrillator] 手动除颤器 |
+    [aed] 自动体外除颤器（AED）
+</ntg.treatments.cardiac_arrest>
+  <!-- 心脏压塞 -->
+  <ntg.title.cardiac_tamponade>心脏压塞</ntg.title.cardiac_tamponade>
+  <ntg.description.cardiac_tamponade>心脏压塞常见于在潜艇外进行战斗的任务中，如废弃前哨站或残骸。出现症状的患者应立即返回潜艇接受治疗。</ntg.description.cardiac_tamponade>
+  <ntg.causes.cardiac_tamponade>
+    [open_wounds] 躯干受到开放性伤口
+</ntg.causes.cardiac_tamponade>
+  <ntg.effects.cardiac_tamponade>
+    [hypotension] 低血压 |
+    [weakness] 虚弱（30%或以上）|
+    [cough] 咳嗽（20%或以上）|
+    [shortness_of_breath] 呼吸困难（10%或以上）
+</ntg.effects.cardiac_tamponade>
+  <ntg.treatments.cardiac_tamponade>
+    [drainage] 在开/关手术中使用引流器（皮肤牵引器之后）|
+    [open_close_surgery] 仅开/关手术（如果默认设置改为此项）
+</ntg.treatments.cardiac_tamponade>
+  <ntg.firstaid.cardiac_tamponade>
+    [saline] 生理盐水 |
+    [ringers_solution] 林格溶液 |
+    [adrenaline] 肾上腺素 |
+    [deusizine] 神效剂 |
+    [autopulse] 自动心肺复苏仪 |
+    [needle] 通气针 |
+    CPR 心肺复苏
+</ntg.firstaid.cardiac_tamponade>
+  <!-- 心脏病 -->
+  <ntg.title.heart_attack>心脏病</ntg.title.heart_attack>
+  <ntg.description.heart_attack>心脏病必须尽快处理以降低心力衰竭的风险。</ntg.description.heart_attack>
+  <ntg.causes.heart_attack>
+    [hypertension] 高血压（150%或以上）|
+    [antibiotic_glue] 抗生素凝胶技能检定失败
+</ntg.causes.heart_attack>
+  <ntg.effects.heart_attack>
+    [sweating] 出汗 |
+    [shortness_of_breath] 呼吸困难 |
+    [heart_damage] 心脏损伤
+</ntg.effects.heart_attack>
+  <ntg.treatments.heart_attack>
+    治疗病因 |
+    [streptokinase] 链激酶
+</ntg.treatments.heart_attack>
+  <!-- 心脏损伤 -->
+  <ntg.title.heart_damage>心脏损伤</ntg.title.heart_damage>
+  <ntg.description.heart_damage>心脏损伤只要低于100%就不会致命。心脏以每秒0.01%的速度自行愈合——假设配置未更改、没有东西在伤害它且损伤低于100%。</ntg.description.heart_damage>
+  <ntg.causes.heart_damage>
+    [heart_attack] 心脏病 |
+    [abx] 广谱抗生素 |
+    [liquid_oxygenite] 液态氧素 |
+    [hemotransfusion_shock] 输血性休克（0至70%之间）|
+    [mannitol] 甘露醇 |
+    [radiation_sickness] 辐射病（29%或以上）|
+    [sepsis] 败血症（3%或以上）|
+    [hypoxemia] 低氧血症（4%或以上）|
+    [internal_wounds] 钝力创伤 |
+    [open_wounds] 枪伤 |
+    [sufforin_poisoning] 升天毒剂中毒（75%或以上）
+</ntg.causes.heart_damage>
+  <ntg.effects.heart_damage>
+    [cough] 咳嗽（50%或以上）|
+    [shortness_of_breath] 呼吸困难（80%或以上）|
+    [leg_swelling] 腿部肿胀（80%或以上）|
+    [cardiac_arrest] 心脏骤停（达到100%）
+</ntg.effects.heart_damage>
+  <ntg.treatments.heart_damage>
+    时间 |
+    [thiamine] 硫胺素 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.treatments.heart_damage>
+  <!-- 心律不齐 -->
+  <ntg.title.irregular_heartbeat>心律不齐</ntg.title.irregular_heartbeat>
+  <ntg.description.irregular_heartbeat>心律不齐是指心脏未以正常频率搏动，可能导致心脏骤停。</ntg.description.irregular_heartbeat>
+  <ntg.causes.irregular_heartbeat>
+    [mechanic_fibrillation] 纤颤
+</ntg.causes.irregular_heartbeat>
+  <ntg.effects.irregular_heartbeat>
+    [cardiac_arrest] 心脏骤停（20%或以上）|
+    [hypotension] 低血压
+</ntg.effects.irregular_heartbeat>
+  <ntg.treatments.irregular_heartbeat>
+    治疗病因 |
+    CPR 心肺复苏 |
+    [autopulse] 自动心肺复苏仪 |
+    [manual_defibrillator] 手动除颤器 |
+    [aed] 自动体外除颤器（AED）
+</ntg.treatments.irregular_heartbeat>
+  <!-- 纤颤 -->
+  <ntg.title.mechanic_fibrillation>纤颤</ntg.title.mechanic_fibrillation>
+  <ntg.description.mechanic_fibrillation>纤颤始于心率加快并逐渐加剧。当心率加快达到100%时，受害者进入纤颤状态，症状开始出现。</ntg.description.mechanic_fibrillation>
+  <ntg.causes.mechanic_fibrillation>
+    [aortic_rupture] 主动脉破裂 |
+    [acidosis] 酸中毒 |
+    [hypotension] 低血压 |
+    [hypoxemia] 低氧血症 |
+    [anesthesia] 麻醉
+</ntg.causes.mechanic_fibrillation>
+  <ntg.effects.mechanic_fibrillation>
+    [cardiac_arrest] 心脏骤停（20%或以上）|
+    [hypotension] 低血压（达到100%）
+</ntg.effects.mechanic_fibrillation>
+  <ntg.treatments.mechanic_fibrillation>
+    治疗病因 |
+    [adrenaline] 肾上腺素（减缓纤颤）|
+    [manual_defibrillator] 手动除颤器 |
+    [aed] 自动体外除颤器（AED）
+</ntg.treatments.mechanic_fibrillation>
+  <!-- 躯干 -->
+  <!-- 主动脉破裂 -->
+  <ntg.title.aortic_rupture>主动脉破裂</ntg.title.aortic_rupture>
+  <ntg.description.aortic_rupture>主动脉破裂是人可能遭受的最严重的伤势之一。受害者需要立即就医，并且很可能会失去大量血液。</ntg.description.aortic_rupture>
+  <ntg.causes.aortic_rupture>
+    [bleeding] 出血（躯干，80%或以上）|
+    [foreign_bodies] 异物（躯干，20%或以上）
+</ntg.causes.aortic_rupture>
+  <ntg.effects.aortic_rupture>
+    [blood_loss] 每秒4%失血 |
+    [internal_bleeding] 每秒8%内出血 |
+    [unconsciousness] 失去意识 |
+    [mechanic_fibrillation] 纤颤 |
+    [abdominal_pain] 腹痛 |
+    [chest_pain] 胸痛
+</ntg.effects.aortic_rupture>
+  <ntg.treatments.aortic_rupture>
+    [aortic_rupture_surgery] 主动脉破裂手术 |
+    [open_close_surgery] 开/关手术
+</ntg.treatments.aortic_rupture>
+  <ntg.firstaid.aortic_rupture>
+    [stasis_bag] 冷藏袋
+</ntg.firstaid.aortic_rupture>
+  <!-- 内出血 -->
+  <ntg.title.internal_bleeding>内出血</ntg.title.internal_bleeding>
+  <ntg.description.internal_bleeding>内出血会迅速使患者失血，在大多数情况下属于紧急情况。</ntg.description.internal_bleeding>
+  <ntg.causes.internal_bleeding>
+    [open_wounds] 开放性伤口 |
+    [liver_damage] 肝损伤（达到100%）|
+    [aortic_rupture] 主动脉破裂
+</ntg.causes.internal_bleeding>
+  <ntg.effects.internal_bleeding>
+    [blood_loss] 失血 |
+    [vomiting_blood] 吐血（50%或以上）
+</ntg.effects.internal_bleeding>
+  <ntg.treatments.internal_bleeding>
+    [gel_ice_pack] 凝胶冰袋 |
+    [open_close_surgery] 开/关手术 |
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.internal_bleeding>
+  <!-- 辐射病 -->
+  <ntg.title.radiation_sickness>辐射病</ntg.title.radiation_sickness>
+  <ntg.description.radiation_sickness>低水平的辐射病易于治疗，但如果辐射病达到较高水平，将迅速开始杀死器官。
+肺比其他器官更易受到辐射伤害。辐射病在25%及以上时会在健康扫描仪上显示。</ntg.description.radiation_sickness>
+  <ntg.causes.radiation_sickness>
+    [health_scanner] 健康扫描仪（被扫描者每秒0.5%，扫描者每秒0.3%，作为治疗使用时1%）| 
+    辐射毒素 | 
+    核炸药 | 
+    靠近挥发性裂变铀棒
+</ntg.causes.radiation_sickness>
+  <ntg.effects.radiation_sickness>
+    [liver_damage] 肝损伤（29%或以上）|
+    [heart_damage] 心脏损伤（29%或以上）|
+    [kidney_damage] 肾损伤（33%或以上）|
+    [lung_damage] 肺损伤（28%或以上）|
+    [bone_damage] 骨损伤（31%或以上）|
+    [nausea] 恶心（80%或以上）|
+    [seizure] 癫痫（50%或以上）
+</ntg.effects.radiation_sickness>
+  <ntg.treatments.radiation_sickness>
+    抗辐射药
+</ntg.treatments.radiation_sickness>
+  <!-- 肾损伤 -->
+  <ntg.title.kidney_damage>肾损伤</ntg.title.kidney_damage>
+  <ntg.description.kidney_damage>肾损伤通常是可以存活的，即使发展为肾衰竭，其致死速度也极慢。
+肾损伤如果超过50%的门槛，则不会愈合到50%以下，因为其中一个肾已经死亡。如果有一个肾存活，肾脏以每秒0.01%的速度愈合；如果两个肾都存活，则以每秒0.02%的速度愈合——假设配置未更改。</ntg.description.kidney_damage>
+  <ntg.causes.kidney_damage>
+    [abx] 广谱抗生素 |
+    [liquid_oxygenite] 液态氧素 |
+    [hemotransfusion_shock] 输血性休克（0至70%之间）|
+    [mannitol] 甘露醇 |
+    [radiation_sickness] 辐射病（33%或以上）|
+    [sepsis] 败血症（6%或以上）|
+    [hypoxemia] 低氧血症（8%或以上）|
+    [internal_wounds] 钝力创伤 |
+    [open_wounds] 枪伤 |
+    [sufforin_poisoning] 升天毒剂中毒（75%或以上）
+</ntg.causes.kidney_damage>
+  <ntg.effects.kidney_damage>
+    [leg_swelling] 腿部肿胀（60%或以上）|
+    [acidosis] 酸中毒（80%或以上）|
+    [hypertension] 高血压 |
+    [bone_damage] 骨损伤（72%或以上）|
+    [vomiting] 呕吐（60%或以上）|
+    [neurotrauma] 神经创伤（100%时抵消神经创伤再生）|
+    [nausea] 恶心（60%或以上）
+</ntg.effects.kidney_damage>
+  <ntg.treatments.kidney_damage>
+    时间 |
+    [thiamine] 硫胺素 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.treatments.kidney_damage>
+  <!-- 肝损伤 -->
+  <ntg.title.liver_damage>肝损伤</ntg.title.liver_damage>
+  <ntg.description.liver_damage>肝损伤如果发展为肝衰竭，则是致命的，并可能导致以内部出血形式出现的大量失血。
+肝脏以每秒0.01%的速度愈合——假设配置未更改、没有东西在伤害它且损伤低于100%。</ntg.description.liver_damage>
+  <ntg.causes.liver_damage>
+    [abx] 广谱抗生素 |
+    [liquid_oxygenite] 液态氧素 |
+    [hemotransfusion_shock] 输血性休克（0至70%之间）|
+    [radiation_sickness] 辐射病（29%或以上）|
+    [sepsis] 败血症（3%或以上）|
+    [hypoxemia] 低氧血症（4%或以上）|
+    [drunk] 醉酒（超过40%）|
+    [sufforin_poisoning] 升天毒剂中毒（75%或以上）|
+    [internal_wounds] 钝力创伤 |
+    [open_wounds] 枪伤
+</ntg.causes.liver_damage>
+  <ntg.effects.liver_damage>
+    [leg_swelling] 腿部肿胀（40%或以上）|
+    [internal_bleeding] 内出血（达到100%）|
+    [vomiting_blood] 吐血（达到100%）|
+    [hypertension] 高血压 |
+    [neurotrauma] 神经创伤（80%或以上）|
+    [abdominal_discomfort] 腹部不适（65%或以上）|
+    [jaundice] 黄疸（80%或以上）|
+    [bloating] 腹部肿胀（50%或以上）|
+    降低出血愈合速度，肝损伤100%时出血完全无法愈合
+</ntg.effects.liver_damage>
+  <ntg.treatments.liver_damage>
+    时间 |
+    [thiamine] 硫胺素 |
+    [organ_transplant_surgery] 器官移植手术
+</ntg.treatments.liver_damage>
+  <!-- 窒死毒剂中毒 -->
+  <ntg.title.morbusine_poisoning>窒死毒剂中毒</ntg.title.morbusine_poisoning>
+  <ntg.description.morbusine_poisoning>显示体内存在致命毒素的病症；不及时治疗会致命。</ntg.description.morbusine_poisoning>
+  <ntg.causes.morbusine_poisoning>
+    窒死毒剂
+</ntg.causes.morbusine_poisoning>
+  <ntg.effects.morbusine_poisoning>
+    屏幕扭曲 |
+    移动速度降低 |
+    色差效果 |
+    [oxygen_low] 缺氧（10%至40%之间）|
+    [respiratory_arrest] 呼吸骤停（40%或以上）|
+    [cardiac_arrest] 心脏骤停（60%或以上）|
+    眩晕（各种生命值阈值）
+</ntg.effects.morbusine_poisoning>
+  <ntg.treatments.morbusine_poisoning>
+    窒死毒剂解毒剂 |
+    [toxin_filter] 手术台中装有解毒过滤器并躺下
+</ntg.treatments.morbusine_poisoning>
+  <ntg.firstaid.morbusine_poisoning>
+    稳定嗪
+</ntg.firstaid.morbusine_poisoning>
+  <!-- 氰化物中毒 -->
+  <ntg.title.cyanide_poisoning>氰化物中毒</ntg.title.cyanide_poisoning>
+  <ntg.description.cyanide_poisoning>显示体内存在致命毒素的病症；不及时治疗会致命。</ntg.description.cyanide_poisoning>
+  <ntg.causes.cyanide_poisoning>
+    氰化物
+</ntg.causes.cyanide_poisoning>
+  <ntg.effects.cyanide_poisoning>
+    屏幕扭曲 |
+    屏幕模糊 |
+    皮肤变蓝 |
+    移动速度降低 |
+    降低画皮感染（10%或以上）|
+    [hypoxemia] 低氧血症（10%或以上）|
+    眩晕（各种生命值阈值）
+</ntg.effects.cyanide_poisoning>
+  <ntg.treatments.cyanide_poisoning>
+    氰化物解毒剂 |
+    [toxin_filter] 手术台中装有解毒过滤器并躺下
+</ntg.treatments.cyanide_poisoning>
+  <ntg.firstaid.cyanide_poisoning>
+    稳定嗪
+</ntg.firstaid.cyanide_poisoning>
+  <!-- 升天毒剂中毒 -->
+  <ntg.title.sufforin_poisoning>升天毒剂中毒</ntg.title.sufforin_poisoning>
+  <ntg.description.sufforin_poisoning>显示体内存在致命毒素的病症；不及时治疗会致命。</ntg.description.sufforin_poisoning>
+  <ntg.causes.sufforin_poisoning>
+    升天毒剂
+</ntg.causes.sufforin_poisoning>
+  <ntg.effects.sufforin_poisoning>
+    屏幕扭曲 |
+    屏幕模糊 |
+    降低画皮感染（10%或以上）|
+    [liver_damage] 肝损伤（75%或以上）|
+    [heart_damage] 心脏损伤（75%或以上）|
+    [kidney_damage] 肾损伤（75%或以上）|
+    [vanilla_organ_damage] 原版器官损伤（75%或以上）|
+    眩晕（75%以上且生命值低于90%时）
+</ntg.effects.sufforin_poisoning>
+  <ntg.treatments.sufforin_poisoning>
+    升天毒剂解毒剂 |
+    [toxin_filter] 手术台中装有解毒过滤器并躺下
+</ntg.treatments.sufforin_poisoning>
+  <ntg.firstaid.sufforin_poisoning>
+    稳定嗪
+</ntg.firstaid.sufforin_poisoning>
+  <!-- 原版器官损伤 -->
+  <ntg.title.vanilla_organ_damage>原版器官损伤</ntg.title.vanilla_organ_damage>
+  <ntg.description.vanilla_organ_damage>某些药物的副作用。药物技能检定失败会导致额外的器官损伤。
+在神经创伤中，这不被视为"损伤"（伤害类型），因此不能通过治疗伤害的方法来治疗。</ntg.description.vanilla_organ_damage>
+  <ntg.causes.vanilla_organ_damage>
+    [alien_blood] 外星血液（+3.75%或7.5%）|
+    [abx] 广谱抗生素（在抗生素作用期间+20%或12%）|
+    水合氯醛（+2.5%）|
+    [liquid_oxygenite] 液态氧素（+6%或10%）|
+    [mannitol] 甘露醇（+5%或10%）|
+    [methamphetamine] 兴奋粉剂（+15%或30%）|
+    [sufforin_poisoning] 升天毒剂中毒（75%或以上）|
+    [internal_wounds] 钝力创伤 |
+    [open_wounds] 枪伤
+</ntg.causes.vanilla_organ_damage>
+  <ntg.effects.vanilla_organ_damage>
+    根据病症强度直接造成生命值伤害
+</ntg.effects.vanilla_organ_damage>
+  <ntg.treatments.vanilla_organ_damage>
+    时间 |
+    [thiamine] 硫胺素 |
+    [deusizine] 神效剂 |
+    [organ_transplant_surgery] 器官移植手术可恢复部分原版器官损伤（使用新鲜器官时）
+</ntg.treatments.vanilla_organ_damage>
+  <!-- 镇痛 -->
+  <ntg.title.analgesia>镇痛</ntg.title.analgesia>
+  <ntg.description.analgesia>所有外科手术的第一步。镇痛是一种防止手术期间发生创伤性休克并缓解疼痛的病症。</ntg.description.analgesia>
+  <ntg.causes.analgesia>
+  [opium] 鸦片 | 
+  [morphine] 吗啡 | 
+  [fentanyl] 芬太尼 | 
+  [analgesic_tank] 镇痛罐 | 
+  [adrenaline] 肾上腺素（不超过4.5%） | 
+  [spinal_cord_injury] 脊髓损伤 | 
+  [drunk] 醉酒（20%或以上，不超过4.5%） | 
+  [anesthesia] 麻醉
+</ntg.causes.analgesia>
+  <ntg.effects.analgesia>
+  [hypoventilation] 换气不足（20%或以上） | 
+  25%伤害抗性（20%或以上） | 
+  25%眩晕抗性（20%或以上） | 
+  移除受损手臂的瞄准惩罚（20%或以上） | 
+  [internal_damage] 防止骨折/脱臼造成内伤 | 
+  [wrench] 降低扳手技能检查的医疗要求 | 
+  允许对患者使用手术工具
+</ntg.effects.analgesia>
+  <ntg.treatments.analgesia>
+  时间 | 
+  [naloxone] 纳洛酮
+</ntg.treatments.analgesia>
+  <!-- 麻醉 -->
+  <ntg.title.anesthesia>麻醉</ntg.title.anesthesia>
+  <ntg.description.anesthesia>麻醉是一种防止手术期间发生创伤性休克并缓解疼痛的病症。与镇痛不同，麻醉不需要手术台即可安全进行手术。</ntg.description.anesthesia>
+  <ntg.causes.anesthesia>
+  [propofol] 丙泊酚
+</ntg.causes.anesthesia>
+  <ntg.effects.anesthesia>
+  [hypoventilation] 换气不足（40%或以上） | 
+  [unconsciousness] 失去意识（15%或以上） | 
+  [analgesia] 镇痛（不超过5%） | 
+  移动速度降低50%
+</ntg.effects.anesthesia>
+  <ntg.sideeffects.anesthesia>
+  [hypotension] 低血压 | 
+  [confusion] 神志不清 | 
+  [blurred_vision] 视线模糊 | 
+  [fever] 发烧 | 
+  [mechanic_fibrillation] 纤颤 | 
+  [seizure] 癫痫 | 
+  [vomiting_blood] 吐血 | 
+  精神病
+</ntg.sideeffects.anesthesia>
+  <ntg.treatments.anesthesia>
+  时间 | 
+  [anaparalyzant] 抗麻痹剂
+</ntg.treatments.anesthesia>
+  <!-- 四肢 -->
+  <!-- 动脉出血 -->
+  <ntg.title.arterial_bleeding>动脉出血</ntg.title.arterial_bleeding>
+  <ntg.description.arterial_bleeding>动脉破裂极其危险，需要尽快进行急救。对患肢使用止血带可以争取治疗时间，但不应在头部使用。
+\n可能破裂的动脉包括：头部的颈动脉、手臂的肱动脉和腿部的股动脉。躯干动脉破裂属于主动脉破裂。</ntg.description.arterial_bleeding>
+  <ntg.causes.arterial_bleeding>
+  [bleeding] 出血（80%或以上） | 
+  [traumatic_amputation] 创伤性截肢 | 
+  [foreign_bodies] 异物（20%或以上） | 
+  骨折时有概率发生
+</ntg.causes.arterial_bleeding>
+  <ntg.effects.arterial_bleeding>
+  [blood_loss] 每秒1.5%失血（不超过99.5%失血）
+</ntg.effects.arterial_bleeding>
+  <ntg.treatments.arterial_bleeding>
+  [open_close_surgery] 开/关手术
+</ntg.treatments.arterial_bleeding>
+  <ntg.firstaid.arterial_bleeding>
+  [tourniquet] 止血带（主动脉破裂除外）
+</ntg.firstaid.arterial_bleeding>
+  <ntg.seealso.arterial_bleeding>
+  [aortic_rupture] 主动脉破裂
+</ntg.seealso.arterial_bleeding>
+  <!-- 创伤性截肢 -->
+  <ntg.title.traumatic_amputation>创伤性截肢</ntg.title.traumatic_amputation>
+  <ntg.description.traumatic_amputation>创伤性截肢是指肢体被非手术方式截断。其效果与手术截肢完全相同，不同之处在于首次截肢时会出现动脉出血。
+\n肢体必须先骨折才能被创伤性截肢。</ntg.description.traumatic_amputation>
+  <ntg.causes.traumatic_amputation>
+  [internal_wounds] 钝力创伤 | 
+  [open_wounds] 开放性伤口
+</ntg.causes.traumatic_amputation>
+  <ntg.effects.generaltraumatic_amputation>
+  [arterial_bleeding] 动脉出血 | 
+  [intense_pain] 剧痛
+</ntg.effects.generaltraumatic_amputation>
+  <ntg.effects.armtraumatic_amputation>
+  1支手臂截肢将无法使用双手物品 | 
+  2支手臂截肢将无法与任何物品互动
+</ntg.effects.armtraumatic_amputation>
+  <ntg.effects.legtraumatic_amputation>
+  1条腿截肢将使速度减半 | 
+  2条腿截肢将使你瘫倒且无法说话
+</ntg.effects.legtraumatic_amputation>
+  <ntg.effects.headtraumatic_amputation>
+  立即死亡
+</ntg.effects.headtraumatic_amputation>
+  <ntg.treatments.traumatic_amputation>
+  [amputation_surgery] 截肢手术（在缝合前使用肢体进行再植）
+</ntg.treatments.traumatic_amputation>
+  <!-- 手术截肢 -->
+  <ntg.title.surgical_amputation>手术截肢</ntg.title.surgical_amputation>
+  <ntg.description.surgical_amputation>手术截肢是指通过手术方式截断肢体。可能截肢的部位包括手臂、腿部和头部。头部截肢后无法再接。与创伤性截肢不同，手术截肢在首次截肢时不会引起动脉出血。</ntg.description.surgical_amputation>
+  <ntg.causes.surgical_amputation>
+  [amputation_surgery] 截肢手术
+</ntg.causes.surgical_amputation>
+  <ntg.effects.armsurgical_amputation>
+  1支手臂截肢将无法使用双手物品 | 
+  2支手臂截肢将无法与任何物品互动
+</ntg.effects.armsurgical_amputation>
+  <ntg.effects.legsurgical_amputation>
+  1条腿截肢将使速度减半 | 
+  2条腿截肢将使你瘫倒且无法说话
+</ntg.effects.legsurgical_amputation>
+  <ntg.effects.headsurgical_amputation>
+  立即死亡
+</ntg.effects.headsurgical_amputation>
+  <ntg.treatments.surgical_amputation>
+  [amputation_surgery] 截肢手术（在缝合前使用肢体）
+</ntg.treatments.surgical_amputation>
+  <!-- 坏疽 -->
+  <ntg.title.gangrene>坏疽</ntg.title.gangrene>
+  <ntg.description.gangrene>坏疽是一种罕见情况，仅因忽视止血带、血管内球囊或败血症而导致。一旦坏疽达到15%，就不可逆转，必须截肢。</ntg.description.gangrene>
+  <ntg.causes.gangrene>
+  [tourniquet] 止血带放置时间过长 | 
+  [endovascular_balloon] 血管内球囊放置时间过长 | 
+  [sepsis] 败血症（5%或以上）
+</ntg.causes.gangrene>
+  <ntg.effects.gangrene>
+  [sepsis] 败血症（15%或以上）
+</ntg.effects.gangrene>
+  <ntg.treatments.gangrene>
+  [amputation_surgery] 截肢手术 | 
+  时间（低于15%时）
+</ntg.treatments.gangrene>
+  <!-- 石膏固定 -->
+  <ntg.title.plaster_cast>石膏固定</ntg.title.plaster_cast>
+  <ntg.description.plaster_cast>石膏固定对于治疗肢体骨折极为重要。如果配置没有改动，已打石膏的肢体再次骨折会损坏石膏。石膏可用创伤剪拆除。</ntg.description.plaster_cast>
+  <ntg.causes.plaster_cast>
+  [gypsum] 对已包扎的肢体使用石膏
+</ntg.causes.plaster_cast>
+  <ntg.effects.plaster_cast>
+  [fractures] 每秒缓慢治疗肢体骨折0.33% | 
+  每个石膏降低移动速度20%
+</ntg.effects.plaster_cast>
+  <ntg.treatments.plaster_cast>
+  [trauma_shears] 创伤剪可拆除石膏
+</ntg.treatments.plaster_cast>
+  <!-- 钳夹动脉 -->
+  <ntg.title.clamped_arteries>钳夹动脉</ntg.title.clamped_arteries>
+  <ntg.description.clamped_arteries>钳夹动脉是由于对有动脉出血的肢体（头部除外）使用止血带或使用止血钳而引起的。</ntg.description.clamped_arteries>
+  <ntg.causes.clamped_arteries>
+  [tourniquet] 止血带
+</ntg.causes.clamped_arteries>
+  <ntg.effects.clamped_arteries>
+  [arterial_bleeding] 阻止动脉出血造成失血 | 
+  [gangrene] 一段时间后导致坏疽
+</ntg.effects.clamped_arteries>
+  <ntg.treatments.clamped_arteries>
+  [open_close_surgery] 开/关手术
+</ntg.treatments.clamped_arteries>
+  <!-- 骨骼 -->
+  <!-- 骨坏死 -->
+  <ntg.title.bone_death>骨坏死</ntg.title.bone_death>
+  <ntg.description.bone_death>骨坏死——通常不致命——但如果没有骨合成植入物则可能致死。</ntg.description.bone_death>
+  <ntg.causes.bone_death>
+  [bone_damage] 骨损伤（90%或以上）
+</ntg.causes.bone_death>
+  <ntg.effects.bone_death>
+  [fractures] 骨折
+</ntg.effects.bone_death>
+  <ntg.treatments.bone_death>
+  [osteosynthesis_surgery] 对每个身体部位进行骨合成手术
+</ntg.treatments.bone_death>
+  <!-- 骨损伤 -->
+  <ntg.title.bone_damage>骨损伤</ntg.title.bone_damage>
+  <ntg.description.bone_damage>骨损伤不致命，通常只要未发展为骨坏死就可以忽略。</ntg.description.bone_damage>
+  <ntg.causes.bone_damage>
+  [kidney_damage] 肾损伤（72%或以上） | 
+  [radiation_sickness] 辐射病（31%或以上） | 
+  [sepsis] 败血症（50%或以上） | 
+  [hypoxemia] 低氧血症（100%时阻止再生）
+</ntg.causes.bone_damage>
+  <ntg.effects.bone_damage>
+  [bone_death] 骨坏死（90%或以上）
+</ntg.effects.bone_damage>
+  <ntg.treatments.bone_damage>
+  时间 | 
+  [osteosynthesis_surgery] 骨合成手术
+</ntg.treatments.bone_damage>
+  <!-- 骨折 -->
+  <ntg.title.fractures>骨折</ntg.title.fractures>
+  <ntg.description.fractures>骨折是常见的伤害，大多数船员会经常遇到。骨折不会致死，应在紧急情况下最后处理。肢体骨折是发生创伤性截肢的前提（头部除外）。</ntg.description.fractures>
+  <ntg.causes.fractures>
+  [internal_wounds] 内伤 | 
+  [open_wounds] 开放性伤口 | 
+  [bone_death] 骨坏死 | 
+  [dislocations] 使用扳手治疗脱臼时技能检查失败
+</ntg.causes.fractures>
+  <ntg.effects.legfractures>
+  1条腿骨折使移动速度减半 | 
+  2条腿骨折强制趴下 | 
+  [intense_pain] 剧痛 | 
+  [internal_damage] 内伤（未包扎/固定/镇静时）
+</ntg.effects.legfractures>
+  <ntg.effects.armfractures>
+  1支手臂骨折无法使用双手物品 | 
+  2支手臂骨折无法与任何物品互动 | 
+  [intense_pain] 剧痛 | 
+  [internal_damage] 内伤（未包扎/固定/镇静时）
+</ntg.effects.armfractures>
+  <ntg.effects.skullfractures>
+  [neurotrauma] 阻止神经创伤下降 | 
+  [headache] 头痛
+</ntg.effects.skullfractures>
+  <ntg.effects.neckfractures>
+  [spinal_cord_injury] 脊髓损伤 | 
+  [internal_damage] 内伤（未包扎时）
+</ntg.effects.neckfractures>
+  <ntg.effects.ribfractures>
+  [pneumothorax] 气胸（未包扎时） | 
+  [chest_pain] 胸痛
+</ntg.effects.ribfractures>
+  <ntg.treatments.fractures>
+  [plaster_cast] 石膏固定（仅手臂/腿部） | 
+  [osteosynthesis_surgery] 骨合成手术（所有骨折）
+</ntg.treatments.fractures>
+  <ntg.firstaid.fractures>
+  [bandages] 绷带（仅肋骨）
+</ntg.firstaid.fractures>
+  <!-- 脱臼 -->
+  <ntg.title.dislocations>脱臼</ntg.title.dislocations>
+  <ntg.description.dislocations>脱臼是常见的伤害，大多数船员都会经常遇到。脱臼不会致死，应在紧急情况下最后处理。一个肢体可以同时脱臼和骨折。</ntg.description.dislocations>
+  <ntg.causes.dislocations>
+    创伤（爆炸、钝力、内部损伤）
+</ntg.causes.dislocations>
+  <ntg.effects.legdislocations>
+    1条腿脱臼：速度减半 |
+    2条腿脱臼：被迫爬行 |
+    [intense_pain] 剧痛 |
+    [internal_damage] 未包扎/镇静时的内部损伤
+</ntg.effects.legdislocations>
+  <ntg.effects.armdislocations>
+    1条手臂脱臼：无法使用双手物品 |
+    2条手臂脱臼：无法与任何东西互动 |
+    [intense_pain] 剧痛 |
+    [internal_damage] 未包扎/镇静时的内部损伤
+</ntg.effects.armdislocations>
+  <ntg.treatments.dislocations>
+    [wrench] 使用扳手（需60医疗技能，镇痛状态下仅需30）
+</ntg.treatments.dislocations>
+  <ntg.firstaid.dislocations>
+    [bandages] 绷带 |
+    [plastiseal] 可塑人造皮肤
+</ntg.firstaid.dislocations>
+  <!-- 任何身体部位 -->
+  <!-- 烧伤 -->
+  <ntg.title.burns>烧伤</ntg.title.burns>
+  <ntg.description.burns>一级烧伤较轻，通常可以忽略；但二级及以上烧伤需要医疗干预，否则患者有感染风险。
+烧伤强度1-20%为一级，21-50%为二级，51%及以上为三级。酸烧伤和普通烧伤的强度总和决定等级。
+值得注意的是，与其他直接影响生命值的创伤不同，烧伤永远不会出现在健康扫描仪上。</ntg.description.burns>
+  <ntg.causes.burns>
+    着火
+</ntg.causes.burns>
+  <ntg.effects.burns>
+    直接生命值伤害 |
+    [bandages] 使敷在烧伤肢体上的绷带变脏 |
+    [infected_wounds] 伤口感染（取决于烧伤严重程度）
+</ntg.effects.burns>
+  <ntg.treatments.burns>
+    [bandages] 绷带（仅限一级和二级烧伤）|
+    [plastiseal] 可塑人造皮肤（仅限一级和二级烧伤）|
+    [open_close_surgery] 在开/关手术中，缝合前使用可塑人造皮肤 |
+    [antibiotic_ointment] 抗生素软膏（仅限一级和二级烧伤）|
+    [antibiotic_glue] 抗生素凝胶（适用于任何级别烧伤）|
+    [combat_stimulant] 战斗兴奋剂（适用于任何级别烧伤）
+</ntg.treatments.burns>
+
+  <!-- 开放性伤口 -->
+  <ntg.title.open_wounds>开放性伤口</ntg.title.open_wounds>
+  <ntg.description.open_wounds>一个人可能受到的伤害（伤害类型）根据其性质分为两组：开放性伤口和内伤。
+所有开放性伤口都会按其严重程度导致伤口感染，可用缝合线治疗。通常（但不总是）由同时造成出血的原因引起。
+除非特别说明，以下提到的病症是基于概率获得的。这意味着受到的伤害越大，获得它们的几率越高。病症在受到伤害的肢体上获得，因此不适用于该肢体的病症不会获得。</ntg.description.open_wounds>
+  <!-- 撕裂伤 -->
+  <ntg.description.open_wounds.lacerations>通常由涉及尖锐物体的伤害引起的伤口。</ntg.description.open_wounds.lacerations>
+  <ntg.causes.open_wounds.lacerations>
+    被尖锐武器击中，如刀 |
+    潜艇碎片剥落 |
+    [tweezers] 使用镊子移除异物或内伤时
+</ntg.causes.open_wounds.lacerations>
+  <ntg.effects.open_wounds.lacerations>
+    根据所受伤害直接损失生命值 |
+    [infected_wounds] 随时间出现伤口感染，取决于严重程度 |
+    [fractures] 手臂/腿部骨折（受到5点以上伤害时）|
+    [fractures] 颅骨骨折（受到15点以上伤害时，70%概率）|
+    [fractures] 肋骨骨折（受到10点以上伤害时）|
+    [pneumothorax] 气胸（受到5点以上伤害时）|
+    [cardiac_tamponade] 心脏压塞（受到5点以上伤害时）|
+    [internal_bleeding] 内出血（受到5点以上伤害时；随机范围为伤害的0.2-0.5倍）|
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到1点以上伤害时）
+</ntg.effects.open_wounds.lacerations>
+  <ntg.treatments.open_wounds.lacerations>
+    时间（除非超过50强度）|
+    [bandaged] 包扎（除非超过50强度）|
+    [sutures] 缝合线 |
+    石榴提取物 |
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.open_wounds.lacerations>
+  <!-- 深部组织损伤 -->
+  <ntg.description.open_wounds.deeptissueinjury>一种常见伤口，通常取决于所受伤害的量。</ntg.description.open_wounds.deeptissueinjury>
+  <ntg.causes.open_wounds.deeptissueinjury>
+    高冲击力伤害，如爆炸或钝器
+</ntg.causes.open_wounds.deeptissueinjury>
+  <ntg.effects.open_wounds.deeptissueinjury>
+    根据所受伤害直接损失生命值 |
+    [fractures] 手臂/腿部骨折（受到5点以上伤害时）|
+    [concussion] 脑震荡（头部受到10点以上伤害时）|
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到5点以上伤害时）
+</ntg.effects.open_wounds.deeptissueinjury>
+  <ntg.treatments.open_wounds.deeptissueinjury>
+    时间（除非超过50强度）|
+    [bandaged] 包扎（除非超过50强度）|
+    [sutures] 缝合线 |
+    石榴提取物 |
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.open_wounds.deeptissueinjury>
+  <!-- 枪伤 -->
+  <ntg.description.open_wounds.gunshotwound>通常由枪击造成的伤口。</ntg.description.open_wounds.gunshotwound>
+  <ntg.causes.open_wounds.gunshotwound>
+    被子弹射击武器击中，如左轮手枪
+</ntg.causes.open_wounds.gunshotwound>
+    <ntg.effects.open_wounds.gunshotwound>
+    根据所受伤害直接损失生命值 | 
+    [infected_wounds] 随时间产生伤口感染，取决于严重程度 | 
+    [fractures] 手臂/腿部骨折（受到1点以上伤害时） | 
+    [fractures] 颅骨骨折（受到15点以上伤害时，至少70%概率） | 
+    [fractures] 肋骨骨折（受到1点以上伤害时，最多30%概率） | 
+    [lung_damage] 肺损伤（受到1点以上伤害时，与所受伤害成正比） | 
+    [heart_damage] 心脏损伤（受到1点以上伤害时，与所受伤害成正比） | 
+    [kidney_damage] 肾损伤（受到2点以上伤害时，与所受伤害成正比） | 
+    [liver_damage] 肝损伤（受到2点以上伤害时，与所受伤害成正比） | 
+    [vanilla_organ_damage] 原版器官损伤（受到1点以上伤害时；为所受伤害的四分之一） | 
+    [pneumothorax] 气胸（受到1点以上伤害时） | 
+    [cardiac_tamponade] 心脏压塞（受到5点以上伤害时） | 
+    [internal_bleeding] 内出血（受到5点以上伤害时；随机范围为伤害的0.2-0.6倍） | 
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到1点以上伤害时） | 
+    [foreign_bodies] 异物（骨折时，强度最高30取决于所受伤害；或75%概率最高20强度，为所受伤害的四分之一） | 
+    [neurotrauma] 神经创伤（受到5点以上伤害时；70%概率发生，强度为所受伤害的0.1-0.4倍）
+</ntg.effects.open_wounds.gunshotwound>
+  <ntg.treatments.open_wounds.gunshotwound>
+    时间（除非超过50强度） | 
+    [bandaged] 包扎（除非超过50强度） | 
+    [sutures] 缝合线 | 
+    石榴提取物 | 
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.open_wounds.gunshotwound>
+  <!-- 咬伤 -->
+  <ntg.description.open_wounds.bitewound>由生物咬伤造成的伤口。</ntg.description.open_wounds.bitewound>
+  <ntg.causes.open_wounds.bitewound>
+    被生物攻击咬伤
+</ntg.causes.open_wounds.bitewound>
+  <ntg.effects.open_wounds.bitewound>
+    根据所受伤害直接损失生命值 |
+    额外失血（伤害的0.3倍）|
+    [fractures] 手臂/腿部骨折（受到5点以上伤害时）|
+    [infected_wounds] 伤口感染概率增加 |
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到5点以上伤害时）
+</ntg.effects.open_wounds.bitewound>
+  <ntg.treatments.open_wounds.bitewound>
+    时间（除非超过40强度）|
+    [bandaged] 包扎（除非超过40强度）|
+    [sutures] 缝合线 |
+    [antibiotic_ointment] 抗生素软膏（仅在感染风险高时）|
+    石榴提取物 |
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.open_wounds.bitewound>
+  <!-- 内伤 -->
+  <ntg.title.internal_wounds>内伤</ntg.title.internal_wounds>
+  <ntg.description.internal_wounds>内伤所造成的伤害不会立即显现，但可能导致各种严重并发症。</ntg.description.internal_wounds>
+  <!-- 钝力创伤 -->
+  <ntg.description.internal_wounds.bft>一种常见的内伤，通常取决于所受伤害的量。</ntg.description.internal_wounds.bft>
+  <ntg.causes.internal_wounds.bft>
+    大多数伤害类型
+</ntg.causes.internal_wounds.bft>
+  <ntg.causes.internal_wounds.internaldamage>
+    [dislocations] 脱臼未包扎 |
+    [fractures] 骨折未打石膏 |
+    [tweezers] 使用镊子技能检查失败 |
+    [sutures] 使用缝合线技能检查失败
+</ntg.causes.internal_wounds.internaldamage>
+  <ntg.effects.internal_wounds.bft>
+    [fractures] 手臂/腿部骨折（受到5点以上伤害时）|
+    [fractures] 颅骨骨折（受到15点以上伤害时，70%概率）|
+    [fractures] 颈部骨折（受到15点以上伤害时）|
+    [fractures] 肋骨骨折（受到5点以上伤害时）|
+    [concussion] 脑震荡（头部受到10点以上伤害时）|
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到5点以上伤害时）
+</ntg.effects.internal_wounds.bft>
+  <ntg.treatments.internal_wounds.bft>
+    时间 |
+    [gel_ice_pack] 凝胶冰袋 |
+    [combat_stimulant] 战斗兴奋剂 |
+    石榴提取物
+</ntg.treatments.internal_wounds.bft>
+  <!-- 内部损伤 -->
+  <ntg.description.internal_wounds.internaldamage>一种不常见的伤口，通常由其他病症和技能检定失败引起。</ntg.description.internal_wounds.internaldamage>
+  <ntg.effects.internal_wounds.internaldamage>
+    根据所受伤害直接损失生命值 |
+    [dislocations] 脱臼 |
+    [fractures] 手臂/腿部骨折（受到5点以上伤害时）|
+    [fractures] 颅骨骨折（受到15点以上伤害时，70%概率）|
+    [fractures] 颈部骨折（受到15点以上伤害时）|
+    [fractures] 肋骨骨折（受到5点以上伤害时）|
+    [pneumothorax] 气胸（受到5点以上伤害时）|
+    [vanilla_organ_damage] 原版器官损伤或神经创伤器官损伤（0至所受伤害之间的随机值）|
+    [traumatic_amputation] 创伤性截肢（已骨折的肢体受到10点以上伤害时）|
+    [concussion] 脑震荡（受到15点以上伤害时，70%概率）
+</ntg.effects.internal_wounds.internaldamage>
+  <ntg.treatments.internal_wounds.internaldamage>
+    时间 |
+    [open_close_surgery] 在开/关手术中，缝合前使用镊子 |
+    [combat_stimulant] 战斗兴奋剂 |
+    石榴提取物
+</ntg.treatments.internal_wounds.internaldamage>
+  <!-- 伤口感染 -->
+  <ntg.title.infected_wounds>伤口感染</ntg.title.infected_wounds>
+  <ntg.description.infected_wounds>伤口感染由伤口溃烂引起；应进行清洁以防止败血症。</ntg.description.infected_wounds>
+  <ntg.causes.infected_wounds>
+    [open_wounds] 未处理的开放性伤口 |
+    [burns] 烧伤 |
+    肢体上有脏绷带会大幅加快感染速度
+</ntg.causes.infected_wounds>
+  <ntg.effects.infected_wounds>
+    [sepsis] 败血症（50%或以上）|
+    [inflammation] 炎症（10%或以上）|
+    免疫力下降
+</ntg.effects.infected_wounds>
+  <ntg.treatments.infected_wounds>
+    [antibiotic_ointment] 抗生素软膏 |
+    [antibiotic_glue] 抗生素凝胶 |
+    [antibiotic_sprayer] 防腐喷枪
+</ntg.treatments.infected_wounds>
+  <ntg.firstaid.infected_wounds>
+    [bandages] 使用绷带 |
+    [plastiseal] 使用可塑人造皮肤
+</ntg.firstaid.infected_wounds>
+  <!-- 异物 -->
+  <ntg.title.foreign_bodies>异物</ntg.title.foreign_bodies>
+  <ntg.description.foreign_bodies>异物通常是在交火或爆炸后获得的。应尽快移除异物，以避免动脉出血或患者感染败血症。
+每次使用镊子可移除3-10%异物。
+异物引发问题的概率随时间和强度增加；存留时间越长或病症越强，概率越高。</ntg.description.foreign_bodies>
+  <ntg.causes.foreign_bodies>
+    爆炸 |
+    枪击（若枪击导致骨折则必定造成异物）
+</ntg.causes.foreign_bodies>
+  <ntg.effects.foreign_bodies>
+    [arterial_bleeding] 动脉出血（20%或以上）|
+    [aortic_rupture] 主动脉破裂（躯干上的异物达到20%或以上）|
+    [sepsis] 败血症（20%或以上）|
+    [inflammation] 炎症（15%或以上）
+</ntg.effects.foreign_bodies>
+  <ntg.treatments.foreign_bodies>
+    [open_close_surgery] 在开/关手术中，缝合前使用镊子 |
+    [tweezers] 直接在伤口上使用镊子（会导致创伤性休克！）
+</ntg.treatments.foreign_bodies>
+
+  <!-- 出血 -->
+  <ntg.title.bleeding>出血</ntg.title.bleeding>
+  <ntg.description.bleeding>出血会使患者根据出血强度和持续时间获得失血。</ntg.description.bleeding>
+  <ntg.causes.bleeding>
+    [open_wounds] 撕裂伤或咬伤 |
+    特定技能检定失败
+</ntg.causes.bleeding>
+  <ntg.effects.bleeding>
+    [arterial_bleeding] 动脉出血（80%或以上）|
+    [aortic_rupture] 主动脉破裂（躯干上80%或以上）|
+    [blood_loss] 失血
+</ntg.effects.bleeding>
+  <ntg.treatments.bleeding>
+    [antibiotic_glue] 抗生素凝胶 |
+    [bandages] 绷带 |
+    [plastiseal] 可塑人造皮肤 |
+    [sutures] 缝合线
+</ntg.treatments.bleeding>
+  <!-- 涂药 -->
+  <ntg.title.ointmented>涂药</ntg.title.ointmented>
+  <ntg.description.ointmented>涂药有助于保护伤口免受感染，对烧伤患者（可能快速感染！）非常有用。</ntg.description.ointmented>
+  <ntg.causes.ointmented>
+    [antiseptic_sprayer] 防腐喷枪 |
+    [antibiotic_ointment] 抗生素软膏
+</ntg.causes.ointmented>
+  <ntg.effects.ointmented>
+    [infected_wounds] 每秒减少1.5%伤口感染（低于60%强度时）
+</ntg.effects.ointmented>
+  <!-- 冷却 -->
+  <ntg.title.chilled>冷却</ntg.title.chilled>
+  <ntg.description.chilled>使用凝胶冰袋时获得的病症。大幅提高钝力创伤的自然愈合速度，但会加重已有的感染。同时加快内出血的愈合。</ntg.description.chilled>
+  <ntg.causes.chilled>
+    [gel_ice_pack] 凝胶冰袋
+</ntg.causes.chilled>
+  <ntg.effects.chilled>
+    每个受冷却的肢体降低移动速度5% |
+    [internal_wounds] 加快钝力创伤的自然愈合 |
+    [infected_wounds] 使伤口感染恶化加快 |
+    [internal_bleeding] 每秒减少内出血0.2%
+</ntg.effects.chilled>
+  <!-- 包扎 -->
+  <ntg.title.bandaged>包扎</ntg.title.bandaged>
+  <ntg.description.bandaged>包扎是使用绷带/可塑人造皮肤的结果。
+绷带是一种极为通用的急救物品，因此建议每位船员始终随身携带一些绷带以备紧急情况。
+绷带会随时间逐渐变脏——如果伤口正在出血，这一过程会加快。包扎可用创伤剪或潜水刀移除。</ntg.description.bandaged>
+  <ntg.causes.bandaged>
+    [bandages] 绷带 |
+    [plastiseal] 可塑人造皮肤
+</ntg.causes.bandaged>
+  <ntg.effects.bandaged>
+    [dislocations] 防止脱臼造成内部损伤或剧痛 |
+    [fractures] 防止骨折造成内部损伤或剧痛 |
+    [fractures] 防止肋骨骨折引起气胸 |
+    [dislocations] 消除脱臼的减速惩罚 |
+    每个包扎的肢体降低移动速度10% |
+    [open_wounds] 加速开放性伤口的自然愈合 |
+    [burns] 加速烧伤的自然愈合 |
+    [infected_wounds] 防止伤口感染
+</ntg.effects.bandaged>
+  <ntg.treatments.bandaged>
+    [diving_knife] 潜水刀 |
+    [trauma_shears] 创伤剪
+</ntg.treatments.bandaged>
+  <!-- 皮肤涂药 -->
+  <ntg.title.skin_ointmented>皮肤涂药</ntg.title.skin_ointmented>
+  <ntg.description.skin_ointmented>提高烧伤、开放性伤口和钝力创伤的自然愈合速度。与包扎或涂药不同，皮肤涂药没有额外效果。</ntg.description.skin_ointmented>
+  <ntg.causes.skin_ointmented>
+    再生软膏（尚未可制作！）
+</ntg.causes.skin_ointmented>
+  <ntg.effects.skin_ointmented>
+    [burns] 每秒减少烧伤0.12 |
+    [open_wounds] 每秒减少开放性伤口0.12 |
+    [internal_wounds] 每秒减少钝力创伤0.12
+</ntg.effects.skin_ointmented>
+  <!-- 血液 -->
+  <!-- 低氧血症 -->
+  <ntg.title.hypoxemia>低氧血症</ntg.title.hypoxemia>
+  <ntg.description.hypoxemia>低氧血症是血液中氧气不足的状态。低氧血症会迅速累积并导致患者失去控制，因此患者需要立即就医。
+气胸会按其强度比例阻止低氧血症下降。</ntg.description.hypoxemia>
+  <ntg.causes.hypoxemia>
+    [cardiac_arrest] 心脏骤停 |
+    [oxygen_low] 缺氧 |
+    [blood_loss] 失血（40%或以上）|
+    [hypotension] 低血压（70%或以下）|
+    [cyanide_poisoning] 氰化物中毒（10%或以上）
+</ntg.causes.hypoxemia>
+  <ntg.effects.hypoxemia>
+    [mechanic_fibrillation] 纤颤 |
+    [liver_damage] 肝损伤（4%或以上，超过自然再生速度）|
+    [heart_damage] 心脏损伤（4%或以上，超过自然再生速度）|
+    [lung_damage] 肺损伤（4%或以上，超过自然再生速度）|
+    [kidney_damage] 肾损伤（8%或以上，超过自然再生速度；一个肾已死则为4%）|
+    [hyperventilation] 换气过度（10%或以上）|
+    [neurotrauma] 神经创伤（10%或以上，超过自然再生速度）|
+    [shortness_of_breath] 呼吸困难（20%或以上）|
+    [headache] 头痛（40%或以上）|
+    [confusion] 神志不清（50%或以上）|
+    [respiratory_arrest] 呼吸骤停（70%或以上）|
+    [cardiac_arrest] 心脏骤停（80%或以上）|
+    [unconsciousness] 失去意识（80%或以上）|
+    [bone_damage] 骨损伤（100%时阻止骨损伤再生）
+</ntg.effects.hypoxemia>
+  <ntg.treatments.hypoxemia>
+    治疗病因 |
+    [liquid_oxygenite] 液态氧素
+</ntg.treatments.hypoxemia>
+  <!-- 败血症 -->
+  <ntg.title.sepsis>败血症</ntg.title.sepsis>
+  <ntg.description.sepsis>败血症是一种危险的病症，由伤口感染溃烂引起；不过它相当容易发现，因为（默认情况下）游戏中只有一种其他病症会引起发烧。</ntg.description.sepsis>
+  <ntg.causes.sepsis>
+    [azathioprine] 硫唑嘌呤技能检定失败 |
+    [blood_packs] 来自败血症供体的血袋 |
+    [gangrene] 坏疽（15%或以上）|
+    [foreign_bodies] 异物（20%或以上）|
+    [infected_wounds] 伤口感染（50%或以上）|
+    [dialysys_filter] 透析过滤器（使用时每秒0.1%概率）|
+    [toxin_filter] 解毒过滤器（使用时每秒0.1%概率）
+</ntg.causes.sepsis>
+  <ntg.effects.sepsis>
+    [liver_damage] 肝损伤（3%或以上，超过自然再生速度）|
+    [heart_damage] 心脏损伤（3%或以上，超过自然再生速度）|
+    [lung_damage] 肺损伤（3%或以上，超过自然再生速度）|
+    [kidney_damage] 肾损伤（6%或以上，超过自然再生速度；一个肾已死则为3%）|
+    [neurotrauma] 神经创伤（25%或以上，超过自然再生速度）|
+    [hyperventilation] 换气过度（15%或以上）|
+    [gangrene] 坏疽（5%或以上）|
+    [fever] 发烧（5%或以上）|
+    [increased_heartrate] 心率加快（20%或以上）|
+    [confusion] 神志不清（40%或以上）|
+    [bone_damage] 骨损伤（50%或以上，超过自然再生速度）
+</ntg.effects.sepsis>
+  <ntg.treatments.sepsis>
+    [abx] 广谱抗生素
+</ntg.treatments.sepsis>
+
+  <!-- 输血性休克 -->
+  <ntg.title.hemotransfusion_shock>输血性休克</ntg.title.hemotransfusion_shock>
+  <ntg.description.hemotransfusion_shock>输血性休克仅在给予不相容血型的血液时发生（例如：给O+型人输A+型血）。</ntg.description.hemotransfusion_shock>
+  <ntg.causes.hemotransfusion_shock>
+    [blood_packs] 不相容血袋（给予100%强度）|
+    [alien_blood] 外星血液（随时间给予99%强度）
+</ntg.causes.hemotransfusion_shock>
+  <ntg.effects.hemotransfusion_shock>
+    [vomiting] 呕吐（0-40%）|
+    [chest_pain] 胸痛（0-60%）|
+    [blood_loss] 失血（0-70%）|
+    [liver_damage] 肝损伤（0-70%）|
+    [heart_damage] 心脏损伤（0-70%）|
+    [kidney_damage] 肾损伤（0-70%）|
+    [lung_damage] 肺损伤（0-70%）|
+    [shortness_of_breath] 呼吸困难（0-70%）|
+    [abdominal_pain] 腹痛（0-80%）|
+    [wheezing] 哮喘（0-90%）
+</ntg.effects.hemotransfusion_shock>
+  <ntg.treatments.hemotransfusion_shock>
+    时间 |
+    [streptokinase] 链激酶
+</ntg.treatments.hemotransfusion_shock>
+  <!-- 失血 -->
+  <ntg.title.blood_loss>失血</ntg.title.blood_loss>
+  <ntg.description.blood_loss>虽然失血严重时治疗起来非常耗费资源，但低于或等于30%时通常可以忽略。</ntg.description.blood_loss>
+  <ntg.causes.blood_loss>
+    [internal_bleeding] 内出血 |
+    [empty_blood_pack] 使用空血袋 |
+    [bleeding] 出血 |
+    [arterial_bleeding] 动脉出血（不会超过99.5%失血）|
+    [aortic_rupture] 主动脉破裂 |
+    [surgery_incision] 手术切口（除非已有钳夹止血）|
+    [hematology_analyzer] 使用血液分析仪 |
+    [hemotransfusion_shock] 输血性休克（0-70%）
+</ntg.causes.blood_loss>
+  <ntg.effects.blood_loss>
+    [hypotension] 低血压（取决于失血量）|
+    [hypoxemia] 低氧血症（40%或以上）|
+    [increased_heartrate] 心率加快（40%或以上）|
+    [pale_skin] 皮肤苍白（40%或以上）|
+    [headache] 头痛（50%或以上）|
+    [weakness] 虚弱（60%或以上）
+</ntg.effects.blood_loss>
+  <ntg.treatments.blood_loss>
+    时间 |
+    [blood_packs] 输注血袋 |
+    [deusizine] 神效剂 |
+    [combat_stimulant] 战斗兴奋剂
+</ntg.treatments.blood_loss>
+  <!-- 低血压 -->
+  <ntg.title.hypotension>低血压</ntg.title.hypotension>
+  <ntg.description.hypotension>低血压是指血压降至正常水平以下。如果严重到一定程度，低血压是致命的。百分比越低表示血压越低。</ntg.description.hypotension>
+  <ntg.causes.hypotension>
+    [blood_loss] 失血（根据失血量变化）|
+    [traumatic_shock] 创伤性休克 |
+    [anesthesia] 麻醉 |
+    [irregular_heartbeat] 心律不齐 |
+    [sodium_nitroprusside] 硝普钠（降低血压45%）|
+    [nitroglycerin] 硝酸甘油（降低血压45%）|
+    [cardiac_arrest] 心脏骤停（将血压设为最低值）|
+    [cardiac_tamponade] 心脏压塞（血压减半）
+</ntg.causes.hypotension>
+  <ntg.effects.hypotension>
+    [mechanic_fibrillation] 纤颤 |
+    [confusion] 神志不清（30%或以下）|
+    [pale_skin] 皮肤苍白（50%或以下）|
+    [blurred_vision] 视线模糊（55%或以下）|
+    [headache] 头痛（60%或以下）|
+    [lightheadedness] 头晕（60%或以下）|
+    [hypoxemia] 低氧血症（70%或以下）|
+    [hyperventilation] 换气过度（80%或以下）
+</ntg.effects.hypotension>
+  <ntg.treatments.hypotension>
+    治疗病因 |
+    CPR 心肺复苏 |
+    [blood_packs] 血袋 |
+    [saline] 生理盐水 |
+    [ringers_solution] 林格溶液 |
+    [autopulse] 自动心肺复苏仪 |
+    [adrenaline] 肾上腺素 |
+    [deusizine] 神效剂
+</ntg.treatments.hypotension>
+  <!-- 高血压 -->
+  <ntg.title.hypertension>高血压</ntg.title.hypertension>
+  <ntg.description.hypertension>高血压是指血压升至正常水平以上。血压超过150%可能开始致命。百分比越高表示血压越高。</ntg.description.hypertension>
+  <ntg.causes.hypertension>
+    [kidney_damage] 肾损伤 |
+    [liver_damage] 肝损伤 |
+    [blood_packs] 血袋 |
+    [saline] 生理盐水 |
+    [ringers_solution] 林格溶液 |
+    [autopulse] 自动心肺复苏仪 |
+    [adrenaline] 肾上腺素 |
+    [deusizine] 神效剂 |
+    [withdrawal] 戒断（酒精）|
+    CPR 心肺复苏
+</ntg.causes.hypertension>
+  <ntg.effects.hypertension>
+    [stroke] 中风（150%或以上）|
+    [kidney_damage] 肾损伤（184%或以上，超过自然再生速度；一个肾已死则为152%）|
+    [heart_attack] 心脏病（150%或以上）
+</ntg.effects.hypertension>
+  <ntg.treatments.hypertension>
+    治疗病因 |
+    [blood_loss] 诱导失血 |
+    [sodium_nitroprusside] 硝普钠 |
+    [nitroglycerin] 硝酸甘油
+</ntg.treatments.hypertension>
+  <!-- 酸中毒 -->
+  <ntg.title.acidosis>酸中毒</ntg.title.acidosis>
+  <ntg.description.acidosis>酸中毒通常可以忽略，低至中度时基本无需处理。酸中毒和碱中毒会相互抵消。</ntg.description.acidosis>
+  <ntg.causes.acidosis>
+    [hypoventilation] 换气不足 |
+    [respiratory_arrest] 呼吸骤停 |
+    [cardiac_arrest] 心脏骤停 |
+    [kidney_damage] 肾损伤（80%或以上）|
+    [blood_packs] 来自酸中毒供体的血袋（获得的酸中毒为供体抽取时酸中毒水平除以5）|
+    [saline] 生理盐水
+</ntg.causes.acidosis>
+  <ntg.effects.acidosis>
+    [seizure] 癫痫（60%或以上）|
+    [coma] 昏迷（60%或以上）|
+    [increased_heartrate] 心率加快（20%或以上）|
+    [mechanic_fibrillation] 纤颤 |
+    [confusion] 神志不清（15%或以上）|
+    [headache] 头痛（20%或以上）|
+    [weakness] 虚弱（35%或以上）
+</ntg.effects.acidosis>
+  <ntg.treatments.acidosis>
+    治疗病因 |
+    [alkalosis] 诱导碱中毒 |
+    [blood_packs] 输注中性血袋 |
+    [dialysis_filter] 手术台中装有透析过滤器并躺下
+</ntg.treatments.acidosis>
+  <!-- 碱中毒 -->
+  <ntg.title.alkalosis>碱中毒</ntg.title.alkalosis>
+  <ntg.description.alkalosis>碱中毒通常可以忽略，低至中度时基本无需处理。碱中毒和酸中毒会相互抵消。</ntg.description.alkalosis>
+  <ntg.causes.alkalosis>
+    [hyperventilation] 换气过度 |
+    [vomiting] 呕吐 |
+    [blood_packs] 来自碱中毒供体的血袋（获得的碱中毒为供体抽取时酸中毒水平除以5）
+</ntg.causes.alkalosis>
+  <ntg.effects.alkalosis>
+    [seizure] 癫痫（60%或以上）|
+    [palpitations] 心悸（20%或以上）
+</ntg.effects.alkalosis>
+  <ntg.treatments.alkalosis>
+    治疗病因 |
+    [acidosis] 诱导酸中毒（最好使用生理盐水）|
+    [blood_packs] 输注中性血袋 |
+    [dialysis_filter] 手术台中装有透析过滤器并躺下
+</ntg.treatments.alkalosis>
+  <!-- 免疫力 -->
+  <ntg.title.immunity>免疫力</ntg.title.immunity>
+  <ntg.description.immunity>免疫力有助于对抗伤口感染并加速自然愈合。如果免疫力为6%或更低，可以使用不相容血型而不引发输血性休克。
+在配置菜单中开启器官排斥的情况下，免疫力必须低于10%才能安全进行器官移植。</ntg.description.immunity>
+  <ntg.reduction.immunity>
+    [azathioprine] 硫唑嘌呤 |
+    [infected_wounds] 积极抵抗感染
+</ntg.reduction.immunity>
+  <ntg.effects.immunity>
+    [burns] 帮助烧伤愈合 |
+    [open_wounds] 帮助开放性伤口愈合 |
+    [internal_wounds] 帮助内伤愈合
+</ntg.effects.immunity>
+  <!-- 器官排斥 -->
+  <ntg.title.organ_rejection>器官排斥</ntg.title.organ_rejection>
+  <ntg.description.organ_rejection>该机制默认关闭。可在模组配置中切换（ESC菜单，模组启用时可用）。
+当患者的免疫力高于10%时接受器官移植，可能发生器官排斥。如果发生器官排斥，移植的器官将立即达到100%损伤，变得无用。
+主要使用硫唑嘌呤降低免疫力。</ntg.description.organ_rejection>
+  <ntg.causes.organ_rejection>
+    [immunity] 移植时免疫力过高
+</ntg.causes.organ_rejection>
+  <ntg.effects.organ_rejection>
+    器官死亡
+</ntg.effects.organ_rejection>
+  <ntg.treatments.organ_rejection>
+    [azathioprine] 硫唑嘌呤（仅预防）
+</ntg.treatments.organ_rejection>
+
+  <!-- 手术 -->
+  <!-- 创伤性休克 -->
+  <ntg.title.traumatic_shock>创伤性休克</ntg.title.traumatic_shock>
+  <ntg.description.traumatic_shock>创伤性休克可迅速致命，如果患者在任何时候出现此症状，很可能是非预期的。如果受害者处于麻醉效果下，或在手术台旁并有镇痛效果，创伤性休克强度下降速度加快4倍。
+如果角色在回合结束（如停靠站点）时仍有牵引皮肤，则在下一回合获得5分钟创伤性休克免疫。</ntg.description.traumatic_shock>
+  <ntg.causes.traumatic_shock>
+    [surgery_incision] 在无镇痛状态下进行手术切口 |
+    [clamped_bleeding] 钳夹止血后无麻醉或无手术台的情况下的任何手术步骤 |
+    [tweezers] 在枪伤或深部组织损伤上使用镊子（轻微休克，除非过度使用）
+</ntg.causes.traumatic_shock>
+  <ntg.effects.traumatic_shock>
+    [hypotension] 低血压（大量）|
+    [cardiac_arrest] 心脏骤停（40%或以上）|
+    [respiratory_arrest] 呼吸骤停（30%或以上）|
+    [neurotrauma] 神经创伤（等于强度除以100每秒，10%或以上超过自然再生速度）|
+    精神病（等于强度除以100每秒）
+</ntg.effects.traumatic_shock>
+  <ntg.treatments.traumatic_shock>
+    [sutures] 立即结束手术并等待 |
+    [surgery_table] 在镇静状态下靠近手术台
+</ntg.treatments.traumatic_shock>
+  <ntg.prevention.traumatic_shock>
+    [surgery_table] 使用手术台 |
+    [analgesia] 使用镇痛镇静（需要手术台）|
+    [anesthesia] 使用麻醉镇静
+</ntg.prevention.traumatic_shock>
+  <!-- 手术切口 -->
+  <ntg.title.surgery_incision>手术切口</ntg.title.surgery_incision>
+  <ntg.description.surgery_incision>所有手术程序的第二步。未钳夹（无钳夹止血）的手术切口每个每秒导致0.7%失血，在无镇痛或其他镇静方法（失去意识或麻醉）的情况下，每个手术切口每秒导致2%创伤性休克。</ntg.description.surgery_incision>
+  <ntg.causes.surgery_incision>
+    [scalpel] 使用手术刀 |
+    [multipurpose_scalpel] 使用多用途手术刀（手术切口模式）
+</ntg.causes.surgery_incision>
+  <ntg.effects.surgery_incision>
+    [blood_loss] 失血（若无钳夹止血）|
+    [traumatic_shock] 未镇静/未靠近手术台时导致创伤性休克
+</ntg.effects.surgery_incision>
+  <ntg.treatments.surgery_incision>
+    [sutures] 使用缝合线提前结束手术 |
+    [hemostat] 使用止血钳继续手术
+</ntg.treatments.surgery_incision>
+  <!-- 钳夹止血 -->
+  <ntg.title.clamped_bleeding>钳夹止血</ntg.title.clamped_bleeding>
+  <ntg.description.clamped_bleeding>大多数手术程序的第三步。钳夹止血可防止手术切口造成的失血。需要此病症才能进行下一步，即皮肤牵引器。</ntg.description.clamped_bleeding>
+  <ntg.causes.clamped_bleeding>
+    [hemostat] 使用止血钳
+</ntg.causes.clamped_bleeding>
+  <ntg.effects.clamped_bleeding>
+    [blood_loss] 防止手术切口造成失血
+</ntg.effects.clamped_bleeding>
+  <ntg.treatments.clamped_bleeding>
+    [sutures] 使用缝合线提前结束手术 |
+    [skin_retractors] 使用皮肤牵引器继续手术
+</ntg.treatments.clamped_bleeding>
+  <!-- 牵引皮肤 -->
+  <ntg.title.retracted_skin>牵引皮肤</ntg.title.retracted_skin>
+  <ntg.description.retracted_skin>大多数手术程序的第四步。如果附近没有手术台而有牵引皮肤，每个牵引皮肤部位每秒导致2%创伤性休克。
+大多数手术程序，如骨合成手术或器官移植手术，都从此步骤分支。</ntg.description.retracted_skin>
+  <ntg.causes.retracted_skin>
+    [skin_retractors] 使用皮肤牵引器
+</ntg.causes.retracted_skin>
+  <ntg.effects.retracted_skin>
+    [traumatic_shock] 未镇静/未靠近手术台时导致创伤性休克
+</ntg.effects.retracted_skin>
+  <ntg.treatments.retracted_skin>
+    [sutures] 使用缝合线提前结束手术 |
+    [surgical_drill] 使用骨钻（适用于骨合成手术）|
+    [surgical_saw] 使用手术锯（适用于截肢手术）|
+    [multipurpose_scalpel] 使用多用途手术刀（适用于器官移植）
+</ntg.treatments.retracted_skin>
+  <!-- 钻孔骨骼 -->
+  <ntg.title.drilled_bones>钻孔骨骼</ntg.title.drilled_bones>
+  <ntg.description.drilled_bones>骨合成手术的第五步。需要牵引皮肤才能进行。</ntg.description.drilled_bones>
+  <ntg.causes.drilled_bones>
+    [surgical_drill] 使用骨钻
+</ntg.causes.drilled_bones>
+  <ntg.effects.drilled_bones>
+    [traumatic_shock] 未镇静/不在手术台附近时造成创伤性休克
+</ntg.effects.drilled_bones>
+  <ntg.treatments.drilled_bones>
+    [osteosynthesis_implants] 使用骨合成植入物 |
+    [sutures] 使用缝合线提前结束手术
+</ntg.treatments.drilled_bones>
+  <!-- 锯骨 -->
+  <ntg.title.sawed_bones>锯骨</ntg.title.sawed_bones>
+  <ntg.description.sawed_bones>截肢手术的第五步。需要牵引皮肤才能进行。如果在没有接回肢体的情况下完成手术，则会导致截肢。</ntg.description.sawed_bones>
+  <ntg.causes.sawed_bones>
+    [surgical_saw] 使用手术锯
+</ntg.causes.sawed_bones>
+  <ntg.effects.sawed_bones>
+    [sawed_bones] 为截肢或接回肢体做准备
+</ntg.effects.sawed_bones>
+  <ntg.treatments.sawed_bones>
+    [arm_item] 在缝合前使用手臂/腿部可接回肢体 |
+    [leg_item] 在缝合前使用手臂/腿部可接回肢体 |
+    [sutures] 使用缝合线完成截肢
+</ntg.treatments.sawed_bones>
+  <!-- 手术步骤 -->
+  <ntg.title.surgery_steps>手术步骤</ntg.title.surgery_steps>
+  <ntg.description.surgery_steps>手术步骤是执行标准手术所需的操作列表。这些操作按顺序进行，但可以使用缝合线在任何时候中止手术过程。
+建议在手术台上进行手术，但在紧急情况下普通床也可作为替代。</ntg.description.surgery_steps>
+  <!-- 物品 -->
+  <!-- 肾上腺素 -->
+  <ntg.title.adrenaline>肾上腺素</ntg.title.adrenaline>
+  <ntg.description.adrenaline>医疗技能检定：10。
+一种用于提高血压的兴奋剂。也可用于减慢纤颤速度，给予少量镇痛，并治疗化学戒断。</ntg.description.adrenaline>
+  <ntg.applicationsuccess.adrenaline>
+    [hypotension] +30%血压（200秒）|
+    [analgesia] +3%镇痛 |
+    [mechanic_fibrillation] 减慢纤颤 |
+    [withdrawal] -30%化学戒断 |
+    +50%加速
+</ntg.applicationsuccess.adrenaline>
+  <ntg.applicationfailed.adrenaline>
+    [hypotension] +30%血压（120秒）|
+    [analgesia] +2%镇痛 |
+    [mechanic_fibrillation] 减慢纤颤 |
+    [withdrawal] -15%化学戒断 |
+    +50%加速
+</ntg.applicationfailed.adrenaline>
+
+  <!-- 自动心肺复苏仪 -->
+  <ntg.title.autopulse>自动心肺复苏仪</ntg.title.autopulse>
+  <ntg.description.autopulse>医护人员最好的朋友。要使用自动心肺复苏仪，只需将其佩戴在潜水服槽位中。
+佩戴并装上电池后，自动心肺复苏仪可治疗心脏骤停，轻微治疗缺氧和纤颤，同时提高血压。
+但要注意不要过度使用，因为它会将血压升高到高血压水平。可以使用扳手对躯干进行治疗来强行移除（只要患者未失去意识）。
+移除后物品将进入扳手使用者的背包。</ntg.description.autopulse>
+  <!-- 硫唑嘌呤 -->
+  <ntg.title.azathioprine>硫唑嘌呤</ntg.title.azathioprine>
+  <ntg.description.azathioprine>医疗技能检定：10。
+硫唑嘌呤是一种免疫抑制剂，用于器官移植手术（如果在神经创伤配置中启用了器官排斥）。它会随时间降低免疫力，当免疫力低于10%时可以安全地将器官植入体内。</ntg.description.azathioprine>
+  <ntg.applicationsuccess.azathioprine>
+    [immunity] 随时间降低免疫力
+</ntg.applicationsuccess.azathioprine>
+  <ntg.applicationfailed.azathioprine>
+    [immunity] 随时间降低免疫力 |
+    [sepsis] 导致败血症
+</ntg.applicationfailed.azathioprine>
+  <!-- 绷带 -->
+  <ntg.title.bandages>绷带</ntg.title.bandages>
+  <ntg.description.bandages>医疗技能检定：10。
+绷带用于覆盖伤口以防伤口感染。绷带还可以稳定脱臼以防止内部损伤，以及稳定骨折以防止内部损伤、气胸和颅骨骨折导致的神经创伤。</ntg.description.bandages>
+  <ntg.applicationsuccess.bandages>
+    [bleeding] -24%出血 |
+    [bandaged] +50%包扎
+</ntg.applicationsuccess.bandages>
+  <ntg.applicationfailed.bandages>
+    [bleeding] -18%出血 |
+    [bandaged] +36%包扎
+</ntg.applicationfailed.bandages>
+  <!-- 血袋 -->
+  <ntg.title.blood_packs>血袋</ntg.title.blood_packs>
+  <ntg.description.blood_packs>使用空血袋对失血低于31%的人类使用可获得血袋。血袋必须输注给正确的血型，这在物品描述中有说明。
+如果提供血袋的人类患有酸中毒、碱中毒或败血症，这些病症会储存在血袋中（供体病症强度的1/5）。将血袋放入血液分析仪可显示是否含有这些病症及其强度。
+此外，如果受血者有酸中毒或碱中毒，输注中性血液会将其乘以0.9，除非患者失血为0%。</ntg.description.blood_packs>
+  <ntg.applicationsuccess.blood_packs>
+    [blood_loss] -30%失血 |
+    +30%血压
+</ntg.applicationsuccess.blood_packs>
+  <ntg.applicationfailed.blood_packs>
+    [blood_loss] -30%失血 |
+    +30%血压 |
+    [hemotransfusion_shock] +100%输血性休克
+</ntg.applicationfailed.blood_packs>
+  <!-- 广谱抗生素 -->
+  <ntg.title.abx>广谱抗生素（ABX）</ntg.title.abx>
+  <ntg.description.abx>医疗技能检定：25。
+广谱抗生素是唯一治疗败血症的药物。仍会提供抗画皮感染增益并随时间减少已有画皮感染（与原版相同）。
+成功使用提供50%强度，以每秒0.5%递减，总持续100秒。50%广谱抗生素每秒治疗0.95%败血症，持续100秒。失败使用提供30%强度，以相同速率递减和治疗败血症。30%广谱抗生素每秒治疗0.95%败血症，持续60秒。
+总计：成功使用时器官将受到20%器官损伤、17.5%肾肝损伤、10%心肺损伤；失败使用时为12%器官损伤、10.5%肾肝损伤、6%心肺损伤。</ntg.description.abx>
+  <ntg.applicationsuccess.abx>
+    [vanilla_organ_damage] +0.2%/秒原版器官损伤，持续100秒 |
+    [kidney_damage] +0.175%/秒肾损伤，持续100秒 |
+    [liver_damage] +0.175%/秒肝损伤，持续100秒 |
+    [heart_damage] +0.1%/秒心脏损伤，持续100秒 |
+    [lung_damage] +0.1%/秒肺损伤，持续100秒 |
+    [sepsis] -0.95%/秒败血症，持续100秒
+</ntg.applicationsuccess.abx>
+  <ntg.applicationfailed.abx>
+    [vanilla_organ_damage] +0.2%/秒原版器官损伤，持续60秒 |
+    [kidney_damage] +0.175%/秒肾损伤，持续60秒 |
+    [liver_damage] +0.175%/秒肝损伤，持续60秒 |
+    [heart_damage] +0.1%/秒心脏损伤，持续60秒 |
+    [lung_damage] +0.1%/秒肺损伤，持续60秒 |
+    [sepsis] -0.95%/秒败血症，持续60秒
+</ntg.applicationfailed.abx>
+  <!-- 缝合线 -->
+  <ntg.title.sutures>缝合线</ntg.title.sutures>
+  <ntg.description.sutures>医疗技能检定：30。
+所有手术程序的最后一步。也极其适用于治疗大多数伤口和出血。</ntg.description.sutures>
+  <ntg.applicationsuccess.sutures>
+    [open_wounds] -20%开放性伤口 |
+    [internal_wounds] -20%内部损伤 |
+    [bleeding] -40%出血 |
+    移除所有手术相关病症
+</ntg.applicationsuccess.sutures>
+  <ntg.applicationfailed.sutures>
+    [internal_wounds] +6%内部损伤
+</ntg.applicationfailed.sutures>
+  <!-- 手术台 -->
+  <ntg.title.surgery_table>手术台</ntg.title.surgery_table>
+  <ntg.description.surgery_table>手术台可以从站点购买或制作后放置。患者不需要躺在台上，只需靠近即可。
+手术台为附近所有人提供人工通风，并在患者有镇痛效果时防止创伤性休克。此外，手术台可降低缺氧并防止呼吸骤停和换气不足导致的酸中毒增加。病床具有相同功能。其他床铺可防止创伤性休克，但仅限躺在上面的人，且不提供手术台的其他效果。</ntg.description.surgery_table>
+  <!-- 手术程序 -->
+  <!-- 开/关手术 -->
+  <ntg.title.open_close_surgery>开/关手术</ntg.title.open_close_surgery>
+  <ntg.description.open_close_surgery>最常见的手术类型。中间可执行额外步骤，但必须在缝合前完成。</ntg.description.open_close_surgery>
+  <ntg.steps.open_close_surgery>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [multipurpose_scalpel] 2a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 2b. 使用手术刀 |
+    [hemostat] 3. 止血钳 |
+    [skin_retractors] 4. 皮肤牵引器 |
+    [sutures] 5. 缝合完成
+</ntg.steps.open_close_surgery>
+  <!-- 骨合成手术 -->
+  <ntg.title.osteosynthesis_surgery>骨合成手术</ntg.title.osteosynthesis_surgery>
+  <ntg.description.osteosynthesis_surgery>用于骨骼修复的手术，适用于骨坏死（必须在所有肢体上进行）或修复骨折。</ntg.description.osteosynthesis_surgery>
+  <ntg.steps.osteosynthesis_surgery>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [multipurpose_scalpel] 2a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 2b. 使用手术刀 |
+    [hemostat] 3. 止血钳 |
+    [skin_retractors] 4. 皮肤牵引器 |
+    [surgical_drill] 5. 骨钻 |
+    [osteosynthesis_implants] 6. 骨合成植入物 |
+    [sutures] 7. 缝合完成
+</ntg.steps.osteosynthesis_surgery>
+  <!-- 主动脉破裂手术 -->
+  <ntg.title.aortic_rupture_surgery>主动脉破裂手术</ntg.title.aortic_rupture_surgery>
+  <ntg.description.aortic_rupture_surgery>治疗主动脉破裂的手术。</ntg.description.aortic_rupture_surgery>
+  <ntg.steps.aortic_rupture_surgery>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [multipurpose_scalpel] 2a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 2b. 使用手术刀 |
+    [endovascular_balloon] 3. 血管内球囊 |
+    [medical_stent] 4. 医用支架 |
+    [sutures] 5. 缝合完成
+</ntg.steps.aortic_rupture_surgery>
+  <!-- 截肢手术 -->
+  <ntg.title.amputation_surgery>截肢手术</ntg.title.amputation_surgery>
+  <ntg.description.amputation_surgery>用于切除或接回肢体的手术。如果没有接回肢体，将导致手术截肢。</ntg.description.amputation_surgery>
+  <ntg.steps.amputation_surgery>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [multipurpose_scalpel] 2a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 2b. 使用手术刀 |
+    [hemostat] 3. 止血钳 |
+    [skin_retractors] 4. 皮肤牵引器 |
+    [surgical_saw] 5. 手术锯 |
+    [arm_item] 6. 可选：接回肢体（手臂/腿部， severed/bionic）|
+    [sutures] 7. 缝合完成
+</ntg.steps.amputation_surgery>
+  <!-- 器官移植手术 -->
+  <ntg.title.organ_transplant_surgery>器官移植手术</ntg.title.organ_transplant_surgery>
+  <ntg.description.organ_transplant_surgery>器官更换手术流程。</ntg.description.organ_transplant_surgery>
+  <ntg.steps.organ_transplant_surgery>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [multipurpose_scalpel] 2a. 使用多用途手术刀（手术切口模式）|
+    [scalpel] 2b. 使用手术刀 |
+    [hemostat] 3. 止血钳 |
+    [skin_retractors] 4. 皮肤牵引器 |
+    [multipurpose_scalpel] 5. 多用途手术刀（设置为器官自适应摘取模式，按描述应用到正确肢体）|
+    6. 放入新器官（将与体内现有器官交换）或再次使用多用途手术刀（移除体内器官而不交换）|
+    [sutures] 7. 缝合完成
+</ntg.steps.organ_transplant_surgery>
+
+
+  <!-- 解毒过滤器 -->
+  <ntg.title.toxin_filter>解毒过滤器</ntg.title.toxin_filter>
+  <ntg.description.toxin_filter>一种可安装在手术台中的过滤器，用于治疗患者的毒素。
+仅对原版添加的毒素（伤害类型）有效。对于躺在手术台上的患者，过滤器会根据毒素强度以不同的速率减少每种毒素。可同时过滤多种毒素。每过滤一种毒素，过滤器状况每秒减少0.8，并且患者每秒有0.1%概率感染败血症。
+如果患者未中毒，则不会产生这些效果。</ntg.description.toxin_filter>
+  <ntg.treatments.toxin_filter.morbusine>
+    [morbusine_poisoning] -1.8%/秒（0%到50%毒素强度之间）|
+    [morbusine_poisoning] -2.3%/秒（50%到100%毒素强度之间）
+</ntg.treatments.toxin_filter.morbusine>
+  <ntg.treatments.toxin_filter.cyanide>
+    [cyanide_poisoning] -2.8%/秒（0%到30%毒素强度之间）|
+    [cyanide_poisoning] -5.5%/秒（30%到100%毒素强度之间）
+</ntg.treatments.toxin_filter.cyanide>
+  <ntg.treatments.toxin_filter.sufforin>
+    [sufforin_poisoning] -1%/秒（0%到50%毒素强度之间）|
+    [sufforin_poisoning] -1.8%/秒（50%到100%毒素强度之间）
+</ntg.treatments.toxin_filter.sufforin>
+  <ntg.treatments.toxin_filter.deliriumine>
+    -1.6%/秒（0%到50%毒素强度之间）|
+    -2.3%/秒（50%到100%毒素强度之间）
+</ntg.treatments.toxin_filter.deliriumine>
+
+  <!-- ===== 物品页面（自动翻译） ===== -->
+  <ntg.title.alien_blood>外星血液</ntg.title.alien_blood>
+  <ntg.description.alien_blood>医疗技能检定：40。\n\n使用外星血液替代普通血液极其危险，仅应在危急情况下使用。</ntg.description.alien_blood>
+  <ntg.applicationsuccess.alien_blood>
+  [blood_loss] -20% 失血 | 
+  +60% 精神病 | 
+  [hemotransfusion_shock] +100% 输血性休克
+</ntg.applicationsuccess.alien_blood>
+  <ntg.applicationfailed.alien_blood>
+  [blood_loss] -20% 失血 | 
+  +60% 精神病 | 
+  [hemotransfusion_shock] +100% 输血性休克
+</ntg.applicationfailed.alien_blood>
+  <!-- Ambubag -->
+  <ntg.title.ambubag>简易呼吸器</ntg.title.ambubag>
+  <ntg.description.ambubag>一种用于在患者呼吸不足或完全停止呼吸时提供补充氧气的物品。
+\n使用装有普通氧气罐的简易呼吸器可治疗90%缺氧，消耗氧气罐2%的氧气。
+\n使用装有氧晶罐的简易呼吸器可治疗90%缺氧，治愈呼吸骤停，消耗氧晶罐2%的氧气。
+\n使用装有焊燃油罐的简易呼吸器会导致110%缺氧、10%肺损伤，消耗焊燃油罐5%的燃料。
+\n使用装有炽焰燃料罐的简易呼吸器会导致110%缺氧、20%肺损伤、10%烧伤，消耗炽焰燃料罐5%的燃料。
+\n使用装有油漆的简易呼吸器会导致50%缺氧、3%肺损伤、5%化学物质成瘾，治疗20%化学物质戒断，消耗油漆罐5%的油漆。
+\n使用装有镇痛罐的简易呼吸器会产生镇痛、阿片类药物成瘾、阿片类药物过量、阿片类药物戒断。具体数值取决于患者是否醉酒。</ntg.description.ambubag>
+  <ntg.effects.ambubag>
+  [oxygen_low] 治疗90%缺氧（氧气罐/氧晶罐）或导致110%缺氧（焊燃油罐/炽焰燃料罐）|
+  [respiratory_arrest] 治愈呼吸骤停（氧晶罐）|
+  [lung_damage] 导致10%肺损伤（焊燃油罐）或20%肺损伤（炽焰燃料罐）|
+  [burns] 导致10%烧伤（炽焰燃料罐）|
+  [withdrawal] 治疗20%化学物质戒断（油漆罐）|
+  [analgesia] 导致镇痛（镇痛罐）
+</ntg.effects.ambubag>
+  <!-- Analgesic Tank -->
+  <ntg.title.analgesic_tank>镇痛罐</ntg.title.analgesic_tank>
+  <ntg.description.analgesic_tank>一罐镇痛剂，可用于手术台或简易呼吸器。可购买或制作，也可补充。可获得品质加成，每级提高最大状况5%。
+\nWhen used in a 手术台, provides up to 14% 镇痛 to the patient laying on the table, and its condition reduces by 0.7% per second.</ntg.description.analgesic_tank>
+  <ntg.applicationsuccess.analgesic_tank>
+  [analgesia] +56% 镇痛 （醉酒时106%） | 
+  +40% 阿片类药物成瘾 | 
+  [opiate_overdose] +30% 阿片类药物过量 （醉酒时60%） | 
+  -75% 阿片类药物戒断
+</ntg.applicationsuccess.analgesic_tank>
+  <!-- Anaparalyzant -->
+  <ntg.title.anaparalyzant>抗麻痹剂</ntg.title.anaparalyzant>
+  <ntg.description.anaparalyzant>医疗技能检定：64。\n\n除了提供麻痹抗性和治疗麻痹的原始用途外，抗麻痹剂还可用于快速降低麻醉，使患者更快苏醒。</ntg.description.anaparalyzant>
+  <ntg.applicationsuccess.anaparalyzant>
+  [anesthesia] Instantly cures 麻醉 | 
+  Cures 麻痹 | 
+  +5% 精神病 | 
+  +800% 麻痹抗性
+</ntg.applicationsuccess.anaparalyzant>
+  <ntg.applicationfailed.anaparalyzant>
+  [anesthesia] -3%/s 麻醉 | 
+  +0.75%/s 精神病 | 
+  +6.5%/s 麻痹抗性
+</ntg.applicationfailed.anaparalyzant>
+  <!-- Antibiotic Glue -->
+  <ntg.title.antibiotic_glue>抗生素凝胶</ntg.title.antibiotic_glue>
+  <ntg.description.antibiotic_glue>医疗技能检定：55。\n一种用于快速封闭出血伤口并治疗单个肢体烧伤的凝胶。也用于治疗伤口感染。</ntg.description.antibiotic_glue>
+  <ntg.applicationsuccess.antibiotic_glue>
+  [bleeding] -60% 出血 | 
+  [burns] -15% 烧伤 | 
+  [infected_wounds] -100% 伤口感染
+</ntg.applicationsuccess.antibiotic_glue>
+  <ntg.applicationfailed.antibiotic_glue>
+  [bleeding] -40% 出血 | 
+  [burns] -10% 烧伤 | 
+  [infected_wounds] -100% 伤口感染 | 
+  [heart_attack] 50% chance to cause 心脏病
+</ntg.applicationfailed.antibiotic_glue>
+  <!-- Antibiotic Ointment -->
+  <ntg.title.antibiotic_ointment>抗生素软膏</ntg.title.antibiotic_ointment>
+  <ntg.description.antibiotic_ointment>医疗技能检定：10。\n抗生素软膏是一种用于治疗烧伤和处理伤口感染的物品。</ntg.description.antibiotic_ointment>
+  <ntg.applicationsuccess.antibiotic_ointment>
+  [infected_wounds] -60% 伤口感染 | 
+  [ointmented] +100% 涂药
+</ntg.applicationsuccess.antibiotic_ointment>
+  <!-- 消毒剂 -->
+  <ntg.title.antiseptic>消毒剂</ntg.title.antiseptic>
+  <ntg.description.antiseptic>消毒剂唯一的作用就是装入消毒喷雾器。每次喷雾消耗消毒剂10%的状况。</ntg.description.antiseptic>
+  <ntg.seealso.antiseptic>
+  [antiseptic_sprayer] 消毒喷雾器
+</ntg.seealso.antiseptic>
+  <!-- 消毒喷雾器 -->
+  <ntg.title.antiseptic_sprayer>消毒喷雾器</ntg.title.antiseptic_sprayer>
+  <ntg.description.antiseptic_sprayer>A sprayer which sprays 消毒剂 onto 伤口感染. Using the antiseptic sprayer with antiseptic in it will treat 100% infected wounds, give 5% 涂药 and use up 10% of the antiseptic.</ntg.description.antiseptic_sprayer>
+  <ntg.seealso.antiseptic_sprayer>
+  [antiseptic] 消毒剂
+</ntg.seealso.antiseptic_sprayer>
+  <!-- Arm Item -->
+  <ntg.title.arm_item>手臂（仿生/断肢）</ntg.title.arm_item>
+  <ntg.description.arm_item>可用于替换左或右臂的替代品，可安装到匹配的手术截肢并准备好手臂插座上。
+\n断肢需要冷藏保存，否则会过期。仿生手臂是合成的，不需要冷藏，但在其他方面与天然手臂生物学等效。</ntg.description.arm_item>
+  <ntg.seealso.arm_item>
+  [gangrene] 坏疽 |
+  [traumatic_amputation] 创伤性截肢 |
+  [surgical_amputation] 手术截肢 |
+  [amputation_surgery] 截肢手术
+</ntg.seealso.arm_item>
+  <!-- AED -->
+  <ntg.title.aed>AED（自动体外除颤器）</ntg.title.aed>
+  <ntg.description.aed>一种用于纠正患者心跳的物品。对患者使用并装有电池时，AED有机会重置心颤或治愈心脏骤停。
+\n医疗技能低于80时，手动除颤器在所有方面都更差。医疗技能达到100时，手动除颤器在所有方面都更好。</ntg.description.aed>
+  <ntg.seealso.aed>
+  [manual_defibrillator] 手动除颤器 | 
+  [mechanic_fibrillation] 纤颤 | 
+  [cardiac_arrest] 心脏骤停
+</ntg.seealso.aed>
+  <!-- 自动心肺复苏仪 -->
+  <ntg.title.blue_shark>蓝鲨玩偶</ntg.title.blue_shark>
+  <ntg.description.blue_shark>A funny little blue shark that might just cure your mental instability. Treats 2% 精神病 if used in the Health UI.</ntg.description.blue_shark>
+  <!-- Body Bag -->
+  <ntg.title.body_bag>运尸袋</ntg.title.body_bag>
+  <ntg.description.body_bag>运尸袋用于比拖拽尸体更快地运输尸体。将其放入潜水服槽位，如果将活人放入其中会导致窒息。
+\n可使用扳手作为治疗手段，在未失去意识的穿戴者躯干上强制移除。移除后物品会进入扳手使用者的背包。</ntg.description.body_bag>
+  <ntg.seealso.body_bag>
+  [wrench] 扳手 |
+  [unconsciousness] 失去意识
+</ntg.seealso.body_bag>
+  <!-- Brain Transplant // TODO NT SURGERY COMPAT -->
+  <ntg.title.brain_transplant>脑移植</ntg.title.brain_transplant>
+  <ntg.description.brain_transplant>医疗技能检定：100
+\nA vital organ. The patient's consciousness and 神经创伤 are directly linked to it. Unlike other organs, the brain is typically not transplanted.
+\nThe brain may be removed or transplanted during an 器官移植手术 done on the head. Removal of the brain causes immediate 失去意识, 心脏骤停, 呼吸骤停, loss of character control (the patient will enter freecam), and 100% 神经创伤, and continuous rapid neurotrauma gain, all of which will persist as long as the organ is removed. 
+The condition of the organ is inversely proportional to neurotrauma, up to 100%. Removing a brain at 100% or more neurotrauma will not produce a brain transplant and the patient will immediately reach 200% neurotrauma, killing them.
+\nIf the brain is transplanted back into the patient, they will regain control of the character, but their 心脏骤停 and 呼吸骤停 must still be treated. If the brain is transplanted into another patient, the donor will take control of that patient.
+\nUnlike other organs, the condition of the brain will always decay rapidly, even in a refrigerated container, unless it is placed in a 脑罐. If the brain or the container it is in ever touches the ground, it will be destroyed, unless if it is in a brain jar.</ntg.description.brain_transplant>
+  <ntg.seealso.brain_transplant>
+  [organ_transplant_surgery] 器官移植手术 | 
+  [neurotrauma] 神经创伤 | 
+  [unconsciousness] 失去意识 | 
+  [cardiac_arrest] 心脏骤停 | 
+  [respiratory_arrest] 呼吸骤停 |
+  [organ_rejection] 器官排斥 | 
+  [immunity] 免疫力 | 
+  [refrigerated_container] 冷藏容器 | 
+  [refrigerated_crate] 冷藏箱
+</ntg.seealso.brain_transplant>
+  <!-- ABX（广谱抗生素） -->
+  <ntg.title.combat_stimulant>战斗兴奋剂</ntg.title.combat_stimulant>
+  <ntg.description.combat_stimulant>医疗技能检定：35。\n战斗兴奋剂是一种兴奋剂，同时也具有急救物品的功能。效果与原版相同，但可治疗更多病症。成功使用提供20%化学物质成瘾和75%战斗兴奋剂；失败则提供40%化学物质成瘾。
+还会提供45%至50%的眩晕抗性。如果战斗兴奋剂在1%至10%之间，治疗效果减半，眩晕抗性降至45%至0%。
+战斗兴奋剂在11%至100%强度时将提供以下效果：</ntg.description.combat_stimulant>
+  <ntg.applicationsuccess.combat_stimulant>
+  [burns] -2%/s 烧伤 | 
+  [blood_loss] -2%/s 失血 | 
+  [bleeding] -2%/s 出血 | 
+  [internal_bleeding] -2%/s 内出血 | 
+  [internal_wounds] -2%/s 内伤 | 
+  [open_wounds] -2%/s 开放性伤口 | 
+  [sutures] -2%/s 缝合伤口 | 
+  [concussion] -2%/s 脑震荡 | 
+  [withdrawal] -2%/s 化学戒断| 
+</ntg.applicationsuccess.combat_stimulant>
+  <!-- Deusizine -->
+  <ntg.title.deusizine>神效剂</ntg.title.deusizine>
+  <ntg.description.deusizine>医疗技能检定：72
+\n一种特殊药物，可在20秒内治疗多种危及生命的病症，并提供适度的活力增益。</ntg.description.deusizine>
+  <ntg.applicationsuccess.deusizine>
+  [internal_wounds] -20% 内部损伤 | 
+  [blood_loss] -50% 失血 | 
+  [bleeding] -50% 出血 | 
+  [hypoxemia] -100% 低氧血症 | 
+  [vanilla_organ_damage] -20% 原版器官损伤 | 
+  +40% 血压 | 
+  +200% 活力
+</ntg.applicationsuccess.deusizine>
+  <ntg.applicationfailed.deusizine>
+  [internal_wounds] -10% 内部损伤 | 
+  [blood_loss] -50% 失血 | 
+  [bleeding] -50% 出血 | 
+  [hypoxemia] -40% 低氧血症 | 
+  [vanilla_organ_damage] -10% 原版器官损伤 | 
+  +40% 血压 | 
+  +200% 活力
+</ntg.applicationfailed.deusizine>
+  <!-- Dialysis Filter -->
+  <ntg.title.dialysis_filter>透析过滤器</ntg.title.dialysis_filter>
+  <ntg.description.dialysis_filter>一种可安装在手术台中的过滤器，用于降低患者的酸中毒或碱中毒。可以制作但无法购买。可获得品质加成，每级提高最大状况5%。
+\n如果患者躺在装有透析过滤器的手术台上并有酸中毒或碱中毒，这些病症将以0.8/秒的速度降低，过滤器状况以1/秒的速度下降，且患者每秒有0.1%概率感染败血症。
+如果患者没有酸中毒或碱中毒，过滤器状况不会下降，也不会有败血症风险。</ntg.description.dialysis_filter>
+  <ntg.seealso.dialysis_filter>
+  [surgery_table] 手术台 |
+  [acidosis] 酸中毒 |
+  [alkalosis] 碱中毒 |
+  [sepsis] 败血症
+</ntg.seealso.dialysis_filter>
+  <!-- 潜水刀 -->
+  <ntg.title.diving_knife>潜水刀</ntg.title.diving_knife>
+  <ntg.description.diving_knife>医疗技能检定：30
+\n除了刀的正常用途外，还可用于移除绷带。</ntg.description.diving_knife>
+  <ntg.applicationsuccess.diving_knife>
+  [bandaged] Removes 绷带
+</ntg.applicationsuccess.diving_knife>
+  <ntg.applicationfailed.diving_knife>
+  [bleeding] +15% 出血 |
+  [open_wounds] +10% 撕裂伤
+</ntg.applicationfailed.diving_knife>
+  <!-- Drainage -->
+  <ntg.title.drainage>引流管</ntg.title.drainage>
+  <ntg.description.drainage>引流管是一种一次性物品，在开/关手术中治疗气胸。如果患者没有气胸，引流管不会产生任何效果也不会被消耗。</ntg.description.drainage>
+  <ntg.seealso.drainage>
+  [pneumothorax] 气胸
+</ntg.seealso.drainage>
+  <!-- Empty Blood Pack -->
+  <ntg.title.empty_blood_pack>空血袋</ntg.title.empty_blood_pack>
+  <ntg.description.empty_blood_pack>医疗技能检定：30\n\n空血袋用于获取血袋。空血袋只能对失血低于31%的人类使用，否则无效。
+\nIf the human that the empty blood pack is used on is suffering from either 酸中毒, 碱中毒 or 败血症, then those afflictions will also be given to whoever the blood is given to (affliction gained will be the donor's affliction level at time of extraction divided by 5). 
+使用空血袋会将患者的酸中毒或碱中毒乘以0.9。</ntg.description.empty_blood_pack>
+  <ntg.applicationsuccess.empty_blood_pack>
+  [blood_loss] +30% 失血
+</ntg.applicationsuccess.empty_blood_pack>
+  <ntg.applicationfailed.empty_blood_pack>
+  [blood_loss] +40% 失血
+</ntg.applicationfailed.empty_blood_pack>
+  <ntg.seealso.empty_blood_pack>
+  [acidosis] 酸中毒 |
+  [alkalosis] 碱中毒 |
+  [sepsis] 败血症
+</ntg.seealso.empty_blood_pack>
+  <!-- 血管内球囊 -->
+  <ntg.title.endovascular_balloon>血管内球囊</ntg.title.endovascular_balloon>
+  <ntg.description.endovascular_balloon>主动脉破裂手术的第三步。球囊在没有100%手术切口时无法工作。使用球囊将阻断主动脉，防止主动脉破裂引起的失血，并治疗常规出血，但同时会导致坏疽。</ntg.description.endovascular_balloon>
+  <ntg.seealso.endovascular_balloon>
+  [aortic_rupture_surgery] 主动脉破裂手术 |
+  [surgery_incision] 手术切口 |
+  [blood_loss] 失血 |
+  [aortic_rupture] 主动脉破裂 |
+  [gangrene] 坏疽
+</ntg.seealso.endovascular_balloon>
+  <!-- Fentanyl -->
+  <ntg.title.fentanyl>芬太尼</ntg.title.fentanyl>
+  <ntg.description.fentanyl>医疗技能检定：72
+\nA powerful opiate used to induce 镇痛.
+\n为防止滥用，芬太尼不能作为投射物射出，例如从注射枪中。</ntg.description.fentanyl>
+  <ntg.applicationsuccess.fentanyl>
+  [analgesia] +75% 镇痛 （醉酒时150%） | 
+  +15% 阿片类药物成瘾 | 
+  [opiate_overdose] +22.5% 阿片类药物过量 （醉酒时37.5%） | 
+  [withdrawal] -100% 阿片类药物戒断
+</ntg.applicationsuccess.fentanyl>
+  <ntg.applicationfailed.fentanyl>
+  [analgesia] +50% 镇痛 （醉酒时100%） | 
+  +40% 阿片类药物成瘾 | 
+  [opiate_overdose] +30% 阿片类药物过量 （醉酒时60%） | 
+  [withdrawal] -100% 阿片类药物戒断
+</ntg.applicationfailed.fentanyl>
+  <!-- Gel Ice Pack -->
+  <ntg.title.gel_ice_pack>凝胶冰袋</ntg.title.gel_ice_pack>
+  <ntg.description.gel_ice_pack>医疗技能检定：40。
+\n一种可重复使用的冷敷包，用于促进钝力创伤愈合和治疗内出血。使用以及放在冷藏外都会降低其状况，但冷藏后会恢复。
+\n即使因使用或放在外面状况降至0%，一旦冷藏其状况也会恢复。</ntg.description.gel_ice_pack>
+  <ntg.applicationsuccess.gel_ice_pack>
+  [chilled] +100% 冷却 |
+  -35% 冰袋状况
+</ntg.applicationsuccess.gel_ice_pack>
+  <ntg.applicationfailed.gel_ice_pack>
+  [chilled] +75% 在肢体上 |
+  -35% 冰袋状况
+</ntg.applicationfailed.gel_ice_pack>
+  <!-- 石膏粉 -->
+  <ntg.title.gypsum>石膏粉</ntg.title.gypsum>
+  <ntg.description.gypsum>医疗技能检定：40
+\n一种细粉末，与包扎配合使用时，可将肢体包裹在石膏固定中以治疗骨折。如果事先未使用绷带或可塑人造皮肤，石膏粉无法使用，并且对颅骨、肋骨和颈部骨折无效。
+\n每打一个石膏固定，玩家获得20%移动速度减益。石膏固定可用创伤剪拆除。</ntg.description.gypsum>
+  <ntg.applicationsuccess.gypsum>
+  [plaster_cast] Turns the Bandage into a 石膏固定
+</ntg.applicationsuccess.gypsum>
+  <ntg.applicationfailed.gypsum>
+  消耗石膏粉，无其他效果
+</ntg.applicationfailed.gypsum>
+  <ntg.seealso.gypsum>
+  [bandaged] 包扎 | 
+  [fractures] 骨折 | 
+  [trauma_shears] 创伤剪
+</ntg.seealso.gypsum>
+  <!-- Haloperidol -->
+  <ntg.title.haloperidol>氟哌啶醇</ntg.title.haloperidol>
+  <ntg.description.haloperidol>医疗技能检定：37
+\n一种抗精神病药物，也用于治疗酒精戒断。</ntg.description.haloperidol>
+  <ntg.applicationsuccess.haloperidol>
+  -100% 精神病 |
+  -100% 幻觉 |
+  [withdrawal] -100% 酒精戒断
+</ntg.applicationsuccess.haloperidol>
+  <ntg.applicationfailed.haloperidol>
+  -25% 精神病 |
+  -25% 幻觉 |
+  [withdrawal] -25% 酒精戒断
+</ntg.applicationfailed.haloperidol>
+  <!-- 健康扫描仪 -->
+  <ntg.title.health_scanner>健康扫描仪</ntg.title.health_scanner>
+  <ntg.description.health_scanner>一种对诊断极其重要的物品。装上电池使用后，你将看到健康扫描仪可见的所有病症信息。被扫描的患者每秒获得0.5%辐射病，扫描者每秒获得0.3%辐射病。 
+\n也可像绷带一样在界面中用作治疗来扫描自己或他人，这会产生1%辐射病，并允许扫描单个肢体以发现异物等。</ntg.description.health_scanner>
+  <ntg.seealso.health_scanner>
+  [radiation_sickness] Radiation Sickness
+</ntg.seealso.health_scanner>
+  <!-- 血液分析仪 -->
+  <ntg.title.hematology_analyzer>血液分析仪</ntg.title.hematology_analyzer>
+  <ntg.description.hematology_analyzer>血液分析仪还可用于检查患者的血型，以避免输血性休克。将捐献卡放入分析仪然后使用，将打印血型信息到卡上并放入ID卡槽。 
+\n将血袋放入分析仪将显示其血型及是否含有上述病症。\n\n无论技能检定成功或失败，都会显示患者所有血液相关病症，如败血症、酸中毒或碱中毒。</ntg.description.hematology_analyzer>
+  <ntg.applicationsuccess.hematology_analyzer>
+  [blood_loss] +1% 失血
+</ntg.applicationsuccess.hematology_analyzer>
+  <ntg.applicationfailed.hematology_analyzer>
+  [blood_loss] +3% 失血
+</ntg.applicationfailed.hematology_analyzer>
+  <ntg.seealso.hematology_analyzer>
+  [sepsis] 败血症 |
+  [alkalosis] 碱中毒 |
+  [acidosis] 酸中毒 |
+  [hemotransfusion_shock] 输血性休克
+</ntg.seealso.hematology_analyzer>
+  <!-- 止血钳 -->
+  <ntg.title.hemostat>止血钳</ntg.title.hemostat>
+  <ntg.description.hemostat>大多数手术程序的第三步。止血钳在没有100%手术切口时无法工作。使用无需医疗技能。成功使用止血钳将在目标肢体上施加钳夹止血。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.hemostat>
+  <ntg.seealso.hemostat>
+  [surgery_incision] 手术切口 |
+  [clamped_bleeding] 钳夹止血
+</ntg.seealso.hemostat>
+  <!-- Hyperzine -->
+  <ntg.title.hyperzine>加速粉剂</ntg.title.hyperzine>
+  <ntg.description.hyperzine>医疗技能检定：50。\n一种强力兴奋剂。急速和活力立即生效，其他效果在60秒内持续生效。</ntg.description.hyperzine>
+  <ntg.applicationsuccess.hyperzine>
+  [internal_damage] -12% 内部损伤 |
+  +18% 化学物质成瘾 |
+  [neurotrauma] +18% 神经创伤 |
+  +15% 精神病 |
+  +400% 急速 | 
+  +400% 活力 | 
+  -54% 眩晕 |
+  [withdrawal] -90% 化学物质戒断
+</ntg.applicationsuccess.hyperzine>
+  <ntg.applicationfailed.hyperzine>
+  [internal_damage] -16% 内部损伤 |
+  +36% 化学物质成瘾 |
+  [neurotrauma] +36% 神经创伤 |
+  +30% 精神病 |
+  +400% 急速 | 
+  +400% 活力 | 
+  -27% 眩晕 |
+  [withdrawal] -90% 化学物质戒断
+</ntg.applicationfailed.hyperzine>
+  <!-- Heart Transplant -->
+  <ntg.title.heart_transplant>心脏移植</ntg.title.heart_transplant>
+  <ntg.description.heart_transplant>医疗技能检定：40
+\nA vital organ. The patient's heart-related afflictions, such as 心脏损伤, are directly linked to it.
+\nThe heart may be removed or transplanted during an 器官移植手术 done on the torso. Removal of the heart causes immediate 心脏骤停, 100% 心脏损伤, and up to 20% 原版器官损伤, inversely proportional to heart damage before removal. 
+The condition of the organ is inversely proportional to heart damage before removal. The patient cannot gain and will be immediately relieved of 心脏压塞 and 心脏病 while their heart is removed.
+\nIf a heart is transplanted back into the patient, their 心脏损伤 and up to 20% 原版器官损伤, both inversely proportional to the condition of the organ, will be treated, but their 心脏骤停 will not be treated. 
+The patient may gain 器官排斥 if they receive the organ and their 免疫力 is higher than 10%, if the mechanic is toggled on in the mod config.
+\nThe condition of a heart will decay unless placed in a 冷藏容器 or 冷藏箱. While refrigerated, the organ will slowly regain condition if it is above 90%, otherwise it will not change. If the organ or the container it is in hits the ground from a large height, it will be destroyed.</ntg.description.heart_transplant>
+  <ntg.seealso.heart_transplant>
+  [organ_transplant_surgery] 器官移植手术 | 
+  [heart_damage] 心脏损伤 | 
+  [cardiac_arrest] 心脏骤停 | 
+  [vanilla_organ_damage] 原版器官损伤 | 
+  [cardiac_tamponade] 心脏压塞 | 
+  [heart_attack] 心脏病 | 
+  [organ_rejection] 器官排斥 | 
+  [immunity] 免疫力 | 
+  [refrigerated_container] 冷藏容器 | 
+  [refrigerated_crate] 冷藏箱
+</ntg.seealso.heart_transplant>
+  <!-- Kidney Transplant -->
+  <ntg.title.kidney_transplant>肾脏移植</ntg.title.kidney_transplant>
+  <ntg.description.kidney_transplant>医疗技能检定：40。\nA pair of vital organs. The patient's 肾损伤 is directly related to it. Unlike other organs, patients will have two kidneys, which are individually damaged. At 50% kidney damage, only one kidney has failed, while the other kidney will be functional. A patient may be healthy with only one kidney. By itself, 50% kidney damage will not cause lethal 高血压.
+\nThe kidneys may be removed or transplanted during an 器官移植手术 done on the torso. Removing the kidneys will remove both at once, causing 100% 肾损伤 and up to 20% 原版器官损伤, inversely proportional to kidney damage before removal. The condition of the organs are inversely proportional to kidney damage before removal, up to 50% for each kidney. Therefore, removal of the kidneys at 25% kidney damage will produce one kidney at 100% and another one at 50%.
+\nIf the kidneys are transplanted back into the patient, up to 50% 肾损伤 and up to 10% 原版器官损伤 per kidney, both inversely proportional to their condition, will be treated. The patient may gain 器官排斥 if they receive the organ and their 免疫力 is higher than 10%, if the mechanic is enabled in the mod config.
+\nThe condition of a kidney will decay unless placed in a 冷藏容器 or 冷藏箱. While refrigerated, the organ will slowly regain condition if it is above 90%, otherwise it will not change. If the organ or the container it is in is dropped from a large height, it will be destroyed.</ntg.description.kidney_transplant>
+  <ntg.seealso.kidney_transplant>
+  [organ_transplant_surgery] 器官移植手术 | 
+  [kidney_damage] 肾损伤 | 
+  [hypertension] 高血压 | 
+  [vanilla_organ_damage] 原版器官损伤 | 
+  [organ_rejection] 器官排斥 | 
+  [immunity] 免疫力 | 
+  [refrigerated_container] 冷藏容器 | 
+  [refrigerated_crate] 冷藏箱
+</ntg.seealso.kidney_transplant>
+  <!-- Leg Item -->
+  <ntg.title.leg_item>腿（仿生/断肢）</ntg.title.leg_item>
+  <ntg.description.leg_item>可用于替换左或右腿的替代品，可安装到匹配的手术截肢并准备好的腿部插座上。
+\n断肢需要冷藏保存，否则会过期。仿生腿是合成的，不需要冷藏，但在其他方面与天然腿生物学等效。</ntg.description.leg_item>
+  <ntg.seealso.leg_item>
+  [gangrene] 坏疽 |
+  [traumatic_amputation] 创伤性截肢 |
+  [surgical_amputation] 手术截肢 |
+  [amputation_surgery] 截肢手术
+</ntg.seealso.leg_item>
+  <!-- Liver Transplant -->
+  <ntg.title.liver_transplant>肝脏移植</ntg.title.liver_transplant>
+  <ntg.description.liver_transplant>医疗技能检定：40\n\n一个至关重要的器官。患者的肝损伤与其直接相关。
+\nThe liver may be removed or transplanted during an 器官移植手术 done on the torso. Removal of the liver causes 100% 肝损伤 and up to 20% 原版器官损伤, inversely proportional to liver damage before removal. The condition of the organ is inversely proportional to liver damage before removal.
+\nIf a liver is transplanted back into the patient, their 肝损伤 and up to 20% 原版器官损伤, both inversely proportional to the condition of the organ, will be treated. The patient may gain 器官排斥 if they receive the organ and their 免疫力 is higher than 10%, if the mechanic is toggled on in the mod config.\n\nThe condition of a liver will decay unless placed in a 冷藏容器 or 冷藏箱. 
+While refrigerated, the organ will slowly regain condition if it is above 90%, otherwise it will not change. If the organ or the container it is in hits the ground from a large height, it will be destroyed.</ntg.description.liver_transplant>
+  <ntg.seealso.liver_transplant>
+  [organ_transplant_surgery] 器官移植手术 | 
+  [liver_damage] 肝损伤 | 
+  [vanilla_organ_damage] 原版器官损伤 | 
+  [organ_rejection] 器官排斥 | 
+  [immunity] 免疫力 | 
+  [refrigerated_container] 冷藏容器 | 
+  [refrigerated_crate] 冷藏箱
+</ntg.seealso.liver_transplant>
+  <!-- Liquid Oxygenite -->
+  <ntg.title.liquid_oxygenite>液态氧</ntg.title.liquid_oxygenite>
+  <ntg.description.liquid_oxygenite>医疗技能检定：72。
+\n一种液态外星物质，用于将氧气直接注入血液，治疗低氧血症。成功使用时，使用者对低氧血症功能免疫。
+\n以下所有效果在30秒内生效。</ntg.description.liquid_oxygenite>
+  <ntg.applicationsuccess.liquid_oxygenite>
+  [hypoxemia] -3000% 低氧血症 | 
+  [vanilla_organ_damage] +6% 原版器官损伤 | 
+  [lung_damage] +6% 肺损伤 | 
+  [liver_damage] +6% 肝损伤 | 
+  [heart_damage] +6% 心脏损伤 | 
+  [kidney_damage] +6% 肾损伤
+</ntg.applicationsuccess.liquid_oxygenite>
+  <ntg.applicationfailed.liquid_oxygenite>
+  [hypoxemia] -200% 低氧血症 | 
+  [vanilla_organ_damage] +10% 原版器官损伤 | 
+  [lung_damage] +10% 肺损伤 | 
+  [liver_damage] +10% 肝损伤 | 
+  [heart_damage] +10% 心脏损伤 | 
+  [kidney_damage] +10% 肾损伤
+</ntg.applicationfailed.liquid_oxygenite>
+  <!-- Lung Transplant -->
+  <ntg.title.lung_transplant>肺移植</ntg.title.lung_transplant>
+  <ntg.description.lung_transplant>医疗技能检定：40。\nA vital organ. The patient's lung-related afflictions, such as 肺损伤, are directly linked to it.
+\nThe lungs may be removed or transplanted during an 器官移植手术 done on the torso. Removal of the lungs causes immediate 呼吸骤停, 100% 肺损伤, and up to 20% 原版器官损伤, inversely proportional to lung damage before removal. 
+The condition of the organ is inversely proportional to lung damage before removal. The patient cannot gain and will be immediately relieved of 气胸, and will gain 缺氧 even if they are receiving artificial ventilation or wearing an AutoPulse, while their lungs are removed.
+\nIf the lungs are transplanted back into the patient, their 肺损伤 and up to 20% 原版器官损伤, both inversely proportional to the condition of the organ, will be treated, but their 呼吸骤停 will not be treated. The patient may gain 器官排斥 if they receive the organ and their 免疫力 is higher than 10%, if the mechanic is toggled on in the mod config.
+\nThe condition of the lungs will decay unless placed in a 冷藏容器 or 冷藏箱. While refrigerated, the organ will slowly regain condition if it is above 90%, otherwise it will not change. If the organ or the container it is in hits the ground from a large height, it will be destroyed.</ntg.description.lung_transplant>
+  <ntg.seealso.lung_transplant>
+  [organ_transplant_surgery] 器官移植手术 | 
+  [lung_damage] 肺损伤 | 
+  [respiratory_arrest] 呼吸骤停 | 
+  [vanilla_organ_damage] 原版器官损伤 | 
+  [pneumothorax] 气胸 | 
+  [oxygen_low] 缺氧 | 
+  [autopulse] AutoPulse | 
+  [organ_rejection] 器官排斥 | 
+  [immunity] 免疫力 | 
+  [refrigerated_container] 冷藏容器 | 
+  [refrigerated_crate] 冷藏箱
+</ntg.seealso.lung_transplant>
+  <!-- Mannitol -->
+  <ntg.title.mannitol>甘露醇</ntg.title.mannitol>
+  <ntg.description.mannitol>医疗技能检定：60。\n甘露醇是一种用于治疗神经创伤并将其获取减半的药物。但其代价是造成各种器官损伤。甘露醇治疗神经创伤需要血压高于70%且低氧血症低于30%。
+\nEffects occur over the course of 10 seconds.</ntg.description.mannitol>
+  <ntg.applicationsuccess.mannitol>
+  [neurotrauma] +50% Mannitol (Treats up to 100% 神经创伤) | 
+  [vanilla_organ_damage] +5% 原版器官损伤 | 
+  [heart_damage] +10% 心脏损伤 | 
+  [kidney_damage] +10% 肾损伤
+</ntg.applicationsuccess.mannitol>
+  <ntg.applicationfailed.mannitol>
+  [neurotrauma] +30% Mannitol (Treats up to 60% 神经创伤) | 
+  [vanilla_organ_damage] +10% 原版器官损伤 | 
+  [heart_damage] +20% 心脏损伤| 
+  [kidney_damage] +20% 肾损伤
+</ntg.applicationfailed.mannitol>
+  <!-- 手动除颤器 -->
+  <ntg.title.manual_defibrillator>手动除颤器</ntg.title.manual_defibrillator>
+  <ntg.description.manual_defibrillator>一种用于纠正患者心跳的物品。对患者使用并装有电池时，除颤器有机会重置心颤、导致心脏骤停或治愈心脏骤停。对人使用除颤器会使他们眩晕1秒。
+\n医疗技能低于80时，AED在所有方面概率更高。医疗技能达到100时，手动除颤器更优，变得完全安全，保证治愈心脏骤停和心颤。</ntg.description.manual_defibrillator>
+  <ntg.seealso.manual_defibrillator>
+  [aed] Automated External Defibrillator (AED) | 
+  [mechanic_fibrillation] 纤颤 | 
+  [cardiac_arrest] 心脏骤停
+</ntg.seealso.manual_defibrillator>
+  <!-- Medical Stent -->
+  <ntg.title.medical_stent>医疗支架</ntg.title.medical_stent>
+  <ntg.description.medical_stent>主动脉破裂手术的第四步。支架必须在预先使用血管内球囊后才能工作。使用医用支架将治愈主动脉破裂，并移除患者体内的血管内球囊。</ntg.description.medical_stent>
+  <ntg.seealso.medical_stent>
+  [endovascular_balloon] 血管内球囊 |
+  [aortic_rupture_surgery] 主动脉破裂手术 |
+  [aortic_rupture] 主动脉破裂
+</ntg.seealso.medical_stent>
+  <!-- Methamphetamine -->
+  <ntg.title.methamphetamine>兴奋粉剂</ntg.title.methamphetamine>
+  <ntg.description.methamphetamine>医疗技能检定：35。\n一种兴奋剂。急速立即生效，其他效果在30秒内生效。</ntg.description.methamphetamine>
+  <ntg.applicationsuccess.methamphetamine>
+  +70% Hyperactivity |
+  [vanilla_organ_damage] +15% 原版器官损伤 |
+  [neurotrauma] +15% 神经创伤 |
+  +15% 化学物质成瘾 |
+  +30% 精神病 |
+  -22.5% 眩晕 |
+  [withdrawal] -90% 化学物质戒断
+</ntg.applicationsuccess.methamphetamine>
+  <ntg.applicationfailed.methamphetamine>
+  +50% Hyperactivity |
+  [vanilla_organ_damage] +30% 原版器官损伤 |
+  [neurotrauma] +30% 神经创伤 |
+  +30% 化学物质成瘾 |
+  +45% 精神病 |
+  -22.5% 眩晕 |
+  [withdrawal] -90% 化学物质戒断
+</ntg.applicationfailed.methamphetamine>
+  <!-- Morphine -->
+  <ntg.title.morphine>吗啡</ntg.title.morphine>
+  <ntg.description.morphine>医疗技能检定：30。\n一种中等强度的阿片类药物，用于诱导镇痛。为防止滥用，吗啡不能作为投射物射出，例如从注射枪中。</ntg.description.morphine>
+  <ntg.applicationsuccess.morphine>
+  [analgesia] +50% 镇痛 （醉酒时100%） | 
+  [opiate_overdose] +10% 阿片类药物过量 （醉酒时20%） | 
+  +10% 阿片类药物成瘾 | 
+  [withdrawal] -30% 阿片类药物戒断
+</ntg.applicationsuccess.morphine>
+  <ntg.applicationfailed.morphine>
+  [analgesia] +30% 镇痛 （醉酒时60%） | 
+  [opiate_overdose] +40% 阿片类药物过量 | 
+  +10% 阿片类药物成瘾 | 
+  [withdrawal] -30% 阿片类药物戒断
+</ntg.applicationfailed.morphine>
+  <!-- Naloxone -->
+  <ntg.title.naloxone>纳洛酮</ntg.title.naloxone>
+  <ntg.description.naloxone>医疗技能检定：39。\n纳洛酮用于治疗阿片类药物的影响。</ntg.description.naloxone>
+  <ntg.applicationsuccess.naloxone>
+  [withdrawal] -60% 阿片类药物戒断 | 
+  [opiate_overdose] -60% 阿片类药物过量 | 
+  [analgesia] -60% 镇痛 | 
+  -60% 阿片类药物成瘾
+</ntg.applicationsuccess.naloxone>
+  <ntg.applicationfailed.naloxone>
+  [withdrawal] -30% 阿片类药物戒断 | 
+  [opiate_overdose] -30% 阿片类药物过量 | 
+  [analgesia] -30% 镇痛 | 
+  -60% 阿片类药物成瘾 |
+  [coma] +15% Coma (50% Chance)
+</ntg.applicationfailed.naloxone>
+  <!-- 注射针 -->
+  <ntg.title.needle>注射针</ntg.title.needle>
+  <ntg.description.needle>医疗技能检定：20。\n一种消耗性针头，将气胸强度降至5%但不治疗。如果患者没有气胸，针头反而会导致气胸。</ntg.description.needle>
+  <ntg.applicationsuccess.needle>
+  [pneumothorax] Reduces to 气胸 5% and prevents worsening
+</ntg.applicationsuccess.needle>
+  <ntg.applicationfailed.needle>
+  [vanilla_organ_damage] +10% 原版器官损伤 |
+  [bleeding] +10% 出血
+</ntg.applicationfailed.needle>
+  <!-- Nitroglycerin -->
+  <ntg.title.nitroglycerin>硝酸甘油</ntg.title.nitroglycerin>
+  <ntg.description.nitroglycerin>医疗技能检定：35。\n一个装有极易挥发的血管扩张剂的罐子，受撞击或遇热会爆炸。此药物生效期间，由低血压引起的心颤将减少。效果与硝普钠相同。</ntg.description.nitroglycerin>
+  <ntg.applicationsuccess.nitroglycerin>
+  -45% 血压 (400 seconds)
+</ntg.applicationsuccess.nitroglycerin>
+  <ntg.applicationfailed.nitroglycerin>
+  -45% 血压 (200 seconds)
+</ntg.applicationfailed.nitroglycerin>
+  <!-- Opium -->
+  <ntg.title.opium>药用鸦片</ntg.title.opium>
+  <ntg.description.opium>医疗技能检定：30。\nA weak opiate used to induce 镇痛.</ntg.description.opium>
+  <ntg.applicationsuccess.opium>
+  [analgesia] +20% 镇痛 （醉酒时40%） | 
+  [opiate_overdose] +5% 阿片类药物过量 （醉酒时18.75%） | 
+  +10% 阿片类药物成瘾 | 
+  [withdrawal] -15% 阿片类药物戒断
+</ntg.applicationsuccess.opium>
+  <ntg.applicationfailed.opium>
+  [analgesia] +10% 镇痛 （醉酒时20%） | 
+  [opiate_overdose] +15% 阿片类药物过量 （醉酒时30%） | 
+  +10% 阿片类药物成瘾 | 
+  [withdrawal] -15% 阿片类药物戒断
+</ntg.applicationfailed.opium>
+  <!-- 多用途手术刀 -->
+  <ntg.title.multipurpose_scalpel>多用途手术刀</ntg.title.multipurpose_scalpel>
+  <ntg.description.multipurpose_scalpel>多用途手术刀结合了普通手术刀、器官摘取刀和创伤剪的功能，同时为用户提供了一种故意伤害患者的途径。
+\nThis item is craftable at a regular fabricator.
+\nThe mode of this 手术刀 is changed by equipping the item (akin to a weapon or tool) and clicking on the available UI buttons which appear.
+</ntg.description.multipurpose_scalpel>
+  <ntg.description.multipurpose_scalpel_ex1>
+In this mode, the item behaves identically to a regular 手术刀.
+</ntg.description.multipurpose_scalpel_ex1>
+  <ntg.description.multipurpose_scalpel_ex2>
+In this mode, as long as the patient has a bandage or a cast, the item functions identically to 创伤剪.
+\nIs this not the case, then using it will result in the patient getting stabbed. Depending on location and surgical status of the patient, this can cause serious damage.
+</ntg.description.multipurpose_scalpel_ex2>
+  <ntg.description.multipurpose_scalpel_ex3>
+In this mode, the item will have the ability to extract any organ from a patient, and it is a required item for 器官移植手术. The organ extracted depends on which limb has 牵引皮肤, and which limb the 多用途手术刀 is used on:| 
+[kidney_transplant] Apply to Left Arm, with retracted skin on the Torso | [liver_transplant] Apply to Torso, with retracted skin on the Torso |
+[heart_transplant] Apply to Right Arm, with retracted skin on the Torso | [lung_transplant] Apply to Left Leg, with retracted skin on the Torso | 
+[brain_transplant] Apply to Head, with retracted skin on the Head
+</ntg.description.multipurpose_scalpel_ex3>
+  <!-- 骨合成植入物 -->
+  <ntg.title.osteosynthesis_implants>骨合成植入物</ntg.title.osteosynthesis_implants>
+  <ntg.description.osteosynthesis_implants>医疗技能检定：45。\n骨合成手术的第六步。植入物在没有100%钻孔骨骼时无法工作。
+</ntg.description.osteosynthesis_implants>
+  <ntg.applicationsuccess.osteosynthesis_implants>
+  [fractures] Cures all fractures on limb using up 25% of the implant's condition
+</ntg.applicationsuccess.osteosynthesis_implants>
+  <ntg.applicationfailed.osteosynthesis_implants>
+  [bleeding] +5% 出血 |
+  [internal_wounds] +5% 内部损伤
+</ntg.applicationfailed.osteosynthesis_implants>
+  <!-- 可塑人造皮肤 -->
+  <ntg.title.plastiseal>可塑人造皮肤</ntg.title.plastiseal>
+  <ntg.description.plastiseal>医疗技能检定：22。\n包扎的改进版本，可更有效地处理伤口。
+\n使用可塑人造皮肤还会替换肢体上的脏绷带。在牵引皮肤后也可使用可塑人造皮肤治疗三级烧伤。</ntg.description.plastiseal>
+  <ntg.applicationsuccess.plastiseal>
+  [bandaged] +100% 包扎 |
+  [bleeding] -48% 出血 |
+  [burns] -24% 烧伤
+</ntg.applicationsuccess.plastiseal>
+  <ntg.applicationfailed.plastiseal>
+  [bandaged] +50% 包扎 |
+  [bleeding] -24% 出血 |
+  [burns] -12% 烧伤
+</ntg.applicationfailed.plastiseal>
+  <ntg.seealso.plastiseal>
+  [bandages] Bandage
+</ntg.seealso.plastiseal>
+  <!-- Propofol -->
+  <ntg.title.propofol>丙泊酚</ntg.title.propofol>
+  <ntg.description.propofol>丙泊酚不再可制作。
+\n一种用于诱导可控失去意识以预防创伤性休克的药物。
+\n使用时，患者每秒获得0.3%麻醉。1-15%麻醉时，患者获得5%镇痛。超过15%麻醉时，患者失去意识。达到100%麻醉时，丙泊酚的效果结束。
+\n使用抗麻痹剂可将麻醉降至0%，并移除其效果。</ntg.description.propofol>
+  <ntg.sideeffects.propofol>
+  [hypotension] 低血压 |
+  [confusion] Confusion |
+  [blurred_vision] Blurred Vision |
+  [fever] Fever |
+  [mechanic_fibrillation] 纤颤 |
+  [seizure] Seizure |
+  [vomiting_blood] Vomiting Blood | 
+  精神病
+</ntg.sideeffects.propofol>
+  <ntg.seealso.propofol>
+  [anaparalyzant] Anaparalyzant |
+  [analgesia] 镇痛 |
+  [anesthesia] 麻醉 |
+  [unconsciousness] 失去意识 |
+  [traumatic_shock] 创伤性休克
+</ntg.seealso.propofol>
+  <!-- Raptor Bane Extract -->
+  <ntg.title.raptor_bane_extract>迅猛龙杀手精华</ntg.title.raptor_bane_extract>
+  <ntg.description.raptor_bane_extract>迅猛龙杀手精华用于治疗酸中毒，通过诱导患者呕吐使其转为碱中毒。</ntg.description.raptor_bane_extract>
+  <ntg.seealso.raptor_bane_extract>
+  [acidosis] 酸中毒 |
+  [alkalosis] 碱中毒 |
+  [vomiting] Vomiting
+</ntg.seealso.raptor_bane_extract>
+  <!-- 冷藏容器 -->
+  <ntg.title.refrigerated_container>冷藏容器</ntg.title.refrigerated_container>
+  <ntg.description.refrigerated_container>一种与存储容器功能相似的容器。有6个物品槽，可存放任何小物品。但主要用途是存放器官移植体（脑移植除外）、断肢和凝胶冰袋。这可以防止物品自然衰减状况。器官移植体在冷藏后会缓慢恢复状况（如果高于90%）。
+\n如果将容器从高处摔落，容器内的器官移植体可能被摧毁。</ntg.description.refrigerated_container>
+  <ntg.seealso.refrigerated_container>
+  [heart_transplant] 心脏移植体|
+  [kidney_transplant] 肾脏移植体|
+  [liver_transplant] 肝脏移植体|
+  [lung_transplant] 肺移植体|
+  [arm_item] 手臂（断肢）|
+  [leg_item] 腿（断肢）|
+  [gel_ice_pack] 凝胶冰袋 
+</ntg.seealso.refrigerated_container>
+  <!-- 冷藏箱 -->
+  <ntg.title.refrigerated_crate>冷藏箱</ntg.title.refrigerated_crate>
+  <ntg.description.refrigerated_crate>一种与防水箱功能相似的容器。有12个物品槽，可存放任何小物品。但主要用途是存放器官移植体（脑移植除外）、断肢和凝胶冰袋。这可以防止物品自然衰减状况。器官移植体在冷藏后会缓慢恢复状况（如果高于90%）。
+\n如果将箱子从高处摔落，箱子内的器官移植体可能被摧毁。</ntg.description.refrigerated_crate>
+  <ntg.seealso.refrigerated_crate>
+  [heart_transplant] 心脏移植体|
+  [kidney_transplant] 肾脏移植体|
+  [liver_transplant] 肝脏移植体|
+  [lung_transplant] 肺移植体|
+  [arm_item] 手臂（断肢）|
+  [leg_item] 腿（断肢）|
+  [gel_ice_pack] 凝胶冰袋 
+</ntg.seealso.refrigerated_crate>
+  <!-- Ringers Solution -->
+  <ntg.title.ringers_solution>林格氏液</ntg.title.ringers_solution>
+  <ntg.description.ringers_solution>医疗技能检定：20\n\n一种用于补充流失体液的等渗溶液。增加血压，无其他效果。</ntg.description.ringers_solution>
+  <ntg.applicationsuccess.ringers_solution>
+  +30% 血压 (200 seconds)
+</ntg.applicationsuccess.ringers_solution>
+  <ntg.applicationfailed.ringers_solution>
+  +30% 血压 (120 seconds)
+</ntg.applicationfailed.ringers_solution>
+  <!-- Saline -->
+  <ntg.title.saline>生理盐水</ntg.title.saline>
+  <ntg.description.saline>医疗技能检定：10。\n一种用于补充流失体液或治疗碱中毒的等渗溶液。</ntg.description.saline>
+  <ntg.applicationsuccess.saline>
+  +30% 血压 (200 seconds) | 
+  [acidosis] +0.07%/s 酸中毒 (200 seconds)
+</ntg.applicationsuccess.saline>
+  <ntg.applicationfailed.saline>
+  +30% 血压 (120 seconds) | 
+  [acidosis] +0.07%/s 酸中毒 (120 seconds)
+</ntg.applicationfailed.saline>
+  <!-- 手术刀 -->
+  <ntg.title.scalpel>手术刀</ntg.title.scalpel>
+  <ntg.description.scalpel>医疗技能检定：30。\n所有手术程序的第二步。没有镇痛或失去意识时手术刀无法工作。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.scalpel>
+  <ntg.applicationsuccess.scalpel>
+  [surgery_incision] Applies 手术切口 and removes 绷带/Casts
+</ntg.applicationsuccess.scalpel>
+  <ntg.applicationfailed.scalpel>
+  [bleeding] +15% 出血 |
+  [lacerations] +10% 撕裂伤
+</ntg.applicationfailed.scalpel>
+  <ntg.seealso.scalpel>
+  [analgesia] 镇痛 |
+  [unconsciousness] 失去意识
+</ntg.seealso.scalpel>
+  <!-- 皮肤牵引器 -->
+  <ntg.title.skin_retractors>皮肤牵引器</ntg.title.skin_retractors>
+  <ntg.description.skin_retractors>医疗技能检定：30。\n大多数手术程序的第四步。没有100%钳夹止血时皮肤牵引器无法工作。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.skin_retractors>
+  <ntg.applicationsuccess.skin_retractors>
+  [retracted_skin] 施加 牵引皮肤
+</ntg.applicationsuccess.skin_retractors>
+  <ntg.applicationfailed.skin_retractors>
+  [internal_wounds] +10% 内部损伤
+</ntg.applicationfailed.skin_retractors>
+  <!-- Sodium Nitroprusside -->
+  <ntg.title.sodium_nitroprusside>硝普钠</ntg.title.sodium_nitroprusside>
+  <ntg.description.sodium_nitroprusside>医疗技能检定：10。\n一种降低血压的药物。此药物生效期间，由低血压引起的心颤将减少。效果与硝酸甘油相同。</ntg.description.sodium_nitroprusside>
+  <ntg.applicationsuccess.sodium_nitroprusside>
+  -45% 血压 (200 seconds)
+</ntg.applicationsuccess.sodium_nitroprusside>
+  <ntg.applicationfailed.sodium_nitroprusside>
+  -45% 血压 (120 seconds)
+</ntg.applicationfailed.sodium_nitroprusside>
+  <ntg.seealso.sodium_nitroprusside>
+  [nitroglycerin] Nitroglycerin
+</ntg.seealso.sodium_nitroprusside>
+  <!-- Spinal Cord Implants -->
+  <ntg.title.spinal_cord_implants>脊髓植入物</ntg.title.spinal_cord_implants>
+  <ntg.description.spinal_cord_implants>Treats 脊髓损伤.</ntg.description.spinal_cord_implants>
+  <ntg.applicationsuccess.spinal_cord_implants>
+  [spinal_cord_injury] -100% 脊髓损伤 (treat the fracture too!)
+</ntg.applicationsuccess.spinal_cord_implants>
+  <ntg.applicationfailed.spinal_cord_implants>
+  [bleeding] +5% 出血 |
+  [internal_wounds] +5% 内伤
+</ntg.applicationfailed.spinal_cord_implants>
+  <!-- Stasis Bag -->
+  <ntg.title.stasis_bag>停滞袋（器官保存袋）</ntg.title.stasis_bag>
+  <ntg.description.stasis_bag>一种特殊袋子，在伤势严重时将身体维持在停滞状态以便运送到适当治疗设施。停滞袋穿戴在潜水服槽位中，每秒消耗0.25%状况，可持续400秒（约6.5分钟）。
+\n穿戴停滞袋可保护穿戴者抵抗深达7000米的水压，并允许以全速拖拽穿戴者。此外，穿戴者的画皮感染将以0.15/秒的速度降低（低于100%时）。
+\n停滞袋中的患者无法接受手术，取出后3秒内也无法接受手术。但仍可接受药物等物品。
+\n从停滞袋中取出的患者将出现心脏骤停、呼吸骤停和失去意识，需要治疗这些病症。
+\n以下病症会被停滞袋暂停：
+</ntg.description.stasis_bag>
+  <ntg.effects.stasis_bag>
+  [cardiac_arrest] 心脏骤停 | 
+  [respiratory_arrest] 呼吸骤停 | 
+  [heart_attack] 心脏病 | 
+  [neurotrauma] 神经创伤 | 
+  [kidney_damage] 肾损伤 | 
+  [liver_damage] 肝损伤 | 
+  [heart_damage] 心脏损伤 | 
+  [lung_damage] 肺损伤 | 
+  [bone_damage] 骨损伤 | 
+  [sepsis] 败血症 | 
+  [hypoxemia] 低氧血症 |
+  [hypotension] 低血压 |
+  [hypertension] 高血压 | 
+  [internal_bleeding] 内出血 | 
+  [stroke] Stroke | 
+  [seizure] Seizure | 
+  [coma] Coma |
+  [infected_wounds] 伤口感染 |
+  [bleeding] 出血
+</ntg.effects.stasis_bag>
+  <!-- Streptokinase -->
+  <ntg.title.streptokinase>链激酶</ntg.title.streptokinase>
+  <ntg.description.streptokinase>医疗技能检定：无。
+\n一种血液稀释剂。使用链激酶会阻止自然出血再生，如果患者血压超过150%，还会增加中风风险。</ntg.description.streptokinase>
+  <ntg.effects.streptokinase>
+  [heart_attack] Fully treats 心脏病 |
+  [hemotransfusion_shock] Fully treats 输血性休克
+</ntg.effects.streptokinase>
+  <ntg.seealso.streptokinase>
+  [stroke] Stroke |
+  [hypertension] 高血压 |
+  [bleeding] 出血
+</ntg.seealso.streptokinase>
+  <!-- 手术台 -->
+  <ntg.title.surgical_drill>手术钻</ntg.title.surgical_drill>
+  <ntg.description.surgical_drill>医疗技能检定：45。\n骨合成手术的第五步。手术钻在没有100%牵引皮肤时无法工作。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.surgical_drill>
+  <ntg.applicationsuccess.surgical_drill>
+  [drilled_bones] Applies 钻孔骨骼
+</ntg.applicationsuccess.surgical_drill>
+  <ntg.applicationfailed.surgical_drill>
+  [burns] +12% 烧伤 |
+  [internal_wounds] +10% 内部损伤
+</ntg.applicationfailed.surgical_drill>
+  <ntg.seealso.surgical_drill>
+  [osteosynthesis_surgery] 骨合成手术
+</ntg.seealso.surgical_drill>
+  <!-- 手术锯 -->
+  <ntg.title.surgical_saw>手术锯</ntg.title.surgical_saw>
+  <ntg.description.surgical_saw>医疗技能检定：45。\n截肢手术的第五步。没有100%牵引皮肤时手术锯无法工作。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.surgical_saw>
+  <ntg.applicationsuccess.surgical_saw>
+  [sawed_bones] Applies 锯骨 to limb
+</ntg.applicationsuccess.surgical_saw>
+  <ntg.applicationfailed.surgical_saw>
+  [internal_wounds] +6% 内部损伤 |
+  [bleeding] +15% 出血 |
+  [open_wounds] +4% 撕裂伤
+</ntg.applicationfailed.surgical_saw>
+  <ntg.seealso.surgical_saw>
+  [amputation_surgery] 截肢手术
+</ntg.seealso.surgical_saw>
+  <!-- 缝合线 -->
+  <ntg.title.thiamine>硫胺素（维生素B1）</ntg.title.thiamine>
+  <ntg.description.thiamine>医疗技能检定：10。\n一瓶维生素B1药片，用于辅助器官愈合。无法复活已死亡的器官（即100%器官损伤）。成功使用提供+50%硫胺素，200秒内生效；失败使用提供30%硫胺素，120秒内生效。</ntg.description.thiamine>
+  <ntg.applicationsuccess.thiamine>
+  [lung_damage] -8% 肺损伤 | 
+  [heart_damage] -8% 心脏损伤 | 
+  [kidney_damage] -8% 肾损伤 | 
+  [liver_damage] -8% 肝损伤 | 
+  [vanilla_organ_damage] -8% 原版器官损伤
+</ntg.applicationsuccess.thiamine>
+  <ntg.applicationfailed.thiamine>
+  [lung_damage] -4.8% 肺损伤 | 
+  [heart_damage] -4.8% 心脏损伤 | 
+  [kidney_damage] -4.8% 肾损伤 | 
+  [liver_damage] -4.8% 肝损伤 | 
+  [vanilla_organ_damage] -4.8% 原版器官损伤
+</ntg.applicationfailed.thiamine>
+  <!-- 止血带 -->
+  <ntg.title.tourniquet>止血带</ntg.title.tourniquet>
+  <ntg.description.tourniquet>医疗技能检定：30。\n一种用于限制血流以防止动脉出血造成失血的物品。没有动脉出血则无法使用。止血带在开/关手术后会自动移除。在头部使用止血带会给受害者15%神经创伤、200%低氧，并且不会钳夹颈动脉出血。</ntg.description.tourniquet>
+  <ntg.applicationsuccess.tourniquet>
+  [blood_loss] Prevents Arterial 失血 | 
+  [bleeding] Treats regular bleeding
+</ntg.applicationsuccess.tourniquet>
+  <ntg.applicationfailed.tourniquet>
+  [internal_wounds] +6% 钝力创伤|
+  如果对没有动脉出血的伤口使用也会发生此情况
+</ntg.applicationfailed.tourniquet>
+  <ntg.seealso.tourniquet>
+  [gangrene] 坏疽 |
+  [open_close_surgery] Open / Close Surgery |
+  [arterial_bleeding] 动脉出血
+</ntg.seealso.tourniquet>
+  <!-- 解毒过滤器 -->
+  <ntg.title.trauma_shears>创伤剪</ntg.title.trauma_shears>
+  <ntg.description.trauma_shears>医疗技能检定：10。\nA pair of scissors used to remove 石膏固定 and bandages.
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。</ntg.description.trauma_shears>
+  <ntg.applicationsuccess.trauma_shears>
+  [plaster_cast] Removes Cast | 
+  [bandaged] Removes 绷带
+</ntg.applicationsuccess.trauma_shears>
+  <ntg.applicationfailed.trauma_shears>
+  [bleeding] +15% 出血 |
+  [open_wounds] +10% 撕裂伤
+</ntg.applicationfailed.trauma_shears>
+  <!-- 镊子 -->
+  <ntg.title.tweezers>镊子</ntg.title.tweezers>
+  <ntg.description.tweezers>医疗技能检定：30。\n一把用于移除受损组织或子弹的镊子。
+\n此物品无法直接制作。要从制造机获得，玩家必须制作“手术工具箱”。
+\n其效果取决于肢体上是否有牵引皮肤、枪伤或深层组织损伤（手术情况），或没有任何上述情况（非手术情况）。
+\n如果所处理的肢体有枪伤或深层组织损伤，镊子可在没有牵引皮肤的情况下工作。通过枪伤或深层组织损伤使用镊子会造成5%创伤性休克。注意，通过枪伤或深层组织损伤使用镊子仅对异物有效，对钝力创伤无效。夹取异物还有5%概率获得废料。
+\n在镊子本不会起任何作用的情况下使用镊子，会夹伤患者，造成轻微伤害（头部伤害更严重）。</ntg.description.tweezers>
+  <ntg.effects.tweezers>
+  [bleeding] 轻微出血 | 
+  [open_wounds] 轻微撕裂伤 | 
+  [traumatic_shock] +5% 创伤性休克 （通过枪伤/深层组织损伤时） | 
+  [foreign_bodies] -3%至-10% 异物
+</ntg.effects.tweezers>
+  <ntg.applicationsuccess.tweezers>
+  [internal_wounds] -3%至-10% 内部损伤（手术） |
+  [internal_wounds] -3%至-10% 钝力创伤（手术） |
+  [foreign_bodies] -3%至-10% 异物（手术） |
+  [open_wounds] +5% 撕裂伤
+</ntg.applicationsuccess.tweezers>
+  <ntg.applicationfailed.tweezers>
+  [internal_wounds] +6% 内部损伤（手术） |
+</ntg.applicationfailed.tweezers>
+  <ntg.seealso.tweezers>
+  [retracted_skin] 牵引皮肤
+</ntg.seealso.tweezers>
+  <!-- 扳手 -->
+  <ntg.title.wrench>扳手</ntg.title.wrench>
+  <ntg.description.wrench>医疗技能检定：60（患者有镇痛时为30）.
+\n扳手用于治疗脱臼。使用时，将其拖到健康界面中的脱臼肢体上，像绷带一样使用。如果肢体没有脱臼，扳手不会做任何事。
+\n扳手还可以用于移除一个人身上的自动心肺复苏仪或运尸袋，只要此人未失去意识，在躯干上使用扳手作为治疗即可。移除的物品会进入扳手使用者的背包。</ntg.description.wrench>
+  <ntg.applicationsuccess.wrench>
+  [dislocations] Cures dislocations
+</ntg.applicationsuccess.wrench>
+  <ntg.applicationfailed.wrench>
+  [fractures] Causes fractures
+</ntg.applicationfailed.wrench>
+  <!-- Surgical Procedures -->
+  <!-- 开/关手术 -->
+</Infotexts>

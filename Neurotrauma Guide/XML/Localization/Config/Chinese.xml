@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="false" translatedname="中文">
+  <Override>
+    <rawconfig.enforcedtooltip>此设置由服务器强制启用</rawconfig.enforcedtooltip>
+    <rawconfig.notenforcedtooltip>此设置不由服务器强制启用</rawconfig.notenforcedtooltip>
+    <ntguide.modname>神经创伤指南</ntguide.modname>
+    <ntguide.cfg.enabled>启用内置指南</ntguide.cfg.enabled>
+    <ntguide.cfg.enableddescription>启用所有指南功能。</ntguide.cfg.enableddescription>
+    <ntguide.cfg.shared>与客户端共享模组</ntguide.cfg.shared>
+    <ntguide.cfg.shareddescription>启用后，此模组将出现在服务器模组列表中，并在玩家加入时自动下载。（需要服务器端/主机端启用 CSharp 脚本）</ntguide.cfg.shareddescription>
+  </Override>
+</infotexts>

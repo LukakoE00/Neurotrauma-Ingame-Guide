@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <!-- Neurotrauma 移植插件 -->
+  <!-- 设置 -->
+  <ntg.categoryname.grafting>附加设置：移植</ntg.categoryname.grafting>
+  <ntg.settingname.modcolourgrafting>NT移植模组来源颜色</ntg.settingname.modcolourgrafting>
+  <ntg.category.grafting>移植手术</ntg.category.grafting>
+  <!-- 工具 -->
+  <ntg.title.dna_litigation_enhancer>DNA连接增强剂</ntg.title.dna_litigation_enhancer>
+  <ntg.description.dna_litigation_enhancer>医疗技能需求：50。\nDNA连接增强剂是在欧罗巴上为推动科学进步而开发的几种移植工具之一，可被认为是最关键的一种。只能由解锁了移植技能树的医疗兵制作——4个需要1个Fulgurium块和2个Stabilozine，以及40医疗技能。在移植过程之前和期间使用，以减轻移植难度，使人类DNA与外星DNA融合。需要在患者经历跨物种排斥时使用；但注意，一次注射过多将对患者致命——造成极端器官损伤！\n在连接外星移植体之前不使用DNA连接增强剂进行移植也是可能的。但这种方法会使器官更难适应，并产生更严重的排斥反应。器官还会在体内引起败血症，因为它本不应存在且没有得到药物支持。\n此外，一些移植体具有隐藏功能。例如，移植了泥偶迅猛龙肺的人类在接触猎龙毒提取物时可能会经历肺衰竭，就像普通泥偶迅猛龙一样。</ntg.description.dna_litigation_enhancer>
+  <ntg.applicationsuccess.dna_litigation_enhancer>[cross_species_rejection] -25% 跨物种排斥 | +70% DNA连接增强剂（成功使用且医疗技能超过50时）| +75% DNA连接增强剂（成功使用且医疗技能低于50时）</ntg.applicationsuccess.dna_litigation_enhancer>
+  <ntg.applicationfailed.dna_litigation_enhancer>[cross_species_rejection] -25% 跨物种排斥 | +85% DNA连接增强剂</ntg.applicationfailed.dna_litigation_enhancer>
+  <ntg.effects.dna_litigation_enhancer>超过90%时将引发DNA连接增强剂过量，造成严重的肺/肾/肝/心脏损伤，可在数秒内杀死器官。| 超过80%时生命力与病症强度成正比</ntg.effects.dna_litigation_enhancer>
+  <ntg.title.dna_splicer>基因拼接器</ntg.title.dna_splicer>
+  <ntg.description.dna_splicer>医疗技能需求：50。\n基因拼接器是在欧罗巴上为推动科学进步而开发的几种移植工具之一，用于分离已过度融入人类宿主的DNA；是移除皮肤相关移植体（如下颌、躯干或眼睛）的唯一方法。可以使用广谱抗生素和Stabilozine制作，必须注射到正确的肢体以移除其中所含的病症。它只会移除并销毁移植体，意味着不会返还投入该移植体的任何资源。\nDNA退化病症每秒衰减1%并移除5%的移植体。也就是说，一个100%的移植体至少需要20%的DNA退化才能被移除。</ntg.description.dna_splicer>
+  <ntg.applicationsuccess.dna_splicer>+66% DNA退化（在锤头煞皮肤上）| +33% DNA退化（在末日蠕虫皮肤上）| +100% DNA退化</ntg.applicationsuccess.dna_splicer>
+  <ntg.applicationfailed.dna_splicer>+33% DNA退化（在锤头煞皮肤上）| +16.5% DNA退化（在末日蠕虫皮肤上）| +50% DNA退化</ntg.applicationfailed.dna_splicer>
+  <ntg.effects.dna_splicer>激活时每秒移除5%的移植体</ntg.effects.dna_splicer>
+  <ntg.title.alien_scalpel>外星手术刀</ntg.title.alien_scalpel>
+  <ntg.description.alien_scalpel>医疗技能需求：50。\n一种用于移除普通手术刀不适合处理的附肢的工具。包括爬行者尾巴、画皮手臂、虎尾煞尾巴、锤头煞肢体、捕钩兽舌头和橙仔尾巴。\n使用方法：使用镇痛药/麻醉药，在躯干上使用皮肤牵开器；然后使用外星手术刀和缝合线完成手术。\n移除后返还移植体。</ntg.description.alien_scalpel>
+  <ntg.applicationsuccess.alien_scalpel>将移除当前移植的肢体。</ntg.applicationsuccess.alien_scalpel>
+  <ntg.applicationfailed.alien_scalpel>[bleeding] +15% 出血</ntg.applicationfailed.alien_scalpel>
+  <ntg.title.alien_incubator>外星培养箱</ntg.title.alien_incubator>
+  <ntg.description.alien_incubator>一种高级可放置机器，用于给外星细胞占领人类器官的机会；从而人工培育出外星器官。\n只能由解锁了移植技能树的医疗兵制作；需要1个FPGA电路、DNA连接增强剂、塑料、钢材和1个外星电池。必须连接电源。\n复制外星细胞：将你想要复制的外星细胞放入两个槽中的一个，另一个槽放入干细胞。2分钟后细胞会自我复制。注意：仅放入干细胞不会产生任何效果，处理完成后只会删除干细胞。\n感染器官：和上面一样，将想要转变为外星变体的器官放入一个槽，相应的外星细胞放入另一个槽。注意：仅放入器官而不放外星细胞，机器处理完成后会删除器官。注意：放入错误的器官/外星细胞组合会删除器官，只留下细胞。注意：单独放入外星细胞而没有干细胞或有效的器官结合，120秒后不会发生任何变化。\n以下组合有效，不会损失器官：\n心脏移植：- 捕钩兽细胞 - 画皮细胞\n肝脏移植：- 虾脊螳螂细胞 - 蝰蛇细胞 - 爬行者巢母细胞\n肺移植：- 尽管存在"爬行者肺"和"泥偶迅猛龙肺"，但这些无法制作。\n肾移植：- 没有外星器官的肾脏变体，因此无法制作。</ntg.description.alien_incubator>
+  <ntg.seealso.alien_incubator>[stem_cells] 干细胞</ntg.seealso.alien_incubator>
+  <ntg.title.stem_cells>干细胞</ntg.title.stem_cells>
+  <ntg.description.stem_cells>使用血包、塑料和石榴提取物作为营养制作而成，可在外星培养箱中发育为任何种类的外星细胞。\n必须存放在冷藏箱或冷藏容器中。</ntg.description.stem_cells>
+  <ntg.seealso.stem_cells>[alien_incubator] 外星培养箱 | [refrigerated_crate] 冷藏箱 | [refrigerated_container] 冷藏容器</ntg.seealso.stem_cells>
+
+  <!-- 手术步骤 -->
+  <ntg.title.crawler_tail_grafting>爬行者尾部移植</ntg.title.crawler_tail_grafting>
+  <ntg.description.crawler_tail_grafting>爬行者尾巴可以移植到躯干上，提高人类的游泳速度。\n可以从死亡的爬行者身上找到，使用外星手术刀移除。\n应在手术台附近进行。</ntg.description.crawler_tail_grafting>
+  <ntg.steps.crawler_tail_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装爬行者尾巴 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者，确保其跨物种排斥尽可能低，同时不使DNA连接增强剂过量（超过90%会引发）</ntg.steps.crawler_tail_grafting>
+  <ntg.seealso.crawler_tail_grafting>[alien_scalpel] 可使用外星手术刀移除 | [surgery_table] 手术台</ntg.seealso.crawler_tail_grafting>
+
+  <ntg.title.crawler_lung_grafting>爬行者肺部移植</ntg.title.crawler_lung_grafting>
+  <ntg.description.crawler_lung_grafting>爬行者肺可以移植到躯干中，略微提高人类的肺活量。\n应在手术台附近进行。</ntg.description.crawler_lung_grafting>
+  <ntg.steps.crawler_lung_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | [multipurpose_scalpel] 4. 使用多用途手术刀（自适应器官摘取模式）并移除肺部 | 5. 安装爬行者肺 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者，确保其跨物种排斥尽可能低，同时不使DNA连接增强剂过量（超过90%会引发）</ntg.steps.crawler_lung_grafting>
+  <ntg.seealso.crawler_lung_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台</ntg.seealso.crawler_lung_grafting>
+
+  <ntg.title.fractal_eye_grafting>分形守卫者眼部移植</ntg.title.fractal_eye_grafting>
+  <ntg.description.fractal_eye_grafting>分形守卫者之眼可以移植到头部，使人类能够看穿墙壁看到生物，也能看穿精神病。\n但这种实验性移植体会使人类易受EMP致盲。\n应在手术台附近进行。</ntg.description.fractal_eye_grafting>
+  <ntg.steps.fractal_eye_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在头部使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 向眼部安装分形守卫者样本。| [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者，确保其跨物种排斥尽可能低，同时不使DNA连接增强剂过量（超过90%会引发）</ntg.steps.fractal_eye_grafting>
+  <ntg.seealso.fractal_eye_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台</ntg.seealso.fractal_eye_grafting>
+
+  <ntg.title.fractal_eye_grafting_nte>分形守卫者眼部移植（模组不兼容）</ntg.title.fractal_eye_grafting_nte>
+  <ntg.description.fractal_eye_grafting_nte>此移植手术与NT眼科不兼容。</ntg.description.fractal_eye_grafting_nte>
+
+  <ntg.title.husk_arm_grafting>画皮手臂移植</ntg.title.husk_arm_grafting>
+  <ntg.description.husk_arm_grafting>画皮手臂可以移植到人类躯干上。这赋予他们一个致命的附肢，能够猛烈切割敌对生物。\n应在手术台附近进行。</ntg.description.husk_arm_grafting>
+  <ntg.steps.husk_arm_grafting>1. 确保患者拥有高质量画皮基因 | [analgesia] 2a. 镇痛 | [anesthesia] 2b. 麻醉 | [skin_retractors] 3. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 4. 使用DNA连接增强剂 | 5. 安装画皮手臂 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者，确保其跨物种排斥尽可能低，同时不使DNA连接增强剂过量（超过90%会引发）</ntg.steps.husk_arm_grafting>
+  <ntg.seealso.husk_arm_grafting>[alien_scalpel] 可使用外星手术刀移除 | [surgery_table] 手术台</ntg.seealso.husk_arm_grafting>
+
+  <ntg.title.husk_heart_grafting>画皮心脏移植</ntg.title.husk_heart_grafting>
+  <ntg.description.husk_heart_grafting>画皮心脏可以移植到人类躯干中。这种共生体能让宿主即使在手臂和腿骨折的情况下也能站立和使用双臂。\n应在手术台附近进行。</ntg.description.husk_heart_grafting>
+  <ntg.steps.husk_heart_grafting>1. 确保患者拥有高质量画皮基因 | [analgesia] 2a. 镇痛 | [anesthesia] 2b. 麻醉 | [skin_retractors] 3. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 4. 使用DNA连接增强剂 | [multipurpose_scalpel] 5. 使用多用途手术刀（自适应器官摘取模式）并移除心脏 | 6. 安装画皮心脏 | [sutures] 7. 使用缝合线 | [dna_litigation_enhancer] 8. 监测患者</ntg.steps.husk_heart_grafting>
+  <ntg.seealso.husk_heart_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台 | [alien_incubator] 可在外星培养箱中制作</ntg.seealso.husk_heart_grafting>
+
+  <ntg.title.mantis_liver_grafting>虾脊螳螂肝脏移植</ntg.title.mantis_liver_grafting>
+  <ntg.description.mantis_liver_grafting>虾脊螳螂肝可以移植到人类躯干中。这些肝脏产生大量麻痹物质。虾脊螳螂可以用它麻痹敌人，而人类可以用它快速从麻痹中恢复。但他们的血液充满麻痹物质，甚至溅出的血液也能麻痹附近的生物。\n这项手术将使从患者身上采集的血包能够导致麻痹。\n应在手术台附近进行。</ntg.description.mantis_liver_grafting>
+  <ntg.steps.mantis_liver_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | [multipurpose_scalpel] 4. 使用多用途手术刀（自适应器官摘取模式）并移除肝脏 | 5. 安装虾脊螳螂肝 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者</ntg.steps.mantis_liver_grafting>
+  <ntg.seealso.mantis_liver_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台 | [alien_incubator] 可在外星培养箱中制作</ntg.seealso.mantis_liver_grafting>
+
+  <ntg.title.mudraptor_lungs_grafting>泥偶迅猛龙肺部移植</ntg.title.mudraptor_lungs_grafting>
+  <ntg.description.mudraptor_lungs_grafting>泥偶迅猛龙的肺比人类大得多，可以移植到人类躯干中。可提供明显更大的肺活量。\n应在手术台附近进行。</ntg.description.mudraptor_lungs_grafting>
+  <ntg.steps.mudraptor_lungs_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | [multipurpose_scalpel] 4. 使用多用途手术刀（自适应器官摘取模式）并移除肺部 | 5. 安装泥偶迅猛龙肺 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者</ntg.steps.mudraptor_lungs_grafting>
+  <ntg.seealso.mudraptor_lungs_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台</ntg.seealso.mudraptor_lungs_grafting>
+
+  <ntg.title.mudraptor_head_grafting>泥偶迅猛龙头部移植</ntg.title.mudraptor_head_grafting>
+  <ntg.description.mudraptor_head_grafting>泥偶迅猛龙头部是一种坚硬的外壳，可以应用于人类头骨。这有助于保护人类头部，但移植到人类头部非常危险，会引起轻微的脑部问题，降低人类执行任务的能力。\n应在手术台附近进行。</ntg.description.mudraptor_head_grafting>
+  <ntg.steps.mudraptor_head_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在头部使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装泥偶迅猛龙细胞 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.mudraptor_head_grafting>
+  <ntg.seealso.mudraptor_head_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台 | [alien_incubator] 细胞可在外星培养箱中复制</ntg.seealso.mudraptor_head_grafting>
+
+  <ntg.title.broodmother_liver_grafting>爬行者巢母肝脏移植</ntg.title.broodmother_liver_grafting>
+  <ntg.description.broodmother_liver_grafting>爬行者巢母肝脏可以移植到人类躯干中。爬行者巢母比她的孩子们酸性更强，她的肝脏也不例外。在人类体内，这会使血液变得极具酸性。人类对酸灼伤更有抵抗力。拥有这种肝脏的人类已被观察到发展出防御能力，能够喷出血液灼伤附近生物。\n这项手术将使从患者身上采集的血包能够导致酸灼伤。\n应在手术台附近进行。</ntg.description.broodmother_liver_grafting>
+  <ntg.steps.broodmother_liver_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | [multipurpose_scalpel] 4. 使用多用途手术刀（自适应器官摘取模式）并移除肝脏 | 5. 安装爬行者巢母肝 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者</ntg.steps.broodmother_liver_grafting>
+  <ntg.seealso.broodmother_liver_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台 | [alien_incubator] 可在外星培养箱中制作</ntg.seealso.broodmother_liver_grafting>
+
+  <ntg.title.tthresher_jaw_grafting>虎尾煞下颌移植</ntg.title.tthresher_jaw_grafting>
+  <ntg.description.tthresher_jaw_grafting>虎尾煞的下颌可以移植到患者头部。这个下颌非常有力，让人类拥有足以防御装甲生物的咬合力。\n应在手术台附近进行。</ntg.description.tthresher_jaw_grafting>
+  <ntg.steps.tthresher_jaw_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在头部使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装虎尾煞细胞 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.tthresher_jaw_grafting>
+  <ntg.seealso.tthresher_jaw_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台 | [alien_incubator] 细胞可在外星培养箱中复制</ntg.seealso.tthresher_jaw_grafting>
+
+  <ntg.title.tthresher_tail_grafting>虎尾煞尾部移植</ntg.title.tthresher_tail_grafting>
+  <ntg.description.tthresher_tail_grafting>虎尾煞的尾巴可以移植到患者躯干上。这条强壮的尾巴可以大幅提高普通人类的游泳速度。\n应在手术台附近进行。</ntg.description.tthresher_tail_grafting>
+  <ntg.steps.tthresher_tail_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装虎尾煞尾巴 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.tthresher_tail_grafting>
+  <ntg.seealso.tthresher_tail_grafting>[alien_scalpel] 可使用外星手术刀移除 | [surgery_table] 手术台</ntg.seealso.tthresher_tail_grafting>
+
+  <ntg.title.bthresher_tail_grafting>骨尾煞下颌移植</ntg.title.bthresher_tail_grafting>
+  <ntg.description.bthresher_tail_grafting>骨尾煞的下颌可以移植到患者头部。与虎尾煞类似，这个下颌赋予人类强大的咬合力；但比虎尾煞下颌更强。\n应在手术台附近进行。</ntg.description.bthresher_tail_grafting>
+  <ntg.steps.bthresher_tail_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在头部使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装骨尾煞细胞 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.bthresher_tail_grafting>
+  <ntg.seealso.bthresher_tail_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台 | [alien_incubator] 细胞可在外星培养箱中复制</ntg.seealso.bthresher_tail_grafting>
+
+  <ntg.title.hammerhead_skin_grafting>锤头煞皮肤移植</ntg.title.hammerhead_skin_grafting>
+  <ntg.description.hammerhead_skin_grafting>锤头煞皮肤可以移植到躯干上。锤头煞有厚实的头部，使其能够撞击潜艇而不受伤。人类可以将其应用到躯干上获得类似效果，可以抵抗所有刺穿伤害（无论来源）。\n患者从药物中受到的病症强度降低33%。\n应在手术台附近进行。</ntg.description.hammerhead_skin_grafting>
+  <ntg.steps.hammerhead_skin_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装锤头煞细胞 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.hammerhead_skin_grafting>
+  <ntg.seealso.hammerhead_skin_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台 | [alien_incubator] 细胞可在外星培养箱中复制</ntg.seealso.hammerhead_skin_grafting>
+
+  <ntg.title.hammerhead_limb_grafting>锤头煞肢体移植</ntg.title.hammerhead_limb_grafting>
+  <ntg.description.hammerhead_limb_grafting>锤头煞肢体可以移植到躯干上。锤头煞用肢体游泳，同时在水下稳定自身。人类可以将其应用到躯干上以更好地抵抗水流。\n应在手术台附近进行。</ntg.description.hammerhead_limb_grafting>
+  <ntg.steps.hammerhead_limb_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装锤头煞肢体 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.hammerhead_limb_grafting>
+  <ntg.seealso.hammerhead_limb_grafting>[alien_scalpel] 可使用外星手术刀移除 | [surgery_table] 手术台</ntg.seealso.hammerhead_limb_grafting>
+
+  <ntg.title.moloch_shell_grafting>摩螺克外壳移植</ntg.title.moloch_shell_grafting>
+  <ntg.description.moloch_shell_grafting>摩螺克外壳可以移植到人类头部。摩螺克拥有非常坚硬的外壳来保护其柔软的身体。人类可以类似地在头部发育出坚硬的外壳。但与摩螺克一样，外壳破裂意味着他们的末日。\n应在手术台附近进行。</ntg.description.moloch_shell_grafting>
+  <ntg.steps.moloch_shell_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | 4. 安装摩螺克细胞 | [sutures] 5. 使用缝合线 | [dna_litigation_enhancer] 6. 监测患者</ntg.steps.moloch_shell_grafting>
+  <ntg.seealso.moloch_shell_grafting>[dna_splicer] 可通过基因拼接器移除 | [surgery_table] 手术台 | [alien_incubator] 细胞可在外星培养箱中复制</ntg.seealso.moloch_shell_grafting>
+
+  <ntg.title.viperling_liver_grafting>蝰蛇肝脏移植</ntg.title.viperling_liver_grafting>
+  <ntg.description.viperling_liver_grafting>蝰蛇肝脏可以移植到人类躯干中。蝰蛇能够产生窒息毒素，附着在其刺尖上。人类体内的蝰蛇肝脏能特别有效地过滤这种毒素，使人类对窒息中毒免疫。\n应在手术台附近进行。</ntg.description.viperling_liver_grafting>
+  <ntg.steps.viperling_liver_grafting>[analgesia] 1a. 镇痛 | [anesthesia] 1b. 麻醉 | [skin_retractors] 2. 在躯干上使用皮肤牵开器 | [dna_litigation_enhancer] 3. 使用DNA连接增强剂 | [multipurpose_scalpel] 4. 使用多用途手术刀（自适应器官摘取模式）并移除肝脏 | 5. 安装蝰蛇肝 | [sutures] 6. 使用缝合线 | [dna_litigation_enhancer] 7. 监测患者</ntg.steps.viperling_liver_grafting>
+  <ntg.seealso.viperling_liver_grafting>[organ_transplant_surgery] 可通过器官移植手术移除 | [surgery_table] 手术台 | [alien_incubator] 可在外星培养箱中制作</ntg.seealso.viperling_liver_grafting>
+
+  <!-- 信息页面 -->
+  <ntg.title.information_aim_latcher_tongue>捕钩兽舌头瞄准</ntg.title.information_aim_latcher_tongue>
+  <ntg.description.information_aim_latcher_tongue>捕钩兽的舌头是一种无法瞄准的工具，因为钩爪总是从捕钩兽下颌射出，而非直接朝向目标发射。为了解决这个问题，建议你调整游泳方向让脸对准目标，即可向任何方向射击。</ntg.description.information_aim_latcher_tongue>
+  <ntg.seealso.information_aim_latcher_tongue>[latcher_tongue_grafting] 捕钩兽舌头移植</ntg.seealso.information_aim_latcher_tongue>
+
+  <ntg.title.information_remove_grafting_limit>移除移植限制</ntg.title.information_remove_grafting_limit>
+  <ntg.description.information_remove_grafting_limit>要移除移植限制，需要控制台命令权限。\n给自己无限移植：按F3打开控制台，输入"givetalent hackeddna"给自己一个移除移植限制的天赋。同样，给别人无限移植：按F3打开控制台，输入"givetalenthackeddna [角色名]"给该角色此天赋。\n重要提示：此操作不可撤销。</ntg.description.information_remove_grafting_limit>
+</Infotexts>

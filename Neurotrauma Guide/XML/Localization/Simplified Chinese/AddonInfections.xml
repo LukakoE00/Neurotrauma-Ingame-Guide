@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <ntg.categoryname.infections>附加设置：感染</ntg.categoryname.infections>
+  <ntg.settingname.modcolourinfections>NT感染模组来源颜色</ntg.settingname.modcolourinfections>
+  <ntg.section.susceptible>易受以下药物影响</ntg.section.susceptible>
+  <ntg.section.requirements>先决条件</ntg.section.requirements>
+  <ntg.section.effectiveness>有效对抗</ntg.section.effectiveness>
+  <ntg.section.possiblecauses>可能由以下原因引起</ntg.section.possiblecauses>
+  <ntg.section.stepsbacterial>步骤（细菌样本）</ntg.section.stepsbacterial>
+  <ntg.section.stepsviral>步骤（病毒样本）</ntg.section.stepsviral>
+  <!-- 信息页面 -->
+  <ntg.title.information_infection_changes>新感染系统如何运作</ntg.title.information_infection_changes>
+  <ntg.description.information_infection_changes>原版Neurotrauma感染：在原版Neurotrauma中，感染由伤口发展而来，与具体部位相关。达到一定程度后，身体任何部位的伤口感染都会导致败血症，广谱抗生素可轻易治愈。NT Infections通过添加几种新感染并改变感染进展方式改变了这一机制。\n新感染系统：NT Infections的起始方式相同。当伤口未被消毒或包扎时，可能被感染。受感染的伤口有机会发展为真正的肢体感染。感染会积累并有机会进入血液，引起血液感染。足够严重的感染随后可能导致败血症。\n肢体感染有几种体征/症状：- 存在炎症 - 存在脓肿 - 存在渗脓。肢体感染从中度到重度不等，也可能引起其他疾病。\n本指南未涵盖的一些额外变化包括：- 辐射病会在达到一定程度后损害免疫力 - 败血症会降低血压 - 现有病症可能有或没有新症状 - 免疫力低于85%时败血症增益减半</ntg.description.information_infection_changes>
+  <ntg.seealso.information_infection_changes>[inflammation] 炎症 | [abscess] 脓肿 | [purulent_drainage] 渗脓 | [sepsis] 败血症 | [immunity] 免疫力 | [broad_spectrum_antibiotics] 广谱抗生素 | [information_fighting_infections] 抵抗感染</ntg.seealso.information_infection_changes>
+  <ntg.title.information_fighting_infections>抵抗感染</ntg.title.information_fighting_infections>
+  <ntg.description.information_fighting_infections>对抗感染的唯一防线是你的免疫系统。如果角色的免疫力受损，任何感染都足以致命。\n\n肢体感染：身体的防御从肢体开始。当肢体受感染时，免疫反应会逐渐建立。免疫反应提升的速度取决于角色的免疫力属性。需要超过50%的免疫力才能抵抗感染。\n\n战胜感染需要免疫反应超过感染速度。当免疫反应足够高时，感染会开始减慢并最终清除。肢体感染从中度到重度不等。有些情况可能不需要抗生素，但大多数需要。\n\n血液感染：如果肢体感染达到进入血液的程度，身体会产生全身性感染反应，机制与上述类似，但发展成败血症或其他疾病的风险更高，且不限于特定肢体。\n\n血液感染可能由多种菌株引起，但某些菌株对菌血症的贡献更大。使用未装样本的采样工具可查看血液中有哪些菌株。通常，不同菌株会相互竞争资源，使先前占主导地位的菌株对血液感染的贡献减少。</ntg.description.information_fighting_infections>
+  <ntg.seealso.information_fighting_infections>[immunity] 免疫力 | [sepsis] 败血症 | [sampler_tool] 采样工具</ntg.seealso.information_fighting_infections>
+  <ntg.title.information_using_antibiotics>使用抗生素</ntg.title.information_using_antibiotics>
+  <ntg.description.information_using_antibiotics>抗生素是治疗细菌感染的主要方法。某些感染对特定抗生素反应更好。所有抗生素都会引起肾脏损伤和肝脏损伤，某些抗生素比其他抗生素造成更多器官损伤。在没有足够医疗技能的情况下使用抗生素会造成进一步的器官损伤。\n注意事项：需要注意的是，抗生素主要与免疫系统协同作用，这意味着它们本身并不对抗感染，而是减缓感染速度，让免疫系统更容易应对。叠加使用不同抗生素会提供更强效果，但收益递减。\n抗生素列表：共有7种不同的抗生素（不包括广谱抗生素），各具优势。请参阅各自页面获取更多信息。每个感染页面也会链接到对应的抗生素；百分比表示抗生素减缓特定菌株的效果</ntg.description.information_using_antibiotics>
+  <ntg.seealso.information_using_antibiotics>[unasyn] 优立新 | [augmentin] 安灭菌 | [vancomycin] 万古霉素 | [gentamicin] 庆大霉素 | [cotrimoxazole] 复方新诺明 | [primaxin] 泰能 | [ceftazidime] 头孢他啶</ntg.seealso.information_using_antibiotics>
+  <ntg.title.information_diagnosing_bacteria>诊断细菌感染</ntg.title.information_diagnosing_bacteria>
+  <ntg.description.information_diagnosing_bacteria>诊断细菌感染的方法因感染类型而异：\n\n血液感染：血液感染可以通过在健康界面任意位置使用采样工具来诊断——简单吧？使用血液分析仪可以显示血液中是否存在细菌，但无法识别具体菌株。\n\n肢体感染：要诊断肢体感染，你需要一个培养管。将培养管装入采样工具，然后在健康界面上使用以采集样本。采样顺序如下：- 如果肢体有渗脓或脓肿，则采集脓液样本；- 如果肢体无脓液样本但有皮肤收缩，则采集组织样本；- 如果既无脓液也无组织样本，则采集血液样本（将随机获取一种血液感染菌株）。\n\n样本将放入你的背包中，若背包已满则会掉落在地上。\n\n将未知样本放入样本分析仪进行分析——确保机器已接通电源。分析仪会返回样本所含病原体的信息；如果无结果返回，则样本检测结果为阴性。</ntg.description.information_diagnosing_bacteria>
+  <ntg.seealso.information_diagnosing_bacteria>[sampler_tool] 采样工具 | [hematology_analyzer] 血液分析仪 | [sample_analyzer] 样本分析仪 | [culture_tube] 培养管 | [purulent_drainage] 渗脓 | [abscess] 脓肿 | [retracted_skin] 牵引皮肤 | [information_diagnosing_viruses] 传染性疾病</ntg.seealso.information_diagnosing_bacteria>
+  <ntg.title.information_diagnosing_viruses>传染性疾病（病毒感染）</ntg.title.information_diagnosing_viruses>
+  <ntg.description.information_diagnosing_viruses>除细菌感染外，还可能发展出由他人传播的病毒感染。\n\n传播途径：这些感染通常通过空气传播，近距离接触即可传染。预防措施包括保持社交距离和佩戴潜水装备。感染者和健康人都应佩戴潜水装备。\n\n进程：病毒感染与细菌感染的机制类似，病毒抗体会随感染建立而增加。一旦抗体水平足够高，病毒水平会下降——尽管非常缓慢。\n\n治疗：病毒感染的治疗与细菌不同，只有在尽可能早的时候使用才有效。早期治疗可以缩短感染持续时间并减轻严重程度。还有一些药物可以缓解病毒感染的病症，但它们不能直接治疗感染。\n\n诊断：诊断病毒感染需要一个采样工具和病毒转运培养基。在健康界面的任意位置采集样本，然后放入样本分析仪，与诊断细菌感染的方式相同。</ntg.description.information_diagnosing_viruses>
+  <ntg.seealso.information_diagnosing_viruses>[information_diagnosing_bacteria] 诊断细菌感染 | [sampler_tool] 采样工具 | [viral_transport_medium] 病毒转运培养基 | [sample_analyzer] 样本分析仪</ntg.seealso.information_diagnosing_viruses>
+  <ntg.title.information_vaccines>疫苗信息</ntg.title.information_vaccines>
+  <ntg.description.information_vaccines>一种预先抵抗感染的有用工具。疫苗在防御阶段为身体提供巨大优势。\n\n细菌疫苗：制作细菌疫苗需要3份确认样本、1份解痉剂和生理盐水，可制作2支疫苗。\n\n病毒疫苗：制作病毒疫苗需要1份样本、补液和生理盐水，可制作2支。\n\n重要注意事项：- 疫苗不会使患者对感染完全免疫，而是为抵抗感染提供增益。免疫力受损时疫苗无效。- 疫苗会随时间推移逐渐失效，对抗感染的效果会减弱。建议保持疫苗接种更新。- 疫苗不会立即生效，需要一定时间才能完全发挥作用。- 本模组中的大多数疫苗完全是虚构的。</ntg.description.information_vaccines>
+  <ntg.seealso.information_vaccines>[vaccines] 疫苗（物品）</ntg.seealso.information_vaccines>
+  <!-- 细菌感染 -->
+  <ntg.title.streptococcal_infection>链球菌感染</ntg.title.streptococcal_infection>
+  <ntg.description.streptococcal_infection>由链球菌属革兰氏阳性菌引起。这些细菌最早由地球殖民者在殖民欧罗巴期间带来。链球菌感染相当常见（17例中有4例）。脓液通常呈淡黄色。</ntg.description.streptococcal_infection>
+  <ntg.susceptible.streptococcal_infection>[vancomycin] 万古霉素（95%有效）| [augmentin] 安灭菌（93.8%有效）| [unasyn] 优立新（90%有效）| [primaxin] 泰能（80%有效）| [broad-spectrum] 广谱（75%有效）| [cotrimoxazole] 复方新诺明（66.7%有效）| [ceftazidime] 头孢他啶（20%有效）</ntg.susceptible.streptococcal_infection>
+  <ntg.effects.streptococcal_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.streptococcal_infection>
+  <ntg.seealso.streptococcal_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.streptococcal_infection>
+  <ntg.title.staphylococcal_infection>葡萄球菌感染</ntg.title.staphylococcal_infection>
+  <ntg.description.staphylococcal_infection>由革兰氏阳性菌金黄色葡萄球菌引起。最早由地球殖民者带到欧罗巴，这些感染是处理伤口时最常见的（17例中有6例）。脓液通常呈淡黄色。</ntg.description.staphylococcal_infection>
+  <ntg.susceptible.staphylococcal_infection>[vancomycin] 万古霉素（98%有效）| [augmentin] 安灭菌（90%有效）| [cotrimoxazole] 复方新诺明（80%有效）| [unasyn] 优立新（75%有效）| [primaxin] 泰能（75%有效）| [gentamicin] 庆大霉素（10%有效）</ntg.susceptible.staphylococcal_infection>
+  <ntg.effects.staphylococcal_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.staphylococcal_infection>
+  <ntg.seealso.staphylococcal_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.staphylococcal_infection>
+  <ntg.title.mrsa_infection>MRSA感染</ntg.title.mrsa_infection>
+  <ntg.description.mrsa_infection>一种对多种抗生素产生耐药性的金黄色葡萄球菌菌株，由于抗生素的广泛使用而获得耐药性。对许多青霉素类抗生素不敏感。脓液通常呈淡黄色。</ntg.description.mrsa_infection>
+  <ntg.requirements.mrsa_infection>[staphylococcal_infection]（初始感染）| [methicillin_resistance_risk] 耐甲氧西林风险（高于0%）</ntg.requirements.mrsa_infection>
+  <ntg.susceptible.mrsa_infection>[vancomycin] 万古霉素（98%有效）| [cotrimoxazole] 复方新诺明（80%有效）| [gentamicin] 庆大霉素（10%有效）</ntg.susceptible.mrsa_infection>
+  <ntg.effects.mrsa_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.mrsa_infection>
+  <ntg.seealso.mrsa_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.mrsa_infection>
+  <ntg.title.pseudomonas_infection>假单胞菌感染</ntg.title.pseudomonas_infection>
+  <ntg.description.pseudomonas_infection>由假单胞菌属革兰氏阴性菌引起。这些细菌天然对多种抗生素具有耐药性，使其难以治疗。假单胞菌感染罕见（17例中有1例）。脓液通常呈淡绿色。</ntg.description.pseudomonas_infection>
+  <ntg.susceptible.pseudomonas_infection>[gentamicin] 庆大霉素（95%有效）| [ceftazidime] 头孢他啶（87.5%有效）| [primaxin] 泰能（80%有效）</ntg.susceptible.pseudomonas_infection>
+  <ntg.effects.pseudomonas_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.pseudomonas_infection>
+  <ntg.seealso.pseudomonas_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.pseudomonas_infection>
+  <ntg.title.provobacter_infection>原生杆菌感染</ntg.title.provobacter_infection>
+  <ntg.description.provobacter_infection>由原生杆菌属革兰氏阴性菌引起。这些细菌原生于欧罗巴生物圈，几乎可以在海洋中任何地方找到。原生杆菌感染相当常见（17例中有4例）。脓液通常呈淡黄色。</ntg.description.provobacter_infection>
+  <ntg.susceptible.provobacter_infection>[gentamicin] 庆大霉素（95%有效）| [ceftazidime] 头孢他啶（80%有效）| [primaxin] 泰能（66.7%有效）| [augmentin] 安灭菌（60%有效）| [unasyn] 优立新（40%有效）</ntg.susceptible.provobacter_infection>
+  <ntg.effects.provobacter_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.provobacter_infection>
+  <ntg.seealso.provobacter_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.provobacter_infection>
+  <ntg.title.aeroganella_infection>气菌感染</ntg.title.aeroganella_infection>
+  <ntg.description.aeroganella_infection>由气菌属革兰氏阴性菌引起。原生于欧罗巴生物圈。气菌感染相当罕见（17例中有2例）。脓液通常呈淡绿色。</ntg.description.aeroganella_infection>
+  <ntg.susceptible.aeroganella_infection>[gentamicin] 庆大霉素（95%有效）| [ceftazidime] 头孢他啶（75%有效）| [cotrimoxazole] 复方新诺明（60%有效）| [vancomycin] 万古霉素（50%有效）| [primaxin] 泰能（50%有效）| [augmentin] 安灭菌（25%有效）| [unasyn] 优立新（20%有效）</ntg.susceptible.aeroganella_infection>
+  <ntg.effects.aeroganella_infection>血液感染（50%以上）| [inflammation] 炎症（高于0%）| [purulent_drainage] 渗脓（高于25%并有伤口）| [abscess] 脓肿（高于25%无伤口）| [pneumonia] 肺炎（高于0%血液感染）</ntg.effects.aeroganella_infection>
+  <ntg.seealso.aeroganella_infection>[information_diagnosing_bacteria] 诊断细菌感染</ntg.seealso.aeroganella_infection>
+  <!-- 抗生素 -->
+  <ntg.title.unasyn>优立新</ntg.title.unasyn>
+  <ntg.description.unasyn>医疗技能需求：30\n氨苄青霉素与β-内酰胺酶抑制剂舒巴坦的固定剂量复方抗生素。舒巴坦使其能有效对抗葡萄球菌感染和其他产β-内酰胺酶的细菌。</ntg.description.unasyn>
+  <ntg.effectiveness.unasyn>[streptococcal_infection] 链球菌感染（90%有效）| [staphylococcal_infection] 葡萄球菌感染（75%有效）| [provobacter_infection] 原生杆菌感染（40%有效）| [aeroganella_infection] 气菌感染（20%有效）</ntg.effectiveness.unasyn>
+  <ntg.applicationsuccess.unasyn>50% 优立新（需10秒施放，持续250秒）| [kidney_damage] 12.5% 肾损伤（持续250秒）| [liver_damage] 10% 肝损伤（持续250秒）| [methicillin_resistance_risk] 20% 耐甲氧西林风险（需10秒施放，持续2000秒）</ntg.applicationsuccess.unasyn>
+  <ntg.applicationfailed.unasyn>[liver_damage] 5% 肝损伤| [methicillin_resistance_risk] 30% 耐甲氧西林风险（需10秒施放，持续3000秒）</ntg.applicationfailed.unasyn>
+  <ntg.seealso.unasyn>[information_using_antibiotics] 使用抗生素</ntg.seealso.unasyn>
+  <ntg.title.augmentin>安灭菌</ntg.title.augmentin>
+  <ntg.description.augmentin>医疗技能需求：30\n阿莫西林与克拉维酸的氨基青霉素复方药物。克拉维酸作为β-内酰胺酶抑制剂，使其能有效对抗大多数产β-内酰胺酶的细菌。</ntg.description.augmentin>
+  <ntg.effectiveness.augmentin>[streptococcal_infection] 链球菌感染（93.8%有效）| [staphylococcal_infection] 葡萄球菌感染（90%有效）| [provobacter_infection] 原生杆菌感染（60%有效）| [aeroganella_infection] 气菌感染（25%有效）</ntg.effectiveness.augmentin>
+  <ntg.applicationsuccess.augmentin>50% 安灭菌（需10秒施放，持续250秒）| [kidney_damage] 15% 肾损伤（持续250秒）| [liver_damage] 10% 肝损伤（持续250秒）| [methicillin_resistance_risk] 20% 耐甲氧西林风险（需10秒施放，持续2000秒）</ntg.applicationsuccess.augmentin>
+  <ntg.applicationfailed.augmentin>[liver_damage] 5% 肝损伤（需10秒施放）| [methicillin_resistance_risk] 30% 耐甲氧西林风险（需10秒施放，持续3000秒）</ntg.applicationfailed.augmentin>
+  <ntg.seealso.augmentin>[information_using_antibiotics] 使用抗生素</ntg.seealso.augmentin>
+  <ntg.title.vancomycin>万古霉素</ntg.title.vancomycin>
+  <ntg.description.vancomycin>医疗技能需求：50\n一种糖肽类抗生素，对大多数革兰氏阳性菌非常有效。是对抗MRSA感染最常用的一线药物。</ntg.description.vancomycin>
+  <ntg.effectiveness.vancomycin>[staphylococcal_infection] 葡萄球菌感染（98%有效）| [mrsa_infection] MRSA感染（98%有效）| [streptococcal_infection] 链球菌感染（95%有效）| [aeroganella_infection] 气菌感染（50%有效）</ntg.effectiveness.vancomycin>
+  <ntg.applicationsuccess.vancomycin>50% 万古霉素（需10秒施放，持续250秒）| [kidney_damage] 20% 肾损伤（持续250秒）| [liver_damage] 5% 肝损伤（持续250秒）</ntg.applicationsuccess.vancomycin>
+  <ntg.applicationfailed.vancomycin>[kidney_damage] 5% 肾损伤（需10秒施放）</ntg.applicationfailed.vancomycin>
+  <ntg.seealso.vancomycin>[information_using_antibiotics] 使用抗生素</ntg.seealso.vancomycin>
+  <ntg.title.gentamicin>庆大霉素</ntg.title.gentamicin>
+  <ntg.description.gentamicin>医疗技能需求：50\n一种氨基糖苷类抗生素，对革兰氏阴性菌非常有效。其对多种革兰氏阴性菌的疗效因其高肾毒性而受到限制。</ntg.description.gentamicin>
+  <ntg.effectiveness.gentamicin>[pseudomonas_infection] 假单胞菌感染（95%有效）| [provobacter_infection] 原生杆菌感染（95%有效）| [aeroganella_infection] 气菌感染（95%有效）| [staphylococcal_infection] 葡萄球菌感染（10%有效）| [mrsa_infection] MRSA感染（10%有效）</ntg.effectiveness.gentamicin>
+  <ntg.applicationsuccess.gentamicin>50% 庆大霉素（需10秒施放，持续250秒）| [kidney_damage] 25% 肾损伤（持续250秒）| [liver_damage] 5% 肝损伤（持续250秒）</ntg.applicationsuccess.gentamicin>
+  <ntg.applicationfailed.gentamicin>[kidney_damage] 5% 肾损伤（需10秒施放）</ntg.applicationfailed.gentamicin>
+  <ntg.seealso.gentamicin>[information_using_antibiotics] 使用抗生素</ntg.seealso.gentamicin>
+  <ntg.title.cotrimoxazole>复方新诺明</ntg.title.cotrimoxazole>
+  <ntg.description.cotrimoxazole>医疗技能需求：40\n甲氧苄啶与磺胺甲噁唑的固定剂量复方药物。通过抑制二氢蝶酸合酶和细菌对二氢叶酸的还原产生协同作用。</ntg.description.cotrimoxazole>
+  <ntg.effectiveness.cotrimoxazole>[staphylococcal_infection] 葡萄球菌感染（80%有效）| [mrsa_infection] MRSA感染（80%有效）| [streptococcal_infection] 链球菌感染（66.7%有效）| [aeroganella_infection] 气菌感染（60%有效）</ntg.effectiveness.cotrimoxazole>
+  <ntg.applicationsuccess.cotrimoxazole>50% 复方新诺明（需10秒施放，持续250秒）| [kidney_damage] 17.5% 肾损伤（持续250秒）| [liver_damage] 10% 肝损伤（持续250秒）</ntg.applicationsuccess.cotrimoxazole>
+  <ntg.applicationfailed.cotrimoxazole>[kidney_damage] 5% 肾损伤（需10秒施放）</ntg.applicationfailed.cotrimoxazole>
+  <ntg.seealso.cotrimoxazole>[information_using_antibiotics] 使用抗生素</ntg.seealso.cotrimoxazole>
+  <ntg.title.primaxin>泰能</ntg.title.primaxin>
+  <ntg.description.primaxin>医疗技能需求：50\n亚胺培南与西司他丁的碳青霉烯类复方抗生素。西司他丁作为脱氢肽酶抑制剂，可防止亚胺培南在体内降解，从而提高疗效。</ntg.description.primaxin>
+  <ntg.effectiveness.primaxin>[pseudomonas_infection] 假单胞菌感染（80%有效）| [streptococcal_infection] 链球菌感染（80%有效）| [staphylococcal_infection] 葡萄球菌感染（75%有效）| [provobacter_infection] 原生杆菌感染（66.7%有效）| [aeroganella_infection] 气菌感染（50%有效）</ntg.effectiveness.primaxin>
+  <ntg.applicationsuccess.primaxin>50% 泰能（需10秒施放，持续250秒）| [kidney_damage] 17.5% 肾损伤（持续250秒）| [liver_damage] 12.5% 肝损伤（持续250秒）| [methicillin_resistance_risk] 20% 耐甲氧西林风险（需10秒施放，持续2000秒）</ntg.applicationsuccess.primaxin>
+  <ntg.applicationfailed.primaxin>[liver_damage] 5% 肝损伤（需10秒施放）| [methicillin_resistance_risk] 30% 耐甲氧西林风险（需10秒施放，持续3000秒）</ntg.applicationfailed.primaxin>
+  <ntg.seealso.primaxin>[information_using_antibiotics] 使用抗生素</ntg.seealso.primaxin>
+  <ntg.title.ceftazidime>头孢他啶</ntg.title.ceftazidime>
+  <ntg.description.ceftazidime>医疗技能需求：30\n一种第三代头孢菌素类抗生素。与许多第一代头孢不同，它主要对大多数革兰氏阴性菌有效。</ntg.description.ceftazidime>
+  <ntg.effectiveness.ceftazidime>[pseudomonas_infection] 假单胞菌感染（87.5%有效）| [provobacter_infection] 原生杆菌感染（80%有效）| [aeroganella_infection] 气菌感染（75%有效）| [streptococcal_infection] 链球菌感染（20%有效）</ntg.effectiveness.ceftazidime>
+  <ntg.applicationsuccess.ceftazidime>50% 头孢他啶（需10秒施放，持续250秒）| [kidney_damage] 15% 肾损伤（持续250秒）| [liver_damage] 7.5% 肝损伤（持续250秒）</ntg.applicationsuccess.ceftazidime>
+  <ntg.applicationfailed.ceftazidime>[kidney_damage] 5% 肾损伤（需10秒施放）</ntg.applicationfailed.ceftazidime>
+  <ntg.seealso.ceftazidime>[information_using_antibiotics] 使用抗生素</ntg.seealso.ceftazidime>
+  <!-- 工具 -->
+  <ntg.title.sampler_tool>采样工具</ntg.title.sampler_tool>
+  <ntg.description.sampler_tool>用于采集疑似感染样本和与病原体相关的血液样本，是诊断感染的重要工具。\n需要培养管来采集细菌样本，或病毒转运培养基来采集病毒样本。样本会放入背包中，若背包已满则掉落在地上。\n不使用样本直接使用该工具可读取血液中的细菌信息，并可用于诊断导致肺炎的病原体。</ntg.description.sampler_tool>
+  <ntg.seealso.sampler_tool>[culture_tube] 培养管 | [viral_transport_medium] 病毒转运培养基 | [sample_analyzer] 样本分析仪 | [information_diagnosing_bacteria] 诊断细菌感染 | [information_diagnosing_viruses] 传染性疾病</ntg.seealso.sampler_tool>
+  <ntg.title.culture_tube>培养管</ntg.title.culture_tube>
+  <ntg.description.culture_tube>用于采集细菌的样本培养基。装入采样工具中使用。\n使用采样工具采集样本后，将未知样本放入样本分析仪获得确认样本。\n确认样本可用于制作疫苗或武器化细菌等物品。你可以用干净的培养管和确认样本复制样本。或者，用干净培养管与武器化细菌合成也可获得对应样本。</ntg.description.culture_tube>
+  <ntg.seealso.culture_tube>[sampler_tool] 采样工具 | [sample_analyzer] 样本分析仪</ntg.seealso.culture_tube>
+  <ntg.title.viral_transport_medium>病毒转运培养基</ntg.title.viral_transport_medium>
+  <ntg.description.viral_transport_medium>用于采集病毒的样本培养基。装入采样工具中使用。\n放入样本分析仪进行分析。可用于制作病毒疫苗。</ntg.description.viral_transport_medium>
+  <ntg.seealso.viral_transport_medium>[sampler_tool] 采样工具 | [sample_analyzer] 样本分析仪</ntg.seealso.viral_transport_medium>
+  <ntg.title.sample_analyzer>样本分析仪</ntg.title.sample_analyzer>
+  <ntg.description.sample_analyzer>用于识别样本中病原体类型的机器。仅接受细菌或病毒样本进行分析（来自培养管或病毒转运培养基）。\n机器需要接通电源才能运行。</ntg.description.sample_analyzer>
+  <ntg.seealso.sample_analyzer>[culture_tube] 培养管 | [viral_transport_medium] 病毒转运培养基 | [information_diagnosing_bacteria] 诊断细菌感染 | [information_diagnosing_viruses] 传染性疾病</ntg.seealso.sample_analyzer>
+  <ntg.title.hematology_analyzer>血液分析仪</ntg.title.hematology_analyzer>
+  <ntg.description.hematology_analyzer>血液分析仪还可用于检查患者的血型，以避免输血性休克。将捐献卡放入分析仪然后使用，将打印血型信息。\n也可用于检查血袋中是否含有酸中毒、碱中毒或败血症（供体病症强度的1/5将体现在血袋中）。将血袋放入分析仪然后使用，将显示是否含有这些病症及其强度。</ntg.description.hematology_analyzer>
+  <ntg.seealso.hematology_analyzer>[bloodanalyzer] 血液分析仪 | [blood_packs] 血袋 | [hemotransfusion_shock] 输血性休克</ntg.seealso.hematology_analyzer>
+  <ntg.title.broad_spectrum_antibiotics>广谱抗生素</ntg.title.broad_spectrum_antibiotics>
+  <ntg.description.broad_spectrum_antibiotics>医疗技能需求：25\n在NT感染中，广谱抗生素被完全移除。</ntg.description.broad_spectrum_antibiotics>
+  <ntg.seealso.broad_spectrum_antibiotics>[abx] 广谱抗生素（物品）</ntg.seealso.broad_spectrum_antibiotics>
+  <!-- 渗脓 -->
+  <ntg.title.purulent_drainage>渗脓</ntg.title.purulent_drainage>
+  <ntg.description.purulent_drainage>渗脓是一种症状，表明肢体受到感染并且身体正在产生脓液来对抗感染。</ntg.description.purulent_drainage>
+  <ntg.requirements.purulent_drainage>[abscess] 脓肿必须有足够的强度，否则不会开始渗脓</ntg.requirements.purulent_drainage>
+  <ntg.possiblecauses.purulent_drainage>[abscess] 脓肿（超过0%）| [inflammation] 炎症（超过0%）</ntg.possiblecauses.purulent_drainage>
+  <ntg.seealso.purulent_drainage>[abscess] 脓肿 | [inflammation] 炎症</ntg.seealso.purulent_drainage>
+  <!-- 脓肿 -->
+  <ntg.title.abscess>脓肿</ntg.title.abscess>
+  <ntg.description.abscess>脓肿是一种症状，表明肢体受到感染并且身体正在产生脓液来对抗感染。脓肿可导致渗脓。</ntg.description.abscess>
+  <ntg.requirements.abscess>无脓肿的伤口，肢体感染以固定速率产生脓液</ntg.requirements.abscess>
+  <ntg.seealso.abscess>[abscess] 脓肿 | [purulent_drainage] 渗脓</ntg.seealso.abscess>
+  <!-- 病毒 -->
+  <ntg.title.influenza>流感</ntg.title.influenza>
+  <ntg.description.influenza>流感是一种由正粘病毒科病毒引起的病毒感染。症状包括疲劳、咳嗽、发烧和喉咙痛。</ntg.description.influenza>
+  <ntg.susceptible.influenza>[remdesivir] 瑞德西韦 | [dextromethorphan] 右美沙芬 | [zinc_supplements] 锌补充剂</ntg.susceptible.influenza>
+  <ntg.effects.influenza>降低免疫力 | [shortness_of_breath] 呼吸困难 | [cough] 咳嗽 | [fever] 发烧 | [headache] 头痛 | [weakness] 虚弱</ntg.effects.influenza>
+  <ntg.seealso.influenza>[information_diagnosing_viruses] 传染性疾病</ntg.seealso.influenza>
+  <!-- 抗病毒药 -->
+  <ntg.title.remdesivir>瑞德西韦</ntg.title.remdesivir>
+  <ntg.description.remdesivir>医疗技能需求：40\n一种抗病毒药物，用于治疗病毒感染。在感染早期使用最有效。</ntg.description.remdesivir>
+  <ntg.effectiveness.remdesivir>[influenza] 流感</ntg.effectiveness.remdesivir>
+  <ntg.applicationsuccess.remdesivir>60% 瑞德西韦（需10秒施放，持续300秒）| [liver_damage] 15% 肝损伤（300秒内）</ntg.applicationsuccess.remdesivir>
+  <ntg.applicationfailed.remdesivir>[liver_damage] 5% 肝损伤（需10秒施放）</ntg.applicationfailed.remdesivir>
+  <ntg.seealso.remdesivir>[information_diagnosing_viruses] 传染性疾病</ntg.seealso.remdesivir>
+  <ntg.title.dextromethorphan>右美沙芬</ntg.title.dextromethorphan>
+  <ntg.description.dextromethorphan>医疗技能需求：10\n一种止咳药，用于缓解病毒感染的咳嗽症状。</ntg.description.dextromethorphan>
+  <ntg.applicationsuccess.dextromethorphan>60% 右美沙芬（持续120秒）</ntg.applicationsuccess.dextromethorphan>
+  <ntg.applicationfailed.dextromethorphan>40% 右美沙芬（持续120秒）</ntg.applicationfailed.dextromethorphan>
+  <ntg.seealso.dextromethorphan>[information_diagnosing_viruses] 传染性疾病</ntg.seealso.dextromethorphan>
+  <ntg.title.zinc_supplements>锌补充剂</ntg.title.zinc_supplements>
+  <ntg.description.zinc_supplements>医疗技能需求：20\n一种补充剂，用于支持免疫系统对抗病毒感染。</ntg.description.zinc_supplements>
+  <ntg.applicationsuccess.zinc_supplements>50% 锌补充剂（持续120秒）</ntg.applicationsuccess.zinc_supplements>
+  <ntg.applicationfailed.zinc_supplements>30% 锌补充剂（持续120秒）</ntg.applicationfailed.zinc_supplements>
+  <ntg.effects.zinc_supplements>[nausea] 恶心（超过80%）| [vomiting] 呕吐（超过90%）</ntg.effects.zinc_supplements>
+  <ntg.seealso.zinc_supplements>[information_diagnosing_viruses] 传染性疾病</ntg.seealso.zinc_supplements>
+  <ntg.title.corticosteroids>皮质类固醇</ntg.title.corticosteroids>
+  <ntg.description.corticosteroids>医疗技能需求：30\n用于抑制免疫系统的皮质类固醇。可用于减少败血症增长。注意其免疫抑制作用。</ntg.description.corticosteroids>
+  <ntg.applicationsuccess.corticosteroids>60% 皮质类固醇（10秒施药）</ntg.applicationsuccess.corticosteroids>
+  <ntg.applicationfailed.corticosteroids>40% 皮质类固醇（10秒施药）</ntg.applicationfailed.corticosteroids>
+  <ntg.effects.corticosteroids>[immunity] 降低免疫力（降至80%）</ntg.effects.corticosteroids>
+</Infotexts>

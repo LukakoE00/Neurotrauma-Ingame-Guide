@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <ntg.categoryname.thermal>附加设置：体温</ntg.categoryname.thermal>
+  <ntg.settingname.modcolourthermal>NT体温模组来源颜色</ntg.settingname.modcolourthermal>
+  <ntg.title.cold>寒冷</ntg.title.cold>
+  <ntg.description.cold>寒冷是一种症状，不致命，也不会引起其他病症。</ntg.description.cold>
+  <ntg.causes.cold>体温低于34°C</ntg.causes.cold>
+  <ntg.title.shivers>颤抖</ntg.title.shivers>
+  <ntg.description.shivers>颤抖是一种症状，不致命，也不会引起其他病症。</ntg.description.shivers>
+  <ntg.causes.shivers>体温低于33°C</ntg.causes.shivers>
+  <ntg.title.numb>麻木</ntg.title.numb>
+  <ntg.description.numb>麻木是一种症状，不致命，也不会引起其他病症。</ntg.description.numb>
+  <ntg.causes.numb>体温低于31°C</ntg.causes.numb>
+  <ntg.title.runny_nose>流鼻涕</ntg.title.runny_nose>
+  <ntg.description.runny_nose>流鼻涕是一种症状，不致命，也不会引起其他病症。</ntg.description.runny_nose>
+  <ntg.causes.runny_nose>体温低于35°C</ntg.causes.runny_nose>
+  <ntg.title.pins_and_needles>针刺感</ntg.title.pins_and_needles>
+  <ntg.description.pins_and_needles>针刺感是一种症状，不致命，也不会引起其他病症。</ntg.description.pins_and_needles>
+  <ntg.causes.pins_and_needles>体温低于32°C</ntg.causes.pins_and_needles>
+  <ntg.seealso.pins_and_needles>[hypothermia] 低体温症</ntg.seealso.pins_and_needles>
+  <ntg.title.arm_swelling>手臂肿胀</ntg.title.arm_swelling>
+  <ntg.description.arm_swelling>手臂肿胀是一种症状，不致命，也不会引起其他病症。</ntg.description.arm_swelling>
+  <ntg.causes.arm_swelling>手臂温度低于15°C</ntg.causes.arm_swelling>
+  <ntg.title.hot>炎热</ntg.title.hot>
+  <ntg.description.hot>炎热是一种症状，不致命，也不会引起其他病症。</ntg.description.hot>
+  <ntg.causes.hot>体温高于38°C</ntg.causes.hot>
+  <ntg.title.aafn_od>A.A.F.N过量</ntg.title.aafn_od>
+  <ntg.description.aafn_od>A.A.F.N过量几乎总是致命的，因为纳米机器人已经失控，开始攻击所有器官。你最好的选择也许就是结束患者的痛苦。</ntg.description.aafn_od>
+  <ntg.causes.aafn_od>[aafn_item] A.A.F.N（使用时）</ntg.causes.aafn_od>
+  <ntg.effects.aafn_od>[lung_damage] 肺损伤（每次+10%）| [heart_damage] 心脏损伤（每次+10%）| [liver_damage] 肝损伤（每次+10%）| [kidney_damage] 肾损伤（每次+10%）| [seizure] 癫痫（每次+20%）</ntg.effects.aafn_od>
+  <ntg.treatments.aafn_od>时间</ntg.treatments.aafn_od>
+  <ntg.title.heat_stronk>中暑</ntg.title.heat_stronk>
+  <ntg.description.heat_stronk>中暑是一种由极端高温引起的严重且危及生命的状况。如果不加处理，患者将遭受灾难性后果。未使用健康扫描仪时仅在超过50%后才可见。</ntg.description.heat_stronk>
+  <ntg.causes.heat_stronk>体温高于42°C</ntg.causes.heat_stronk>
+  <ntg.effects.heat_stronk>[seizure] 癫痫 | [cardiac_arrest] 心脏骤停（超过60%）</ntg.effects.heat_stronk>
+  <ntg.treatments.heat_stronk>降低体温 | 凝胶冰袋 | [cold_iv_fluids] 冷静脉输液 | 水</ntg.treatments.heat_stronk>
+  <ntg.title.thermal_shock>热休克</ntg.title.thermal_shock>
+  <ntg.description.thermal_shock>热休克由患者体温的突然变化引起。例如，在冰冷的海洋中裸泳后进入充满火焰的房间。热休克极其致命，在此过程中如不加以监测将导致死亡。需要注意的是，热休克相当罕见。</ntg.description.thermal_shock>
+  <ntg.causes.thermal_shock>温度梯度大幅增加</ntg.causes.thermal_shock>
+  <ntg.effects.thermal_shock>[cardiac_arrest] 心脏骤停 | [cardiac_tamponade] 心脏压塞 | [heart_attack] 心脏病 | [seizure] 癫痫 | [coma] 昏迷</ntg.effects.thermal_shock>
+  <ntg.treatments.thermal_shock>[analgesia] 镇痛 | [anesthesia] 麻醉 | 治疗症状</ntg.treatments.thermal_shock>
+  <ntg.title.pulmonary_edema>肺水肿</ntg.title.pulmonary_edema>
+  <ntg.description.pulmonary_edema>肺水肿由长时间处于极端寒冷并同时游泳引起。虽然不是紧急状况，但若不留意可能导致患者停止呼吸，好在非常容易治疗。可被败血症、高血压和心脏损伤加重。</ntg.description.pulmonary_edema>
+  <ntg.causes.pulmonary_edema>在寒冷水中游泳</ntg.causes.pulmonary_edema>
+  <ntg.effects.pulmonary_edema>[shortness_of_breath] 气短| [wheezing] 喘息（25%或以上）| [vomiting_blood] 吐血（75%或以上）| [respiratory_arrest] 呼吸骤停（75%或以上）</ntg.effects.pulmonary_edema>
+  <ntg.treatments.pulmonary_edema>[furosemide] 呋塞米 | 治疗原因</ntg.treatments.pulmonary_edema>
+  <ntg.title.pulmonary_embolism>肺栓塞</ntg.title.pulmonary_embolism>
+  <ntg.description.pulmonary_embolism>肺栓塞由大块血栓从较大血凝块上脱落后进入肺部引起，在肺部被卡住并阻止呼吸。应被视为医疗紧急情况。</ntg.description.pulmonary_embolism>
+  <ntg.causes.pulmonary_embolism>[blood_clots] 血凝块高于30%</ntg.causes.pulmonary_embolism>
+  <ntg.effects.pulmonary_embolism>[shortness_of_breath] 呼吸困难（高于0%）| [chest_pain] 胸痛（高于0%）| [cough] 咳嗽（高于0%）| [weakness] 虚弱（高于0%）| [vomiting_blood] 吐血（高于0%）| [respiratory_arrest] 呼吸骤停（高于60%）| [cardiac_arrest] 心脏骤停（高于80%）| [death] 死亡（高于100%）</ntg.effects.pulmonary_embolism>
+  <ntg.treatments.pulmonary_embolism>[alteplase] 阿替普酶</ntg.treatments.pulmonary_embolism>
+  <ntg.title.hypothermia>低体温症</ntg.title.hypothermia>
+  <ntg.description.hypothermia>低体温症由躯干温度达到35°C或更低引起。温度越低，低体温症越严重，且随着持续，效果会变得更加严重。\n注意：拥有画皮共生体将使你对低体温症免疫。</ntg.description.hypothermia>
+  <ntg.causes.hypothermia>核心温度过低</ntg.causes.hypothermia>
+  <ntg.effects.hypothermia>[hypoventilation] 换气不足 | [bradycardia] 心率过缓 | [confusion] 神志不清 | [disorientation] 定向障碍 | [unconsciousness] 失去意识 | [cardiac_arrest] 心脏骤停</ntg.effects.hypothermia>
+  <ntg.treatments.hypothermia>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液</ntg.treatments.hypothermia>
+  <ntg.title.hyperthermia>高体温症</ntg.title.hyperthermia>
+  <ntg.description.hyperthermia>高体温症由躯干温度高于38°C引起。温度越高，高体温症越严重，且随着持续，效果会变得越来越严重。\n注意：拥有画皮共生体将使所有热量效果翻倍。</ntg.description.hyperthermia>
+  <ntg.causes.hyperthermia>核心温度过高</ntg.causes.hyperthermia>
+  <ntg.effects.hyperthermia>[lung_damage] 肺损伤（50°C或以上）| [heart_damage] 心脏损伤（50°C或以上）| [kidney_damage] 肾损伤（50°C或以上）| [liver_damage] 肝损伤（50°C或以上）</ntg.effects.hyperthermia>
+  <ntg.treatments.hyperthermia>[gel_ice_pack] 凝胶冰袋 | [cold_iv_fluids] 冷静脉输液 | 水</ntg.treatments.hyperthermia>
+  <ntg.title.frozen_blood_vessels>血管冻结</ntg.title.frozen_blood_vessels>
+  <ntg.description.frozen_blood_vessels>血管冻结由躯干温度达到1°C或更低引起。一旦达到这个温度，躯干将开始缓慢冻结，解冻时会造成不可逆损伤。不过，由于一种名为A.A.F.N（自动防冻纳米机器人）的全新高实验性药物，这可以被逆转。但这个过程不容易，需要大量监测。</ntg.description.frozen_blood_vessels>
+  <ntg.causes.frozen_blood_vessels>核心温度达到1°C或以下</ntg.causes.frozen_blood_vessels>
+  <ntg.effects.frozen_blood_vessels>[internal_bleeding] 内出血 | [lung_damage] 肺损伤 | [heart_damage] 心脏损伤 | [liver_damage] 肝损伤 | [kidney_damage] 肾损伤</ntg.effects.frozen_blood_vessels>
+  <ntg.treatments.frozen_blood_vessels>[aafn_item] A.A.F.N | [thiamine] 硫胺素</ntg.treatments.frozen_blood_vessels>
+  <ntg.title.cell_death>细胞死亡</ntg.title.cell_death>
+  <ntg.description.cell_death>细胞死亡由血管冻结的不当解冻引起。结果，身体会迅速死亡，器官衰竭，组织坏死。超过5%后不可治愈，一旦超过这个阈值，让患者解脱才是最人道的选择。</ntg.description.cell_death>
+  <ntg.causes.cell_death>[frozen_blood_vessels] 不当解冻</ntg.causes.cell_death>
+  <ntg.effects.cell_death>[internal_bleeding] 内出血| [confusion] 神志不清（低于5%）| [neurotrauma] 神经创伤（超过5%）| [lung_damage] 肺损伤（超过5%）| [heart_damage] 心脏损伤（超过5%）| [kidney_damage] 肾损伤（超过5%）| [liver_damage] 肝损伤（超过5%）</ntg.effects.cell_death>
+  <ntg.treatments.cell_death>超过5%后无法治愈</ntg.treatments.cell_death>
+  <ntg.title.heated_diving_suit>加热潜水服</ntg.title.heated_diving_suit>
+  <ntg.description.heated_diving_suit>加热潜水服由装备带有内置加热器（带电池）、外置加热器（带电池）或开启潜水服兼容模式的潜水服引起。用于防止离开潜艇进入零下水域时冻伤。在干燥区域使用效果甚微。</ntg.description.heated_diving_suit>
+  <ntg.causes.heated_diving_suit>装备加热潜水服</ntg.causes.heated_diving_suit>
+  <ntg.effects.heated_diving_suit>[temperature] 提高核心温度</ntg.effects.heated_diving_suit>
+  <ntg.treatments.heated_diving_suit>脱下潜水服</ntg.treatments.heated_diving_suit>
+  <ntg.seealso.cold>[hypothermia] 低体温症</ntg.seealso.cold>
+  <ntg.title.elevated_core_temp>核心温度升高</ntg.title.elevated_core_temp>
+  <ntg.description.elevated_core_temp>核心温度升高用于提高患者的内核温度，这是一种比使用温暖更有效的稳定患者方式。但应谨慎使用，因其有副作用。</ntg.description.elevated_core_temp>
+  <ntg.causes.elevated_core_temp>[warm_iv_fluids] 温静脉输液</ntg.causes.elevated_core_temp>
+  <ntg.effects.elevated_core_temp>[temperature] 每0.1强度提高0.01°C | [hyperthermia] 高体温症风险</ntg.effects.elevated_core_temp>
+  <ntg.treatments.elevated_core_temp>热敷垫 | 温毛巾</ntg.treatments.elevated_core_temp>
+  <ntg.title.frostnip>冻伤初期</ntg.title.frostnip>
+  <ntg.description.frostnip>冻伤初期由患者的任何肢体达到29°C或更低引起。虽然通常可以忽略，但如果放任不管，可能会发展为更严重的冻伤阶段甚至死亡。仅能发生在非机械义肢上。</ntg.description.frostnip>
+  <ntg.causes.frostnip>肢体温度低于29°C</ntg.causes.frostnip>
+  <ntg.effects.frostnip>肢体功能降低</ntg.effects.frostnip>
+  <ntg.treatments.frostnip>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液</ntg.treatments.frostnip>
+  <ntg.title.d1_frostbite>一级冻伤</ntg.title.d1_frostbite>
+  <ntg.description.d1_frostbite>一级冻伤由患者的任何肢体达到27°C或更低且之前已有冻伤初期引起。虽然通常可以忽略，但如果放任不管，可能会发展为更严重的冻伤阶段甚至死亡。仅能发生在非机械义肢上。</ntg.description.d1_frostbite>
+  <ntg.causes.d1_frostbite>肢体温度低于27°C且已有一级冻伤</ntg.causes.d1_frostbite>
+  <ntg.effects.d1_frostbite>肢体功能降低 | 可能引起坏疽</ntg.effects.d1_frostbite>
+  <ntg.treatments.d1_frostbite>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液</ntg.treatments.d1_frostbite>
+  <ntg.title.d2_frostbite>二级冻伤</ntg.title.d2_frostbite>
+  <ntg.description.d2_frostbite>二级冻伤由患者的任何肢体达到18°C或更低且之前已有一级冻伤引起。不应忽视，因为下一阶段是三级冻伤，超过40%后将永久化。仅能发生在非机械义肢上。</ntg.description.d2_frostbite>
+  <ntg.causes.d2_frostbite>肢体温度低于18°C且已有一级冻伤</ntg.causes.d2_frostbite>
+  <ntg.effects.d2_frostbite>严重肢体功能降低 | [gangrene] 坏疽风险</ntg.effects.d2_frostbite>
+  <ntg.treatments.d2_frostbite>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液</ntg.treatments.d2_frostbite>
+  <ntg.title.d3_frostbite>三级冻伤</ntg.title.d3_frostbite>
+  <ntg.description.d3_frostbite>三级冻伤由患者的任何肢体达到1°C或更低且之前已有二级冻伤引起。在任何情况下都不能忽视，放任不管将导致截肢和死亡。不过，受三级冻伤影响的肢体只有在超过40%时才需要截肢，否则可以缓慢解冻。仅能发生在非机械义肢且未截肢的肢体上。</ntg.description.d3_frostbite>
+  <ntg.causes.d3_frostbite>肢体温度低于1°C且有二级冻伤</ntg.causes.d3_frostbite>
+  <ntg.effects.d3_frostbite>肢体完全失去功能 | [gangrene] 坏疽 | 可能需截肢</ntg.effects.d3_frostbite>
+  <ntg.treatments.d3_frostbite>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液 | 截肢（超过40%）</ntg.treatments.d3_frostbite>
+  <ntg.title.chilblains>冻疮</ntg.title.chilblains>
+  <ntg.description.chilblains>冻疮由任何具有三级冻伤或二级冻伤的肢体解冻引起。虽然不是特别致命，但放任不管可能会导致感染。</ntg.description.chilblains>
+  <ntg.causes.chilblains>冻伤解冻</ntg.causes.chilblains>
+  <ntg.effects.chilblains>[infected_wounds] 伤口感染</ntg.effects.chilblains>
+  <ntg.treatments.chilblains>[antibiotic_ointment] 抗生素软膏 | 时间</ntg.treatments.chilblains>
+  <ntg.title.reperfusion_injury>再灌注损伤</ntg.title.reperfusion_injury>
+  <ntg.description.reperfusion_injury>再灌注损伤由冻伤肢体的不当加热引起。如果一级、二级或三级冻伤的百分比相对于其对应温度过高，就会发生再灌注损伤。虽然不直接致命，但会造成高额内部损伤。</ntg.description.reperfusion_injury>
+  <ntg.causes.reperfusion_injury>不当加热冻伤肢体</ntg.causes.reperfusion_injury>
+  <ntg.effects.reperfusion_injury>[internal_wounds] 内部损伤| [bone_damage] 骨损伤</ntg.effects.reperfusion_injury>
+  <ntg.treatments.reperfusion_injury>[analgesia] 镇痛 | 时间</ntg.treatments.reperfusion_injury>
+  <ntg.title.heat_cramp>热痉挛</ntg.title.heat_cramp>
+  <ntg.description.heat_cramp>热痉挛由任何肢体达到41.8°C引起。热痉挛更多的是烦人而非其他，因为你不会因此死亡或受重伤。但如果极端严重，可能会阻止患者行走或移动。</ntg.description.heat_cramp>
+  <ntg.causes.heat_cramp>肢体温度高于41.8°C</ntg.causes.heat_cramp>
+  <ntg.effects.heat_cramp>肢体痉挛 | 移动困难</ntg.effects.heat_cramp>
+  <ntg.treatments.heat_cramp>冷却 | [gel_ice_pack] 凝胶冰袋</ntg.treatments.heat_cramp>
+  <ntg.title.wet>潮湿</ntg.title.wet>
+  <ntg.description.wet>变湿很简单——不穿潜水服站在水中即可。作为寒冷温度的乘数，最好用毛巾擦干。还会弄脏绷带。</ntg.description.wet>
+  <ntg.causes.wet>接触水</ntg.causes.wet>
+  <ntg.effects.wet>温度下降加速</ntg.effects.wet>
+  <ntg.treatments.wet>[towel] 毛巾</ntg.treatments.wet>
+  <ntg.title.warmth>温暖</ntg.title.warmth>
+  <ntg.description.warmth>温暖是由热敷垫和温毛巾给予的状态。用于从外部提高患者的温度，效果不如核心温度升高。</ntg.description.warmth>
+  <ntg.causes.warmth>[heat_pads] 热敷垫 | [warm_rag] 温毛巾</ntg.causes.warmth>
+  <ntg.effects.warmth>[temperature] 温度（外部升高）| [internal_bleeding] 内出血（乘以微量）</ntg.effects.warmth>
+  <ntg.treatments.warmth>时间</ntg.treatments.warmth>
+  <ntg.title.chilled>冷却</ntg.title.chilled>
+  <ntg.description.chilled>冷却是由凝胶冰袋使用后给予的状态。大幅提高钝力损伤的自然恢复，并降低温度。</ntg.description.chilled>
+  <ntg.causes.chilled>[gel_ice_pack] 凝胶冰袋</ntg.causes.chilled>
+  <ntg.effects.chilled>每个受冷却的肢体降低角色速度5% | [internal_wounds] 加速钝力创伤自然愈合| [infected_wounds] 加速伤口感染恶化| [internal_bleeding] 每秒降低内出血0.2%| [temperature] 温度（降至低体温水平）</ntg.effects.chilled>
+  <ntg.treatments.chilled>时间</ntg.treatments.chilled>
+  <ntg.title.temperature>温度</ntg.title.temperature>
+  <ntg.description.temperature>温度是整个NT Thermal模组中最重要的状态，因为它决定了该模组添加的所有病症。温度只能通过温度计查看。温度可以被水降低，被火升高。身体会随时间尝试稳定温度，但在许多情况下可能需要外部帮助。低血压会使被动产热变慢，使用止血带也是如此。</ntg.description.temperature>
+  <ntg.causes.temperature>[hypothermia] 低体温症 | [hyperthermia] 高体温症 | [fever] 发烧 | 环境温度</ntg.causes.temperature>
+  <ntg.effects.temperature>影响所有热相关病症</ntg.effects.temperature>
+  <ntg.treatments.temperature>[heat_pads] 热敷垫 | [warm_rag] 温毛巾 | [warm_iv_fluids] 温静脉输液 | [gel_ice_pack] 凝胶冰袋</ntg.treatments.temperature>
+  <ntg.title.blood_clots>血凝块</ntg.title.blood_clots>
+  <ntg.description.blood_clots>血凝块是由严重冻伤形成的严重病症。少量时，身体可以安全分解。大量时，身体将难以应对并经历许多负面效果。受高血压和碱中毒加剧。酸中毒可减弱其效果。</ntg.description.blood_clots>
+  <ntg.causes.blood_clots>[frozen_blood_vessels] 解冻 | 严重冻伤</ntg.causes.blood_clots>
+  <ntg.effects.blood_clots>[pulmonary_embolism] 肺栓塞 | [stroke] 中风 | 器官损伤</ntg.effects.blood_clots>
+  <ntg.treatments.blood_clots>[alteplase] 阿替普酶 | [thrombolytic] 溶栓剂</ntg.treatments.blood_clots>
+  <!-- 物品 -->
+  <ntg.title.handheld_thermometer>手持温度计</ntg.title.handheld_thermometer>
+  <ntg.description.handheld_thermometer>医疗技能检定：0。\n用于读取患者的核心温度。</ntg.description.handheld_thermometer>
+  <ntg.title.towel>毛巾</ntg.title.towel>
+  <ntg.description.towel>医疗技能检定：20。\n用于擦干患者身上的水，也可作为临时保暖物。</ntg.description.towel>
+  <ntg.title.heat_pads>热敷垫</ntg.title.heat_pads>
+  <ntg.description.heat_pads>医疗技能检定：10。\n用于提高患者肢体温度的热敷垫。可重复使用。</ntg.description.heat_pads>
+  <ntg.title.warm_rag>温毛巾</ntg.title.warm_rag>
+  <ntg.description.warm_rag>医疗技能检定：20。\n用于提高患者肢体温度的温毛巾。</ntg.description.warm_rag>
+  <ntg.title.warm_iv_fluids>温静脉输液</ntg.title.warm_iv_fluids>
+  <ntg.description.warm_iv_fluids>医疗技能检定：40。\n用于提高患者核心温度的静脉输液。</ntg.description.warm_iv_fluids>
+  <ntg.title.cold_iv_fluids>冷静脉输液</ntg.title.cold_iv_fluids>
+  <ntg.description.cold_iv_fluids>医疗技能检定：40。\n用于降低患者核心温度的静脉输液。</ntg.description.cold_iv_fluids>
+  <ntg.title.alteplase>阿替普酶</ntg.title.alteplase>
+  <ntg.description.alteplase>医疗技能检定：40。\n用于溶解血凝块，治疗肺栓塞。</ntg.description.alteplase>
+  <ntg.title.furosemide_item>呋塞米</ntg.title.furosemide_item>
+  <ntg.description.furosemide_item>医疗技能检定：45。\n用于治疗肺水肿的利尿剂。</ntg.description.furosemide_item>
+  <ntg.title.aafn_item>A.A.F.N（自动防冻纳米机器人）</ntg.title.aafn_item>
+  <ntg.description.aafn_item>医疗技能检定：60。\n一种高度实验性的纳米机器人药物，用于逆转血管冻结。必须在严格监控下使用。</ntg.description.aafn_item>
+  <ntg.title.skin_grafter>植皮器</ntg.title.skin_grafter>
+  <ntg.description.skin_grafter>医疗技能检定：50。\n用于在烧伤治疗中移植人造皮肤。</ntg.description.skin_grafter>
+  <ntg.title.ntt_skin>人造皮肤（NTT）</ntg.title.ntt_skin>
+  <ntg.description.ntt_skin>医疗技能检定：50。\n用于覆盖大面积烧伤创面的人造皮肤替代物。</ntg.description.ntt_skin>
+  <ntg.title.stasis_starter>休眠启动器（低温休眠启动）</ntg.title.stasis_starter>
+  <ntg.description.stasis_starter>医疗技能检定：50。\n一种比停滞袋便宜得多的替代品。只要患者没有高体温症，将患者体温降至1°C或更低即可使其进入停滞状态。</ntg.description.stasis_starter>
+  <ntg.applicationsuccess.stasis_starter>[cryo_stasis_starter] 低温休眠启动器（+25%）</ntg.applicationsuccess.stasis_starter>
+  <ntg.applicationfailed.stasis_starter>[cryo_stasis_starter] 低温休眠启动器（+5%）</ntg.applicationfailed.stasis_starter>
+  <ntg.title.cryo_tank>低温罐</ntg.title.cryo_tank>
+  <ntg.description.cryo_tank>一种用于储存低温休眠启动器的罐子。</ntg.description.cryo_tank>
+  <ntg.title.cryo_stasis_starter>低温休眠启动器（病症）</ntg.title.cryo_stasis_starter>
+  <ntg.description.cryo_stasis_starter>\n只要此效果激活且患者温度在1°C或以下，就能使患者保持停滞状态。</ntg.description.cryo_stasis_starter>
+  <ntg.causes.cryo_stasis_starter>[stasis_starter] 休眠启动器（使用时）</ntg.causes.cryo_stasis_starter>
+  <ntg.effects.cryo_stasis_starter>停滞（温度在1°C或以下时）</ntg.effects.cryo_stasis_starter>
+  <ntg.treatments.cryo_stasis_starter>时间</ntg.treatments.cryo_stasis_starter>
+  <ntg.title.hsh>H.S.H（耳机式潜水服加热器）</ntg.title.hsh>
+  <ntg.description.hsh>一种可安装在耳机槽位的潜水服加热装置。需要电池供电。</ntg.description.hsh>
+  <ntg.title.thrombolytic>溶栓剂</ntg.title.thrombolytic>
+  <ntg.description.thrombolytic>用于溶解血凝块的特殊药物。</ntg.description.thrombolytic>
+  <ntg.effects.thrombolytic>[blood_clots] 血凝块（减少）| [hypotension] 低血压| [kidney_damage] 肾损伤</ntg.effects.thrombolytic>
+  <ntg.treatments.thrombolytic>[alteplase] 阿替普酶</ntg.treatments.thrombolytic>
+  <ntg.title.removed_skin>皮肤已移除</ntg.title.removed_skin>
+  <ntg.description.removed_skin>皮肤移除手术的第四步。拥有已移除的皮肤会引起炎症和感染。此状态是最后一步缝合所必需的。</ntg.description.removed_skin>
+  <ntg.causes.removed_skin>[skin_grafter] 植皮器</ntg.causes.removed_skin>
+  <ntg.effects.removed_skin>[inflammation] 炎症 | [infected_wounds] 伤口感染</ntg.effects.removed_skin>
+  <ntg.treatments.removed_skin>[sutures] 缝合线 | [ntt_skin] 人造皮肤</ntg.treatments.removed_skin>
+  <ntg.title.grafted_skin>皮肤已移植</ntg.title.grafted_skin>
+  <ntg.description.grafted_skin>皮肤已成功移植到烧伤创面上。</ntg.description.grafted_skin>
+  <ntg.causes.grafted_skin>[ntt_skin] 人造皮肤 | [skin_grafter] 植皮器</ntg.causes.grafted_skin>
+  <ntg.effects.grafted_skin>保护创面，促进愈合</ntg.effects.grafted_skin>
+  <ntg.treatments.grafted_skin>时间</ntg.treatments.grafted_skin>
+</Infotexts>

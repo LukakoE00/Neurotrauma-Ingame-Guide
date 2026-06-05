@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infotexts language="Simplified Chinese" nowhitespace="false">
+  <!-- 气道扩展附加页面 -->
+  <!-- KAT Medical 永远的神 -->
+  <!-- 设置 -->
+  <ntg.categoryname.airways>附加设置：气道</ntg.categoryname.airways>
+  <ntg.settingname.modcolourairways>NT气道模组来源颜色</ntg.settingname.modcolourairways>
+  <!-- 物品 -->
+  <!-- 覆盖 -->
+  <!-- 通气针 -->
+  <ntg.title.air_needle>通气针</ntg.title.air_needle>
+  <ntg.description.air_needle>使用时移除气胸，并将张力性气胸转变为普通气胸。</ntg.description.air_needle>
+  <!-- 引流 -->
+  <ntg.title.air_drainage>引流</ntg.title.air_drainage>
+  <ntg.description.air_drainage>将血胸转变为血气胸，再将血气胸转变为气胸。</ntg.description.air_drainage>
+  <!-- 覆盖结束 -->
+  <!-- 口腔吸引管 -->
+  <ntg.title.oral_suction_tube>口腔吸引管</ntg.title.oral_suction_tube>
+  <ntg.description.oral_suction_tube>医疗技能检定：50。
+\n用于从气道中吸出堵塞物。使用时不会被消耗。</ntg.description.oral_suction_tube>
+  <ntg.applicationsuccess.oral_suction_tube>
+    [occlusion] 移除堵塞物并防止其复发2分钟
+</ntg.applicationsuccess.oral_suction_tube>
+  <ntg.applicationfailed.oral_suction_tube>
+    [occlusion] 移除堵塞物并防止其复发2分钟，但需要10秒施放时间。
+</ntg.applicationfailed.oral_suction_tube>
+  <!-- 通气胸封 -->
+  <ntg.title.chest_seal>通气胸封</ntg.title.chest_seal>
+  <ntg.description.chest_seal>医疗技能检定：5。
+\n用于在发生吮吸性胸部伤口时覆盖胸部。使用时消耗。</ntg.description.chest_seal>
+  <ntg.applicationsuccess.chest_seal>
+    [deep_penetration_injury] 移除深部穿透伤 |
+    [pneumothorax] 降低气胸强度5点
+</ntg.applicationsuccess.chest_seal>
+  <ntg.applicationfailed.chest_seal>
+    [deep_penetration_injury] 移除深部穿透伤，但需要10秒施放时间。|
+    [pneumothorax] 降低气胸强度5点，但需要10秒施放时间。
+</ntg.applicationfailed.chest_seal>
+  <!-- Accuvac吸引器 -->
+  <ntg.title.accuvac>Accuvac吸引器</ntg.title.accuvac>
+  <ntg.description.accuvac>医疗技能检定：无。
+\n一种可快速清除气道中堵塞物和梗阻物的机器。需要电池才能使用。</ntg.description.accuvac>
+  <ntg.applicationsuccess.accuvac>
+    [occlusion] 移除堵塞物并防止其复发2分钟 |
+    [obstruction] 移除梗阻物并防止其复发2分钟
+</ntg.applicationsuccess.accuvac>
+  <!-- 喉管 -->
+  <ntg.title.laryngeal_tube>喉管</ntg.title.laryngeal_tube>
+  <ntg.description.laryngeal_tube>医疗技能检定：25。
+\n插入患者喉部以清除梗阻物。使用时消耗。</ntg.description.laryngeal_tube>
+  <ntg.applicationsuccess.laryngeal_tube>
+    [obstruction] 移除梗阻物并防止其复发2分钟
+</ntg.applicationsuccess.laryngeal_tube>
+  <ntg.applicationfailed.laryngeal_tube>
+    [obstruction] 导致梗阻物
+</ntg.applicationfailed.laryngeal_tube>
+  <!-- 高级气道处理套件 -->
+  <ntg.title.aat_kit>高级气道处理套件（AAT）</ntg.title.aat_kit>
+  <ntg.description.aat_kit>医疗技能检定：5。
+\n治疗气胸及其相关损伤的全能解决方案。每次使用损失25%状况，因此4次使用后耗尽——但可与其他AAT套件合并使用。对躯干使用。</ntg.description.aat_kit>
+  <ntg.applicationsuccess.aat_kit>
+    [tension_pneumothorax] 移除张力性气胸
+    [hemopneumothorax] 移除血气胸
+    [hemothorax] 移除血胸
+</ntg.applicationsuccess.aat_kit>
+  <ntg.applicationfailed.aat_kit>
+    [tension_pneumothorax] 移除张力性气胸，但需要10秒施放时间 |
+    [hemopneumothorax] 移除血气胸，但需要10秒施放时间 |
+    [hemothorax] 移除血胸，但需要10秒施放时间
+</ntg.applicationfailed.aat_kit>
+  <!-- 鼻咽通气管 -->
+  <ntg.title.naso_airway>鼻咽通气管</ntg.title.naso_airway>
+  <ntg.description.naso_airway>医疗技能检定：15。
+\n插入患者鼻腔以清除梗阻物。使用时消耗。</ntg.description.naso_airway>
+  <ntg.applicationsuccess.naso_airway>
+    [obstruction] 移除梗阻物并防止其复发2分钟
+</ntg.applicationsuccess.naso_airway>
+  <ntg.applicationfailed.naso_airway>
+    [obstruction] 导致梗阻物
+</ntg.applicationfailed.naso_airway>
+  <!-- 环甲膜切开刀 -->
+  <ntg.title.cric_scalpel>环甲膜切开刀</ntg.title.cric_scalpel>
+  <ntg.description.cric_scalpel>医疗技能检定：90。
+\n用于进行环甲膜切开术的#10防护手术刀。环甲膜切开术的第一步，使用时消耗。</ntg.description.cric_scalpel>
+  <ntg.applicationsuccess.cric_scalpel>
+    [cricothyrotomy] 制造环甲膜切口，环甲膜切开术的第一步
+</ntg.applicationsuccess.cric_scalpel>
+  <ntg.applicationfailed.cric_scalpel>
+    [arterial_bleeding] 需要10秒施放时间，并导致动脉出血
+</ntg.applicationfailed.cric_scalpel>
+  <ntg.seealso.cric_scalpel>
+    [cricothyrotomy] 环甲膜切开术
+</ntg.seealso.cric_scalpel>
+  <!-- 气管钩 -->
+  <ntg.title.tracheal_hook>气管钩</ntg.title.tracheal_hook>
+  <ntg.description.tracheal_hook>医疗技能检定：90。
+\n用于进行环甲膜切开术的气管钩。环甲膜切开术的第二步，使用时消耗。</ntg.description.tracheal_hook>
+  <ntg.applicationsuccess.tracheal_hook>
+    [occlusion] 移除堵塞物并防止其复发2分钟 |
+    [obstruction] 移除梗阻物并防止其复发2分钟
+</ntg.applicationsuccess.tracheal_hook>
+  <ntg.applicationfailed.tracheal_hook>
+    无效果。
+</ntg.applicationfailed.tracheal_hook>
+  <ntg.seealso.tracheal_hook>
+    [cricothyrotomy] 环甲膜切开术
+</ntg.seealso.tracheal_hook>
+  <!-- 环甲膜插管 -->
+  <ntg.title.cric_tube>环甲膜插管</ntg.title.cric_tube>
+  <ntg.description.cric_tube>医疗技能检定：90。
+\n允许使用人工呼吸器的环甲膜切开术插管。目前实际上没有任何功能阻止其使用，因此此功能无用。</ntg.description.cric_tube>
+  <ntg.applicationsuccess.cric_tube>
+    [ambubag] 允许对患者使用人工呼吸器
+</ntg.applicationsuccess.cric_tube>
+  <ntg.applicationfailed.cric_tube>
+    无效果。
+</ntg.applicationfailed.cric_tube>
+  <!-- 病症 -->
+  <!-- 深部穿透伤 -->
+  <ntg.title.deep_penetration_injury>深部穿透伤</ntg.title.deep_penetration_injury>
+  <ntg.description.deep_penetration_injury>穿透胸腔的孔洞。</ntg.description.deep_penetration_injury>
+  <ntg.causes.deep_penetration_injury>
+    [open_wounds] 躯干的枪伤
+</ntg.causes.deep_penetration_injury>
+  <ntg.effects.deep_penetration_injury>
+    [pneumothorax] 如果尚未存在则引起气胸
+</ntg.effects.deep_penetration_injury>
+  <ntg.treatments.deep_penetration_injury>
+    [chest_seal] 使用通气胸封
+</ntg.treatments.deep_penetration_injury>
+  <!-- 堵塞 -->
+  <ntg.title.occlusion>堵塞</ntg.title.occlusion>
+  <ntg.description.occlusion>喉部堵塞。</ntg.description.occlusion>
+  <ntg.causes.occlusion>
+    [unconsciousness] 失去意识
+</ntg.causes.occlusion>
+  <ntg.effects.occlusion>
+    [respiratory_arrest] 呼吸骤停
+</ntg.effects.occlusion>
+  <ntg.treatments.occlusion>
+    [cricothyrotomy] 进行环甲膜切开术 |
+    [accuvac] 使用Accuvac吸引器（防止此病症2分钟）|
+    [oral_suction_tube] 使用口腔吸引管（防止此病症2分钟）
+</ntg.treatments.occlusion>
+  <ntg.seealso.occlusion>
+    [obstruction] 梗阻
+</ntg.seealso.occlusion>
+  <!-- 梗阻 -->
+  <ntg.title.obstruction>梗阻</ntg.title.obstruction>
+  <ntg.description.obstruction>喉部梗阻。</ntg.description.obstruction>
+  <ntg.causes.obstruction>
+    [unconsciousness] 失去意识
+</ntg.causes.obstruction>
+  <ntg.effects.obstruction>
+    [respiratory_arrest] 呼吸骤停
+</ntg.effects.obstruction>
+  <ntg.treatments.obstruction>
+    [cricothyrotomy] 进行环甲膜切开术 |
+    [laryngeal_tube] 使用喉管（防止此病症2分钟）|
+    [accuvac] 使用Accuvac吸引器（防止此病症2分钟）|
+    [naso_airway] 放置鼻咽通气管（防止此病症2分钟）
+</ntg.treatments.obstruction>
+  <ntg.seealso.obstruction>
+    [occlusion] 堵塞
+</ntg.seealso.obstruction>
+  <!-- 张力性气胸 -->
+  <ntg.title.tension_pneumothorax>张力性气胸</ntg.title.tension_pneumothorax>
+  <ntg.description.tension_pneumothorax>胸膜腔充气。</ntg.description.tension_pneumothorax>
+  <ntg.causes.tension_pneumothorax>
+    [pneumothorax] 气胸高于25%
+</ntg.causes.tension_pneumothorax>
+  <ntg.effects.tension_pneumothorax>
+    [hyperventilation] 换气过度 |
+    [chest_pain] 胸痛 |
+    [increased_heartrate] 心动过速
+</ntg.effects.tension_pneumothorax>
+  <ntg.treatments.tension_pneumothorax>
+    [aat_kit] 高级气道处理套件
+</ntg.treatments.tension_pneumothorax>
+  <!-- 血气胸 -->
+  <ntg.title.hemopneumothorax>血气胸</ntg.title.hemopneumothorax>
+  <ntg.description.hemopneumothorax>胸膜腔正在充血的状况。</ntg.description.hemopneumothorax>
+  <ntg.causes.hemopneumothorax>
+    [internal_bleeding] 内出血高于15%同时 |
+    [tension_pneumothorax] 张力性气胸达到100%
+</ntg.causes.hemopneumothorax>
+  <ntg.effects.hemopneumothorax>
+    [hyperventilation] 换气过度 |
+    [chest_pain] 胸痛 |
+    [increased_heartrate] 心动过速
+</ntg.effects.hemopneumothorax>
+  <ntg.treatments.hemopneumothorax>
+    [aat_kit] 高级气道处理套件
+</ntg.treatments.hemopneumothorax>
+  <!-- 血胸 -->
+  <ntg.title.hemothorax>血胸</ntg.title.hemothorax>
+  <ntg.description.hemothorax>胸膜腔完全被血液充满。</ntg.description.hemothorax>
+  <ntg.causes.hemothorax>
+    [blood_loss] 失血高于15%同时 |
+    [internal_bleeding] 内出血高于30%同时 |
+    [hemopneumothorax] 血气胸达到100%
+</ntg.causes.hemothorax>
+  <ntg.effects.hemothorax>
+    [hyperventilation] 换气过度 |
+    [chest_pain] 胸痛 |
+    [internal_bleeding] 100%内出血 |
+    [increased_heartrate] 心动过速
+</ntg.effects.hemothorax>
+  <ntg.treatments.hemothorax>
+    [aat_kit] 高级气道处理套件
+</ntg.treatments.hemothorax>
+  <!-- 损伤 -->
+  <!-- 连枷胸 -->
+  <ntg.title.flail_chest>连枷胸</ntg.title.flail_chest>
+  <ntg.description.flail_chest>由于躯干严重创伤导致的矛盾胸壁运动。表明肋骨骨折。</ntg.description.flail_chest>
+  <ntg.causes.flail_chest>
+    [fractures] 肋骨骨折
+</ntg.causes.flail_chest>
+  <ntg.effects.flail_chest>
+    [shortness_of_breath] 呼吸困难 |
+    [chest_pain] 胸痛
+</ntg.effects.flail_chest>
+  <ntg.treatments.flail_chest>
+    治疗根本原因。
+</ntg.treatments.flail_chest>
+  <!-- 手术 -->
+  <ntg.title.cricothyrotomy>环甲膜切开术</ntg.title.cricothyrotomy>
+  <ntg.description.cricothyrotomy>医疗技能检定：90。
+\n可移除堵塞物和梗阻物的手术。</ntg.description.cricothyrotomy>
+  <ntg.steps.cricothyrotomy>
+    [analgesia] 1a. 镇痛 |
+    [anesthesia] 1b. 麻醉 |
+    [cric_scalpel] 2. 对头部使用环甲膜切开刀 |
+    [tracheal_hook] 3. 对头部使用气管钩 |
+    [sutures] 4. 使用缝合线移除环甲膜切口和气管钩。
+</ntg.steps.cricothyrotomy>
+  <ntg.seealso.cricothyrotomy>
+    [obstruction] 梗阻 |
+    [occlusion] 堵塞
+</ntg.seealso.cricothyrotomy>
+</Infotexts>
